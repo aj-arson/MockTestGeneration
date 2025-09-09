@@ -1,0 +1,1338 @@
+You have learnt about electron configuration of elements and periodic
+table in previous lessons. It was learnt that there are over 115 elements.
+• How do they usually exist?
+• Do they exist as a single atom or as a group of atoms?
+In Class IX, we saw that several elements like oxygen, nitrogen and
+hydrogen exist as diatomic molecules. What is the force that is holding
+these constituent atoms together in molecules?
+• Are there elements which exist as atoms?
+• Why do some elements exist as molecules and some as atoms?
+In lower classes you have also learnt about the different laws of
+chemical combinations. Since the formation of chemical compounds takes
+place as a result of combination of atoms of various elements in different
+ways, it raises many questions.
+• Why do some elements and compounds react vigorously while others
+are inert?
+• Why is the chemical formula for water H2
+O and for sodium chloride
+NaCl, why not HO2
+ and NaCl
+2
+?
+• Why do some atoms combine while others do not?
+We will try to answer such questions in this chapter.
+• Are elements and compounds simply made up of separate atoms
+individually arranged?
+• Is there any attraction between atoms?
+Let us take the example of common salt, NaCl. When you shake salt
+from a shaker does it separate into sodium and chlorine? No! This shows
+that the sodium and chlorine atoms are being held together.
+• What is that holding them together?
+Chemical Bonding
+8
+Chapter
+SCERT TELANGANA
+Free distribution by T.S. Government 2019-20 151
+By the late 19th century and early twentieth century, scientists knew
+about three types of forces – gravitational, magnetic and electrostatic.
+They also knew about the existence of electrons and protons. So it was
+believed that electrostatic forces were the cause of attraction between
+atoms in a molecule. When two atoms come sufficiently close together,
+the electrons of each atom experience the attractive force of the nucleus
+of the other atom. But the electrons which are negatively charged and repel
+each other, and the positively charged nuclei also repel each other. The
+strength of attraction or repulsion will decide bond formation. If attraction
+is more than the repulsion then atoms combine. If repulsion is more than
+attraction then the atoms do not combine. The nucleus and the electrons
+in the inner shell remain unaffected when atoms come close together. But
+the electrons in the outermost shell (valence shell) of atoms get affected.
+It was seen that the metal part of the compound
+migrated towards the negative electrode and the
+non-metal part towards the positive electrode. So
+it was proposed that metals are responsible for
+positively charged particles and non-metals are
+responsible for negatively charged particles. The
+oppositely charged particles are held together by
+electrostatic forces in a compound. Do you agree with this explanation? Why?
+While this explanation could explain bonding in NaCl, KCl etc. it could not explain
+bonding in carbon compounds or diatomic molecules of elements.
+A Votaic pile
+Davy’s experiment –
+Humphry Davy (1778-1819),
+a professor of chemistry at the
+Royal Institution in London,
+constructed a battery of over 250
+metallic plates. In 1807, using
+electricity from this battery, he
+was able to extract highly reactive
+metals like potassium and sodium
+by electrolysis of fused salts.
+Experimental set up by Davy
+Do you know?
+SCERT TELANGANA
+152 X Class Chemical Bonding
+Electrons in valence shell (valence electrons) are responsible for the
+formation of bonds between atoms.
+In previous lessons you studied about exothermic and endothermic
+reactions. You also studied about reactivity of elements in periodic table.
+Some elements are more reactive and some are less reactive;
+• Why there is absorption of energy in certain chemical reactions and
+release of energy in other reactions?
+• Where the absorbed energy goes?
+• Is there any relation to energy and bond formation between atoms?
+• What could be the reason for the change in reactivity of elements?
+Lewis symbols (or) Lewis dot structures:
+Periodic Classification and arrangement of elements in the periodic
+table according to the electron configuration gave a new thought about
+chemical bond.
+The discovery of noble gases and the understanding of their electronic
+configurations helped us in explaining the formation of chemical bonds
+among the atoms of the elements. Noble gases which belong to zero group
+(18th group or VIII A) are typical gases with almost negligible chemical
+activity when compared to other elements. They undergo few or no chemical
+changes. They are more stable and do not form molecules by allowing
+their atoms to combine among themselves or with the atoms of other
+elements.
+• What could be the reason for this?
+Let us investigate.
+Consult the periodic table given in the previous chapter and observe
+the following table:
+Table-1
+Look at the second column and third column. It is clear that all the
+noble gases have eight electrons in the outermost shell, except
+Helium (He).
+Element Z Electronic configuration Valence elctrons
+K L MN
+Helium (He) 2 2 2
+Neon (Ne) 10 2 8 8
+Argon(Ar) 18 2 8 8 8
+Krypton(Kr) 36 2 8 18 8 8
+SCERT TELANGANA
+Free distribution by T.S. Government 2019-20 153
+The arrangement of electrons in different shells of atoms (electronic
+configuration) of 18th group elements is shown in the table-1. The valence
+electrons in the atom of an element is depicted in a short form by Lewis
+symbol or electron dot structure. We represent the nucleus and inner shell
+electrons of the atom by the symbol of the element and electrons in the
+outer shell by dots or cross marks.
+Let us see how? Lewis dot structure of argon and sodium atoms are
+written.
+Let us start with argon. Its atom has eight valence electrons.
+First write the symbol of element argon. Ar
+Place the valence electrons around the symbol. Put two dots at a time
+on each of the four sides of the symbol of the element till all are used up.
+So, we get,
+Similarly, for sodium, the number of valence electrons in sodium is
+one and the symbol is Na. We can also use cross mark for the electrons.
+The Lewis structure for sodium atom is therefore:
+The Lewis dot structures of the atoms of noble gases are shown below:
+Activity 1
+Write the Lewis structures of the given elements in the table. Also
+consult the periodic table and fill in the group number of the element.
+Table – 2:
+: Ar :
+: : Nax
+He:
+: Ne :
+: :
+: Rn :
+: :
+Element Hydrogen Helium Beryllium Boron Carbon Nitrogen oxygen
+Group 1
+number
+Valence 1
+electron
+Lewis dot H.
+structure
+: Ar :
+: :
+: Xe :
+: :
+: Kr :
+: :
+SCERT TELANGANA
+154 X Class Chemical Bonding
+Look at the periodic table. Do you see any relation between the number
+of valence electrons and group numbers? We find that for groups 1-2 and
+13 –18, we can use the periodic table to find the number of valence
+electrons. Group1 has one outer electron, group 2 has two, and group 13
+has three, group 14 has four and so on.
+• What did you notice in Lewis dot structure of noble gases and
+electronic configurations of the atoms of these elements shown in
+table - 2.
+It was found that the elements which participate in chemical reactions
+get octet or ns2
+ np6
+ configuration similar to that of noble gas elements. It
+is to be noted that octet rule is still a rule not the law, because there are
+considerable exceptions for this rule.
+Electronic theory of valence by Lewis and Kossel
+There were number of attempts to explain the chemical bond formation
+between atoms in terms of electrons but a satisfactory explanation for
+this concept was given by Kossel and Lewis in 1916. They gave this concept
+independently. The basis for their theory was valence in terms of electrons.
+They provided logical explanation of valence on the basis of the lack of
+chemical activity of noble gases which led to the proposal of octet rule.
+Observe the practical behaviour of atoms of main group elements
+(Group IA, IIA, IIIA, IVA, VA, VIA, VIIA and zero or VIIIA group elements).
+When they are allowed to undergo chemical changes, they try to get octet
+electronic configuration in the outer shells.
+Let us understand this with the following illustrations.
+Group IA elements (Li to Cs) try to lose one valence shell electron
+from their atoms to form corresponding uni-positive ions which get octet
+in their outer shells.
+Example: 11Na J 2, 8, 1 ; 11Na+ J 2, 8
+Group IIA elements (Mg to Ba) try to lose two valence electrons from
+their atoms during chemical changes and form di– positive ions with the
+octet in the outer shells.
+Example: 12Mg J 2, 8, 2 ; 12Mg2+ J 2, 8
+Group IIIA elements try to lose three valence electrons from their
+atoms and form corresponding tri positive ions with octates in the outer
+SCERT
+shells.
+TELANGANA
+Free distribution by T.S. Government 2019-20 155
+Example: 13Al J 2, 8, 3 ; 13Al3+ J 2, 8
+Group VIA elements try to gain two electrons into the valence shells
+of their atoms during the chemical changes and form corresponding di
+negative anions which get octet in their outer shells.
+Example: 8
+O J 2, 6 ; 8
+O2– J 2, 8
+Group VIIA elements try to gain one electron into the valence shells
+of their atoms during the chemical changes and form corresponding
+uni– anions which get octet in their outer shells.
+Example: 9
+F J 2, 7 ; 9
+F– J 2, 8
+Group VIIIA elements, the noble gases do not try to lose or gain
+electrons. Generally, helium and neon do not participate in chemical
+changes. Even other elements of VIIIA do not gain or lose electrons from
+their atoms when they participate in a very few chemical changes.
+Example: 10Ne J 2, 8 ; No electron gain or loss from the neon
+atom.
+• What have you observed from the above conclusions about the main
+groups?
+• Why do atoms of elements try to combine and form molecules?
+Noble gases of VIII A possess eight electrons in the valence shells of
+their atoms. Helium is an exception. Its atom has only two electrons, but
+its only shell is completely filled. Noble gases with eight electrons in the
+valence shell in their atoms are highly stable and rarely participate in
+chemical changes. Therefore it is concluded that any species (atom or
+ion) with eight electrons in the valence shell is stable.
+VA VIA VIIA
+NOF
+PSCl
+As Se Br
+Sb Te I
+Bi Po At
+IA IIA IIIA
+Na Mg Al
+K Ca Ga
+Rb Sr In
+Cs Ba Tl
+Fr Ra
+VIIIA
+Ne
+Ar
+Kr
+Xe
+Ra
+–3 –2 –1
+Magic
+octet
+Gain Electrons Lose Electrons
++1 +2 +3
+Non metals Noble gases Metals
+Net charge on
+the species }
+SCERT TELANGANA
+156 X Class Chemical Bonding
+• Is it accidental that IA to VIIA main group elements during chemical
+reactions get eight electrons in the outermost shells of their ions,
+similar to noble gas atoms?
+No. It cannot be simply accidental. Eight electrons in the outermost
+shell definitely gives stability to the ion or atom. Based on the above
+observations a statement known as “ The Octet Rule” is framed.
+Octet rule:
+It may be stated as “The atoms of elements tend to undergo chemical
+changes that help to leave their atoms with eight outer-shell electrons.”
+Lewis depicted the atom in terms of a positively charged kernel (Kernel
+is the nucleus and all other electrons in the atom except the outer most
+shell electrons) and the outershell that could accommodate a maximum
+of eight electrons.
+Chemically active elements do not have an octet of electrons in the
+valence shell of their atoms. Their reactivity arises from their tendency to
+achieve the octet, by forming bonds either with atoms of their own type or
+with atoms of other elements.
+The force of attraction between any two atoms or a group of atoms
+that results a stable entity is called a ‘chemical bond’. There are many
+types of chemical bonds, but here we discuss only about ionic bond and
+covalent bond.
+Ionic and Covalent bonds
+A. Ionic bond
+Kossel proposed the ionic bond (electrostatic bond) based on the
+following facts.
+i. Ionic bond is formed between atoms of two dissimilar elements due
+to transfer of electrons from the atom of one element to the other.
+ii. There are highly reactive metals like alkali metals (IA) and highly
+reactive non-metals like halogens (VIIA) on the left side and right side
+of the periodic table respectively.
+iii. Noble gases except helium have eight electrons in the valence shells
+of their atoms. They are chemically inactive and stable.
+iv. To attain eight electrons in the outermost shell similar to noble gases
+metal atoms that have one two or three electrons in the valence shells
+generally lose those electrons and form stable positive ions called
+SCERT
+cations.
+TELANGANA
+Free distribution by T.S. Government 2019-20 157
+Do you know?
+The number of electrons gained by a non-metal element for its atom is its valency,
+which is equal to (8 - its group number).
+Ex. The valency of chlorine is (8 – 7) = 1.
+Example: 11Na 2, 8, 1 ; Na+ 2, 8
+12Mg 2, 8, 2 ; Mg2+ 2, 8
+13Al 2, 8, 3 ; Al3+ 2, 8
+v. To attain eight electrons in the outermost shell, non-metal atoms that
+have 5,6 or 7 valence electrons gain 3,2 or 1 electron respectively and
+form negative ions known as anions.
+Example: 15P 2, 8, 5 ; P3- 2, 8, 8
+16S 2, 8, 6 ; S2- 2, 8, 8
+17Cl 2, 8, 7 ; Cl
+-
+ 2, 8, 8
+Formation of ionic bond
+The positive ions (cations) and negative ions (anions) that are formed
+due to the transfer of electrons from the metal atoms to the non-metal
+atoms experience the electrostatic forces and get attracted to form
+chemical bond. As this bond is between charged particles known as
+ions, it is called ionic bond. Sometimes based on the forces being
+electrostatic, the bond is also called the electrostatic bond. As the
+valence concept has been explained in terms of electrons, it is also
+called the electrovalent bond.
+Thus, we can define ionic bond as follows:
+The electrostatic attractive force that keeps cation and anion (which
+are formed from metal atoms and non-metal atoms due to transfer of
+electrons) together to form a new electrically neutral compounds is called
+‘ionic bond’.
+• Explain the formation of ionic compounds NaCl, MgCl
+2
+, Na2
+O and
+AlCl3
+ through Lewis electron dot symbols (formulae)
+Do you know?
+The number of electrons lost from a metal atom is the valence of its element
+which is equal to its group number.
+Ex. Na and Mg have valence 1 and 2 respectively.
+SCERT TELANGANA
+158 X Class Chemical Bonding
+Eg-1. Formation of sodium chloride (NaCl):
+Sodium chloride is formed from the elements sodium and chlorine. It
+can be explained as follows:
+Na(s) + 1/2 Cl
+2(g) J NaCl
+(s)
+Cation formation
+When sodium (Na) atom loses one electron to get octet electron
+configuration it forms a cation (Na+) and gets electron configuration that
+of Neon (Ne) atom.
+11Na (g) J 11Na+
+(g) + eE.C. 2, 8, 1 2, 8
+or [Ne] 3s1 [Ne]
+Anion formation
+Chlorine has shortage of one electron to get octet in its valence shell.
+So it gains the electron from Na atom to form anion and gets electron
+configuration as that of argon (Ar).
+ 17Cl (g) + e- J Cl
+–
+(g)
+Electronic configuration 2, 8, 7 2, 8, 8
+ or [Ne] 3s2 3p5 [Ne] 3s2
+ 3p6
+ or [Ar]
+Formation of the compound NaCl from its ions:
+Transfer of electrons between ‘Na’ and ‘Cl’ atoms, results in the
+formation of ‘Na+’ and ‘Cl
+–
+’ ions. These oppositely charged ions get
+attracted towards each other due to electrostatic forces and form the
+compound sodium chloride (NaCl).
+Na+
+(g) + Cl–
+(g) J Na+Cl
+–
+(s) or NaCl
+Eg-2. Formation of magnesium chloride (MgCl
+2
+):
+Magnesium chloride is formed from the elements magnesium and
+chlorine. The bond formation MgCl
+2
+ in brief using chemical equation is as
+follows:
+Mg(s) + Cl
+2(g)
+J Mg Cl
+2(s)
+Cation formation
+ 12Mg (g) J 12Mg2+
+(g) + 2e–
+Electronic configuration 2, 8, 2 2, 8
+or [Ne] 3s2 [Ne]
+Anion formation
+ 2Cl (g) + 2e– J 2Cl
+–
+(g)
+Electronic configuration 2, 8, 7 2, 8, 8
+or [Ne] 3s2 3p5 [Ne] 3s2
+ 3p6
+SCERT
+ or [Ar]
+TELANGANA
+Free distribution by T.S. Government 2019-20 159
+The compound MgCl
+2
+ formation from its ions:
+Mg2+ gets ‘Ne’ configuration and
+Each Cl
+–
+ gets ‘Ar’ configuration
+Mg2+
+(g) + 2Cl
+–
+(g) J MgCl
+2 (s)
+One ‘Mg’ atom transfers two electrons one each to two ‘Cl’ atoms and
+so formed Mg2+ and 2Cl
+–
+ attract to form MgCl
+2
+.
+Eg-3. Formation of di sodium monoxide(Na2
+O):
+Di sodium monoxide formation can be explained as follows:
+Cation formation (Na+ formation):
+ 2Na (g) J 2Na+
+(g) + 2eElectronic configuration 2, 8, 1 2, 8
+or [Ne] 3s1 [Ne]
+Anion formation (O2–, the oxide formation):
+ O (g) + 2e- J O2-
+(g)
+Electronic configuration 2, 6 2, 8
+or [Ne] 2s2 2p4 [He] 2s2
+ 2p6
+ or [Ne]
+The compound Na2
+O formation from its ions is as shown.
+2Na+
+(g) + O2-
+(g) J Na2
+O(s)
+Two ‘Na’ atoms transfer one electron each to one oxygen atom to
+form 2Na+ and O2-
+Each Na+
+ gets ‘Ne’ configuration and O2- gets ‘Ne’ configuration.
+These ions (2Na+ and O2-) attract to form Na2
+O.
+Eg-4. Formation of aluminium chloride (AlCl
+3
+):
+Aluminium chloride formation can be explained as follows:
+Formation of aluminium ion (Al3+), the cation:
+ 13Al(g) J Al3+
+(g) + 3eElectronic configuration 2, 8, 3 2, 8
+or [Ne] 3s2
+3p1 [Ne]
+Formation of chloride ion (Cl-), the anion:
+ 3Cl
+(g) + 3e- J 3Cl
+–
+(g)
+Electronic configuration 2, 8, 7 2, 8,8
+or [Ne] 3s2 3p5 [Ne] 3s2
+ 3p6
+ or [Ar]
+Each aluminium atom loses three electrons and three chlorine atoms
+SCERT
+gain them, one electron each.
+TELANGANA
+160 X Class Chemical Bonding
+The compound AlCl
+3
+ is formed from its component ions by the
+electrostatic forces of attractions.
+Al3+
+(g) + 3Cl
+–
+(g) J AlCl
+3 (s)
+The arrangement of ions in ionic compounds
+• How do cations and anions of an ionic compound exist in its solid
+state?
+• Let us explain this with sodium chloride as our example:
+• Do you think that pairs of Na+
+ Cl
+-
+ as units would be present in the solid
+crystal?
+If you think so, it is not correct. Remember that electrostatic forces
+are non directional. Therefore, it is not possible for one Na+ to be attracted
+by one Cl
+–
+ and vice-versa. Depending upon the size and charge of a particular
+ion, number of oppositely charged ions get attracted by it, but, in a definite
+number. In sodium chloride crystal each Na+
+ is surrounded by 6 Cl
+-
+ and
+each Cl
+–
+ by six Na+
+ ions. Ionic compounds in the crystalline state consist
+of orderly arranged cations and anions held together by electrostatic forces
+of attractions in three dimensions. The crystal structure of sodium chloride
+is given below:
+NaCl is said to possess face centered cubic lattice crystal
+structure (see figure-1).
+The number of ions of opposite charge that surround a
+given ion of given charge is known as the coordination
+number of that given ion.
+For example, in sodium chloride crystal, the
+coordination number of Na+ is 6 and that of Cl
+-
+ is also 6.
+Factors affecting the formation of cation and anion:
+In previous lesson you have learnt about variation of
+metallic and non metallic character of elements in a group
+or period of the periodic table. Recall the facts about metallic and non
+metallic character of elements.
+Generally elements of metals have tendency of losing electron to attain
+the octet in their valence shell. This property is called as the metallic
+character or electropositivity. Elements with more electropositive
+character form cations. Similarly non metals like oxygen (8
+O), fluorine
+(
+9
+F) and chlorine (17Cl) acquire electron configuration of elements of inert
+gases by gaining electrons this property is called the non-metallic
+character or electronegativity of the element. Elements with more
+electronegative character form anions.
+fig-1 Cl
+–
+Na+
+SCERT TELANGANA
+Free distribution by T.S. Government 2019-20 161
+• Can you explain the reasons for all these?
+Ionic bond is formed between atoms of elements with electronegativity
+difference equal to or greater than 1.9.
+In ionic bond formation, you have noticed that atoms either lose
+electrons or gain electrons to attain octet in valence shell. i.e., in an ionic
+bond, transfer of electrons takes place between combining atoms.
+The tendency of losing electrons to form cations (or) gaining electron
+to form anions depends on the following factors:
+i. Atomic size
+ii. Ionisation potential
+iii. Electron affinity
+iv. Electronegativity
+The atoms of elements with low ionisation energy, low electron affinity
+high atomic size and low electronegativity form cations.
+The atoms of elements with high ionisation potential, high electron
+affinity, small atomic size and high electronegativity form anions.
+B. Covalent bond
+G.N. Lewis (1916) proposed that atoms of some elements could
+achieve an octet in their valence shells without transfer of electrons
+between them. They can attain octet configuration in their valence shells
+by sharing the valence electrons with one or more atoms.
+The electrons shared between two atoms belong to both the atoms and
+the sharing of electrons between them leads to the formation of a chemical
+bond known as covalent bond.
+For example, take two fluorine atoms which form a stable molecule.
+Each fluorine atom contributes one electron for bonding and the electron
+pair that is formed in this way is mutually shared by both the fluorine
+atoms. Each atom in the F2
+ molecule has an octet of valence electrons.
+SCERT TELANGANA
+162 X Class Chemical Bonding
+The dots around fluorine atom shows the valence electrons of
+respective atoms.
+The chemical bond formed between two atoms by mutual sharing of a
+pair of valence shell electrons so that both of them can attain octet or
+duplet in their valence shell is called the covalent bond.
+The prefix co – is used to indicate when things are equal or joined.
+(for example, co exist, cooperate etc). Here each atom contributes one
+electron from the valence shell for the bonding. Therefore, the name
+covalent is given (equal valence electrons contribution) for this bond.
+Formation of O2
+ molecule
+The electronic configuration of 8
+O is 2, 6. Oxygen atom has six
+electrons in its valence shell. It requires two more electrons to get octet
+in its valence shell. Therefore oxygen atoms come close and each oxygen
+atom contributes two electrons for bonding. Thus, there exist two covalent
+bonds between two oxygen atoms in O2
+ molecule as there are two pairs of
+electrons shared between them.
+We can say that a double bond is formed between two oxygen atoms in
+O2
+ molecule. Observe the following figures. Both the oxygen atoms have
+octet in the valence shell.
+• Can you say what type of bond exists between atoms of nitrogen
+molecule?
+Let us see
+Nitrogen (N2
+) molecule
+The electronic configuration of ‘N’ atom is 2,5 and to have octet in the
+valence shell it requires three more electrons. When two nitrogen atoms
+approach each other, each atom contributes 3 electrons for bonding. There
+are six electrons shared between two nitrogen atoms in the form of three
+pairs. Therefore, there is a triple bond between two nitrogen atoms in N2
+SCERT
+molecule.
+TELANGANA
+Free distribution by T.S. Government 2019-20 163
+Methane (CH4
+) molecule
+In the formation of methane, CH4
+ molecule, carbon contributes 4
+electrons, (one electron to each hydrogen atom) and 4 hydrogen atoms
+contribute one electron each. Thus in CH4
+ molecule, there are four C – H
+covalent bonds as shown below:
+Ammonia (NH3
+) molecule
+In ammonia molecule, three N – H single covalent bonds are present.
+Electron configuration of 7
+N is 2, 5 and 1
+H is 1.
+Nitrogen atom contributes three electrons for bonding. Three hydrogen
+atoms at the same time contribute one electron each for bonding. Six
+electrons form three pairs and each pair is shared between nitrogen and
+one hydrogen atom as shown below:
+SCERT TELANGANA
+164 X Class Chemical Bonding
+Water (H2O) molecule
+In water molecule (H2O), there are two O – H single covalents bonds.
+Electron configuration of 8O is 2,6 and 1H is 1.
+Oxygen atom needs ‘2’ electrons to attain octet in its valence shell.
+Therefore it shares ‘2’ electron with two hydrogen atoms to form water
+(H2O) molecule.
+The total number of covalent bonds that an atom of an element forms
+is called its ‘covalency’.
+The Bond lengths and Bond energies of covalent bonds
+Bond length or bond distance is the equilibrium distance between the
+nuclei of two atoms which form a covalent bond.
+It is generally given in nm (nanometer) or A0
+(Angstrom unit).
+Bond energy or Bond dissociation energy is the energy needed to break
+a covalent bond between two atoms of a diatomic covalent compound in
+its gaseous state.
+Draw backs of electronic theory of valence
+1) When a covalent bond is formed between any two atoms, irrespective
+of the nature of the atoms, the bond lengths and bond energies are expected
+to be the same. This is because any covalent bond between any two atoms
+is a result of mere sharing of two identical electrons. But, practically it
+was observed that bond lengths and bond energies are not same when the
+atoms that form the bond are different. (See table - 3)
+ What do you understand from bond lengths and bond energies?
+Do you know?
+ An angstrom (A0
+) is a unit of length equal to 10-10 metre, or 0.1 nanometre, or
+100 picometre.
+ 1 nanometre = 10-9 metre
+SCERT TELANGANA
+Free distribution by T.S. Government 2019-20 165
+• Are the values not different for the bonds between different types of atoms?
+2) The theory could not explain why ClBeCl in BeCl
+2
+ is 1800
+, FBF in
+BF3
+ is 120o
+, HCH in CH4
+ is
+1090
+28/
+, HNH in NH3
+ is
+1070
+48/
+ and HOH in H2
+O is
+104o
+31/
+ etc.
+i.e., it fails to explain the
+shapes of the molecules.
+Valence shell electron
+pair repulsion theory
+To explain the bond
+angles in the molecules with
+three or more than three
+atoms with all atoms
+attached to a central atom
+through covalent bonds a
+theory called the valence –
+shell – electron – pair
+repulsion – theory
+(VSEPRT) was proposed by Sidgwick and Powell (1940). It was further
+improved by Gillespie and Nyholm (1957).
+This theory suggests the following points.
+1. VSEPRT considers electrons in the valence shells which are in covalent
+bonds and in lone pairs as charge clouds that repel one another and
+stay as far apart as possible. This is the reason why molecules get
+specific shapes.
+2. If we know the total number of electron pairs in the valence shell as
+covalent bonds and lone pairs in the central atom, it will help us to
+predict the arrangement of those pairs around the nucleus of the central
+atom and from that the shape of the molecule.
+3. Lone pairs occupy more space around the central atom than bond pairs.
+Lone pair means unshared electron pair or non-bonding electron pair.
+These are attracted to only one nucleus where as the bond pair is shared
+by two nuclei. Thus, the presence of lone pairs on the central atom
+causes slight distortion of the bond angles from the expected regular
+shape. If the angle between lone pair and bond pair increases at the
+central atom due to more repulsion, the actual bond angles between
+atoms must be decreased.
+Bond Bond Bond (dissociation)
+length (Å0
+) energy (KJmol-1)
+H –H 0.74 436
+F – F 1.44 159
+Cl – Cl 1.95 243
+Br – Br 2.28 193
+I – I 2.68 151
+H – F 0.918 570
+H – Cl 1.27 432
+H – Br 1.42 366
+H – I 1.61 298
+H – O (of H2
+O) 0.96 460
+H – N (of NH3
+) 1.01 390
+H – C (of CH4
+) 1.10 410
+Table – 3
+∧ ∧
+∧
+∧
+∧
+SCERT TELANGANA
+166 X Class Chemical Bonding
+4.i) If two bond pairs are present in two covalent bonds around the
+nucleus of the central atom without any lone pairs in the valence shell,
+they must be separated by 1800
+ to have minimum repulsion between them.
+Thus, the molecule would be linear.
+Example:
+4.ii) If three bond pairs are there in three covalent bonds around the
+nucleus of the central atom, without any lone pairs they get separated by
+1200
+ along three corners of a triangle. Therefore, the shape of the molecule
+is trigonal-planar.
+Example:
+NOTE: Did you notice that in BeCl
+2
+ and BF3
+ the central atoms Be and
+B did not possess 8 electrons around them in the valence shell. They have
+only 4 and 6 electrons respectively. These molecules are known as electron
+deficient molecules.
+4.iii) If there are four bond pairs in the valence shell of the central
+atom, the four bond pairs will orient along the four corners of a tetrahedron
+(three dimensional arrangement) and the bond angle expected is 1090
+28/
+.Example: Methane.
+* In methane molecule (CH4
+), HCH is 1090
+28/
+ because of four electron
+pairs (bonding) around carbon, as shown below:
+SCERT
+∧
+TELANGANA
+Free distribution by T.S. Government 2019-20 167
+4.iv) If there are three bond pairs and one lone pair i.e., unshared
+electron pair, then the lone pair occupies more space around the nucleus
+of the central atom. The remaining three bond pairs come relatively closer
+as in NH3 molecule.
+Example: Ammonia
+In ammonia (NH3
+) molecule, there are three bond pairs in
+covalent bonds (3 N – H) around the nucleus of the nitrogen atom
+and one lone pair. Lone pair – bond pair repulsion is greater than
+bond pair – bond pair repulsion. Therefore, NH3
+ which is expected
+to be tetrahedral with four electron pairs in the valence shell and
+HNH = 1090
+28/
+, it has HNH = 1070
+48/
+ due to the more repulsion by lone
+pair on the bond pairs.
+The shape of the NH3
+ molecule is triagonal pyramidal with N at the
+apex of the pyramid.
+4.v) If there are two bond pairs and two lone pairs of electrons around
+the nucleus of the central atom in its valence shell, lone pair – lone pair
+repulsion is greater than lone pair – bond pair repulsion. Therefore, the
+angle between bond pairs further decreases.
+Example: Water
+In water molecule, (H2
+O) there are four electron pairs around the
+nucleus of oxygen atom, but, two of them are lone pairs and two bond
+pairs. Therefore, H2
+O molecule gets ‘V’ shape or bent shape or angular
+instead of tetrahedral shape as that of CH4
+ due to lone pair – lone pair
+and lone pair – bond pair repulsions. HOH is 1040
+31/
+.
+• What is the bond angle in a molecule?
+It is the angle subtended by two imaginary lines that pass from
+the nuclei of two atoms which form the covalent bonds with the
+central atom through the nucleus of the central atom at the central
+atom. (see figure ‘α’ is the bond angle).
+Valence Shell Electron Pair Repulsion Theory (VSEPRT) mainly fails
+in explaining the strengths of the bonds. This is because; the theory still
+depends on the Lewis concept of covalent bond formation. It could not
+say anything extra about the electronic nature of covalent bonds.
+107048/
+α
+∧
+∧ ∧
+1040
+31/
+SCERT TELANGANA
+168 X Class Chemical Bonding
+To describe covalent bonding, a quantum mechanical model called
+valence bond theory has been suggested by Linus Pauling (1954).
+Valence bond theory
+To describe covalent bonding, a quantum mechanical model called
+valence bond theory has been suggested by Linus Pauling (1954). It is
+explained as follows:
+1. A covalent bond between two atoms is formed when the two atoms
+approach each other closely and one atom overlaps its valence orbital
+containing unpaired electron, the valence orbital of the other atom that
+contains the unpaired electron of opposite spin. The so formed paired
+electrons in the overlapping orbitals are attracted to the nuclei of both the
+atoms. This bonds the two atoms together.
+Eg: In the formation of H2
+ molecule, the 1s orbital of one ‘H’ atom
+containing an unpaired electron overlaps the ‘1s’ orbital of the other ‘H’
+atom containing unpaired electron of opposite spin giving H-H bond and
+H2
+ molecule.
+ H atom H atom H2
+ molecule
+2. The greater the overlapping of the orbitals that form the bond, the
+stronger will be the bond. This gives a directional character to the bond
+when other than ‘s’ orbitals are involved.
+3. Each bonded atom maintains its own atomic orbitals but the electron
+pair in the overlapping orbitals is shared by both the atoms involved in the
+overlapping.
+4. If two atoms form multiple bonds between them the first bond is
+due to the overlap of orbitals along the inter-nuclear axis giving a stronger
+sigma(σ) bond. After formation of (σ) bond the other bonds are formed
+due to the overlap of orbitals side wise or laterally giving weaker π bonds.
+The ‘σ’ bond is stronger because the electron pair shared is concentrated
+more between the two nuclei due to end-end or head on overlap and
+attracted to both the nuclei. The π bond overlap gives a weaker bond due to
+the lateral overlap of ‘p’ orbitals which is not to greater extent.
+Consider Cl-Cl molecule
+17Cl - 1s2
+ 2s2
+ 2p6
+ 3s2
+ 3px
+2
+ 3py
+2 3pz
+1
+In the formation of Cl
+2
+ molecule, the 3pz
+ orbital of one chlorine
+atom containing an unpaired electron overlaps the 3pz
+ orbital of other
+SCERT
+chlorine atom that contains unpaired electron of opposite spin.
+TELANGANA
+Free distribution by T.S. Government 2019-20 169
+• How is HCl molecule formed?
+The ‘1s’ orbital of ‘H’ atom containing unpaired electron overlaps the
+‘3p’ orbital of chlorine atom containing unpaired electron of opposite spin.
+Formation of N2
+ molecule
+7
+N has electronic configuration 1s2
+ 2s2
+ 2px
+1
+ 2py
+1 2pz
+1
+. Suppose that px
+orbital of one ‘N’ atom overlaps the ‘px
+’ orbital of the other ‘N’ atom giving
+σ px - px
+ bond along the inter-nuclear axis. The py and pz
+ orbitals of one ‘N’
+atom overlap the py
+ and pz
+ orbital of other ‘N’ atom laterally, respectively
+perpendicular to inter-nuclear axis giving π py
+-py
+ and π pz
+-pz
+ bonds.
+Therefore, N2
+ molecule has a triple bond between two nitrogen atoms.
+Formation of O2 molecule
+8
+O has electronic configuration 1s2
+ 2s2
+ 2px
+2
+ 2py
+1 2pz
+1
+. If the ‘py
+‘ orbital
+of one ‘O’ atom overlaps the ‘py
+’ orbital of other ‘O’ atom along the internuclear axis, a sigma py
+- py
+ bond (σpy
+- py
+) is formed. pz
+ orbital of one ‘O’
+atom overlaps the pz
+ orbital of other ‘O’ atom laterally, perpendicular to
+the inter-nuclear axis giving a π pz
+- pz
+ bond. O2
+ molecule has a double
+bond between two oxygen atoms.
+Valence bond theory-Hybridisation
+Formation of BeCl
+2
+ (Beryllium chloride) molecule
+4
+Be has electronic configuration 1s2
+ 2s2
+. It has no unpaired electrons.
+It is expected not to form covalent bonds, but it forms two covalent bonds
+one each with two chlorine atoms. To explain this, an excited state is
+suggested for Beryllium in which an electron from ‘2s’ shifts to 2px
+ level.
+Electronic configuration of 4
+Be 1s2
+ 2s1
+ 2px
+1
+ and 17Cl 1s2
+ 2s2
+ 2p6
+ 3s2
+3px
+2
+ 3py
+2
+ 3pz
+1
+SCERT TELANGANA
+170 X Class Chemical Bonding
+If Be forms two covalent bonds with two chlorine atoms, one bond
+should be σ2s-3p due to the overlap of ‘2s’ orbital of Be, the ‘3pz
+’ orbital
+of one chlorine atom and the other bond should be σ2p-3p due to the overlap
+of ‘2px
+’ orbital of Be atom the 3p orbital of the other chlorine atom. As the
+orbitals overlapping are different, the bond strengths of two Be-Cl must
+be different. But, both bonds are of same strength and ClBeCl is 1800
+. To
+explain the discrepancies like this a phenomenon called ‘hybridisation of
+atomic orbitals’ was proposed by Linus Pauling (1931).
+Hybridisation is a phenomenon of intermixing of atomic orbitals of
+almost equal energy which are present in the outer shells of the atom and
+their reshuffling or redistribution into the same number of orbitals but
+with equal properties like energy and shape.
+Be atom in its excited state allows its 2s orbital and 2px
+ orbital which
+contain unpaired electrons to intermix and redistribute to two identical
+orbitals. As per Hund’s rule each orbital gets one electron. The new orbitals
+based on the types of orbitals that have undergone hybridisation are called
+sp orbitals. The two sp orbitals of Be get separated by 1800
+. Now, each
+chlorine atom comes with its 3pz
+1
+ orbital and overlaps it the sp orbitals of
+Be forming two identical Be-Cl bonds (σsp-p bonds) . ClBeCl = 1800
+.
+Both the bonds are of same strength.
+Formation of BF3
+ molecule
+5
+B has electronic configuration 1s2
+ 2s2
+ 2px
+1
+.
+As it has one unpaired electron (2px
+1
+) it should form only one covalent
+bond to give B-F molecule. But we get practically BF3
+ molecule.
+To explain this, it is suggested that,
+i. Boron (B) first undergoes excitation to get electronic configuration
+1s2
+ 2s1
+ 2px
+1
+ 2py
+1
+.
+ii. As it forms three identical B-F bonds in BF3
+, it is suggested that
+excited ‘B’ atom undergoes hybridisation. There is an intermixing of 2s,
+2px
+, 2py
+ orbitals and their redistribution into three identical orbitals called
+sp2
+ hybrid orbitals. For three sp2
+ orbitals to get separated to have minimum
+∧
+∧
+Beryllium Chloride
+SCERT TELANGANA
+Free distribution by T.S. Government 2019-20 171
+repulsion the angle between any two orbitals is 1200
+at the central atom and each sp2
+ orbital gets one
+electron. Now three fluorine atoms overlap their
+2pz
+ orbitals containing unpaired electrons (F9
+ 1s2
+2s2
+ 2px
+2
+ 2py
+2
+ 2pz
+1
+) the three sp2
+ orbitals of ‘B’ that
+contain unpaired electrons to form three σsp2
+-p
+bonds.
+Formation of NH3
+ molecule
+One nitrogen atom and three hydrogen atoms are present in one
+ammonia molecule. All the three N-H bonds are of same strength and
+HNH = 1070
+48/
+7
+N has electronic configuration 1s2
+ 2s2
+ 2px
+1
+ 2py
+1
+ 2pz
+1
+.
+If three hydrogen atoms overlap their 1s orbitals on the three ‘p’
+orbitals of nitrogen atom, they give identical σ p-s bonds but, then the
+HNH should be equal to 900 where as 1070
+48/
+ . To explain the discrepancy
+in the bond angle ‘N’ atom is said to undergo sp3
+ hybridisation.
+In this process ‘2s’ and 2px
+, 2py
+, 2pz
+ orbitals of nitrogen
+intermix and redistribute into four identical sp3
+ orbitals. One
+of the four sp3
+ orbitals get a pair of electrons and the other
+three sp3
+ orbitals get one electron each. Now hydrogen atoms
+overlap their 1s orbitals containing unpaired electrons the sp3
+orbitals of ‘N’ atom containing unpaired electrons to give three
+σs-sp3
+ bonds. HNH should be 1090
+ 28/
+ for sp3
+ hybridisation. As there is
+a lone pair in one of the sp3
+ orbitals, there is a greater lone pair – bond pair
+repulsion which decreases the bond angle HNH to 1070
+48/
+.
+Shape of water molecule
+It is found that HOH is 1040
+31/
+ .
+The electronic configuration of 8
+O is 1s2
+ 2s2
+ 2px
+2
+ 2py
+1
+ 2pz
+1
+ and
+1
+H is 1s1
+.
+Therefore, there should be two σ s-p bonds due to the overlap of ‘s’
+orbitals of two hydrogen atoms, the ‘p’ orbitals of oxygen atom which
+contain unpaired electrons. HOH should be 900
+.
+But HOH observed is 1040
+31/
+ . To explain this, sp3
+hybridisation is suggested for the valence orbitals of ‘O’ atom.
+One s-orbital (2s) and three ‘p’ orbitals (2px
+, 2py
+, 2pz
+) intermix
+and redistribute into four identical sp3
+ orbitals. As there are six
+electrons and two sp3
+ orbitals get pairs and two sp3
+ orbitals get
+one electron each. Now, the two sp3
+ orbitals of ‘O’ atom overlap
+1070
+48/
+∧
+∧
+∧
+∧
+∧
+∧
+Boran trifluoride
+∧
+Ammonia
+Water
+SCERT TELANGANA
+172 X Class Chemical Bonding
+the ‘s’ orbitals of two hydrogen atoms to give σsp3
+-s bonds. Due to the
+lone pair – lone pair repulsions and lone pair – bond pair repulsions HOH
+decreases from 1090
+28/
+ (expected for sp3
+ – tetrahedral hybridisation) to
+1040
+31/
+.
+CH4
+, C2
+H4
+ and C2
+H2
+ molecules and their structures will be explained
+in carbon and its compounds chapter later in this class.
+Properties of ionic and covalent compounds
+Table -4
+From the above table we understand that ionic compounds like NaCl
+are solids at room temperature.
+Polar compounds like HCl possess properties like melting point,
+boiling point, reactivity, solubility etc, between those of ionic compounds
+and covalent compounds. If the covalent bond is between atoms of two
+different elements, the shared electron pair shift more towards the atom
+of more electronegative element. Thus within the molecule the more
+electronegative atom bears a partial negative charge and the less
+electronegative atom bears a partial positive charge. A molecule of this
+type which is neutral but possesses partial charges on the atoms within the
+molecule is called a polar molecule and the bond is called a polar covalent
+bond or partial ionic and partial covalent bond.
+Eg: H+Cl J +δ -δ
+H - Cl
+In ionic compounds there exist stronger electrostatic forces of
+attractions between the oppositely charged ions of these compounds.
+Therefore, they are solids with high melting points and boiling points. Based
+S.No Property NaCl (ionic) HCl (polar covalent) C2
+H6 (covalent)
+1. Formula mass 58.5 36.5 30.0
+2. Physical appearance White crystalline solid Colourless gas Colourless gas
+3. Type of bond Ionic Polar covalent Covalent
+4. Melting point 801 0
+C -115 0
+C -183 0
+C
+5. Boiling point 1413 0
+C -84.9 0
+C -88.63 0
+C
+6. Solubility Soluble in polar Soluble in polar solvents Soluble in non-polar
+solvents like water like water and to some solvents but insoluble
+and insoluble in non extent in non-polar in polar solvents like
+-polar solvents solvents water
+7. Chemical activity Highly reactive in polar Moderately Slow or very slow at
+solvents and reactions reactive room temperature
+are instantaneous
+∧
+SCERT TELANGANA
+Free distribution by T.S. Government 2019-20 173
+Key words
+Electrons, noble gases, Lewis dot structures, Octet rule, chemical bond, Ionic
+bond, covalent bond, cation, anion, electrostatic force, electrovalent, polar solvent,
+non-polar solvent, formation of molecules, ionic compounds, covalent compounds,
+electro positive character, electro negative character, polar bonds, bonded pair
+of electrons, lone pairs, bond length, bond energy, shape of the molecule, linear,
+tetrahedral, properties of ionic and covalent compounds.
+on the principle “like dissolves in like”, they being highly polar, soluble in
+polar solvents. In chemical reaction of solution of ionic compounds simply
+rearrangement of ions take place in the solutions, the reactions are
+instantaneous or very fast.
+The forces of attractions among covalent molecules are weak.
+Therefore, the covalent compounds are gases or liquid at room temperature.
+They have low melting points and low boiling points. Based on the principle
+that “like dissolve in like” these covalent compounds are soluble in nonpolar solvents because of non-polar nature of solvent molecules. In
+chemical reactions of covalent compounds there exist bond breaking and
+bond forming to get products. There fore, these reactions are moderate or
+very slow.
+‘Like dissolves in like’ means what type of chemical bonds are there
+in the solute particles that solute could be soluble in that solvent which
+has the similar type of chemical bonds in its molecules.
+What we have learnt
+• Location of elements in the periodic table helps in predicting the type of bonding that will take
+place between atoms of the elements.
+• Ions are positively or negatively charged particles formed by the loss or gain of electrons
+respectively.
+• The force between any two atoms or a group of atoms that results in the formation of a stable
+entity is called chemical bond.
+• The outer most shell of an atom is called valence shell and electrons in this shell are called
+valence electrons.
+• The gases belonging to ‘O’ group are called noble gases because they are reluctant to combine
+with other atoms. Except helium all other noble gases have an octet of electron configuration in
+their valence shells.
+• The reason why atoms form bond can be explained on the basis of the octet rule
+• Chemically active elements have an incomplete octet in the valence shells of their atoms.
+• The number of valence electrons available in the atoms of elements decides the type of bond
+formed by the atom of the element.
+• Elements which have a tendency to gain electrons for attaining octet in their valence shell are
+called with more electro negative character. They form anions.
+SCERT TELANGANA
+174 X Class Chemical Bonding
+Improve your learning
+• In the formation of ionic bond the atoms of electro positive elements lose their valence electrons to
+atoms of electro negative elements so that both of them can attain octet in their valence shells.
+• The electrostatic attractive force that keeps cation and anion together to form a new electrically
+neutral entity is called an ionic bond.
+• Ionic compounds are often crystalline solids with high melting points.
+• A chemical bond that formed by sharing of valence-shell electrons between the atoms so that both
+of them can attain octet or duplet in their valence shells is called covalent bond.
+• A single covalent bond is formed when two atoms share a pair of electrons
+• Each shared pair of electrons is equivalent to one covalent bond.
+• Electrons are not always shared equally between the atoms in a covalent bond. This leads to bond
+polarity.
+• To explain the bond angles in the molecules through covalent bonds the valence – shell – electron
+– pair repulsion theory (VSEPRT) is proposed.
+• To explain the strengths of covalent bonds valence band theory is discussed.
+Reflections on concepts
+1. List the factors that determine the type of bond that will be formed between two atoms? (AS1
+)
+2. Explain the difference between the valence electrons and the co-valency of an element. (AS1
+)
+3. A chemical compound has the following Lewis notation: (AS1
+)
+a) How many valence electrons does element Y have?
+b) What is the valency of element Y?
+c) What is the valency of element X?
+d) How many covalent bonds are there in the molecule?
+e) To which groups the elements X and Y belong? (AS2
+)
+4. Why do only valence electrons involve in bond formation? Why not electron of inner shells?Explain.
+(AS1
+)
+5. How bond energies and bond lengths of molecule help us in predicting their chemical properties?
+Explain with examples. (AS1
+)
+6. Draw simple diagrams to show how electrons are arranged in the following covalent molecules:
+(AS5
+)
+a) Calcium oxide (CaO) (b) Water (H2
+O) (c) Chlorine (Cl
+2
+)
+7. Represent the molecule H2
+O using Lewis notation. (AS5)
+8. Represent each of the following atoms using Lewis notation: (AS5
+)
+(a) beryllium (b) calcium (c) lithium d) bromine gas (Br2
+)
+(e) calcium chloride (CaCl
+2
+) (f) carbon dioxide (CO2
+)
+9. What is octet rule? How do you appreciate role of the ‘octet rule’ in explaining the chemicalproperties
+of elements? (AS6
+)
+10. What is hybridisation? Explain the formation of the following molecules using hybridisation
+ a) Be Cl
+2 b) BF3
+Fig-Q3
+. .
+. .
+. .
+SCERT TELANGANA
+Free distribution by T.S. Government 2019-20 175
+Application of Concepts
+1. Explain the formation of sodium chloride and calcium oxide on the basis of the concept of electron
+transfer from one atom to another atom. (AS1
+)
+2. A, B, and C are three elements with atomic numbers 6, 11 and 17 respectively.
+i. Which of these cannot form ionic bond? Why? (AS1
+)
+ii. Which of these cannot form covalent bond? Why? (AS1
+)
+iii. Which of these can form ionic as well as covalent bonds? (AS1
+)
+3. Predict the reasons for low melting point for covalent compounds when compared with ionic
+compound. (AS2
+)
+4. How Lewis dot structure helps in understanding bond formation between atoms? (AS6
+)
+5. Explain the formation of the following molecules using valence bond theory
+a) N2
+ molecule b) O2
+ molecule
+Higher Order Thinking questions
+1. Two chemical reactions are described below. (AS5
+)
+• Nitrogen and hydrogen react to form ammonia (NH3
+)
+• Carbon and hydrogen bond together to form a molecule of methane (CH4
+).
+For each reaction, give:
+(a) The valence of each of the atoms involved in the reaction. (AS1
+)
+(b) The Lewis structure of the product that is formed. (AS5
+)
+1) Which one of the following four elements is more electronegative? [ ]
+a) Sodium b) Oxygen c) Magnesium d) Calcium
+2) An element 11X23 forms an ionic compound with another element ‘Y’. Then the charge on the ion
+formed by X is [ ]
+a) +1 b) +2 c) -1 d) -2
+3) An element ‘A’ forms a chloride ACl
+4
+. The number electrons in the valence shell of ‘A’ is
+a) 1 b) 2 c) 3 d) 4 [ ]
+4) The inert gas element which does not have octet electronic configuration in its outermost orbit is
+a) Helium b) Argon c) Krepton d) Radon
+5) Number of covalent bonds in methane molecule
+a) 1 b) 2 c) 3 d) 4
+6) The concept hybridisation of orbitals of an atoms was introdused by
+a) Lives pouling b) Mosley c) Lewis d) Kossel
+7) The value of bond angle in Berileum chloride molecule is
+a) 1800 b) 1200 c) 1100 d) 104.310
+Suggested Projects
+1. Collect the information about properties and uses of covalent compounds and prepare a report?
+(AS4)

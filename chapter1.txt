@@ -1,0 +1,416 @@
+In class 7 and 8 you learnt about the image formation in plane mirrors.
+You also discussed about the spherical mirrors. You know that why the
+curved surfaces are known as spherical mirrors.
+You might have got many doubts while observing your image in
+bulged surfaces.
+• Is the image formed by a bulged surface same as the image formed
+by a plane mirror?
+• Is the mirror used in automobiles a plane mirror? Why it is showing
+small images?
+• Why does our image appear thin or bulged out in some mirrors?
+• Can we see inverted image in any mirror?
+• Can we focus sun light at a point using a mirror instead of magnifying
+Glass?
+• Are the angle of reflection and angle of incidence also equal for
+reflection by curved surfaces?
+Let us discuss about the reflection of light by spherical mirrors in this
+lesson to get clarity for the above questions.
+Reflection of light at
+curved surfaces
+1
+Chapter
+SCERT TELANGANA
+2 X Class Reflection of light at curved surfaces
+fig-1(a) fig-1(b) fig-1(c)
+Reflection of light by spherical mirrors
+The first law of reflection tells us;
+A light ray incident at an angle with the normal at the point of incidence
+will get reflected making equal angle with the normal.
+This law is true for all surfaces, be it a plane surface or a curved one.
+The important words here are ‘the angle made with normal at the point of
+incidence’. If for any surface one can decide the normal and find the incident
+angle, it is possible to deduce the angle made by the reflected ray. It is very
+easy to find a normal at any point on the plane surface but for a curved or
+uneven surface it is not straight forward.
+Activity 1
+Finding the normal to a curved surface
+Take a small piece of thin foam or rubber (like the sole of a slipper).
+Put some pins along a straight line on the foam as shown in the figure -1a.
+All these pins are perpendicular to the plane of foam. If the foam is
+considered as a mirror, each pin would represent the normal at that point.
+Any ray incident at the point where the pin makes contact with the surface
+will reflect with the same angle as the incident ray made with the pinnormal.
+Now bend the foam piece inwards as shown in figure-1b, what happens
+to the pins?
+They still represent the normal at various points, but you will notice
+that all the pins tend to converge at a point (or intersect at a point).
+If we bend the foam piece outwards, we will see that the pins seem to
+move away from each other or in other words they diverge as shown in
+figure-1c.
+This gives us an idea of what is likely to happen with a spherical mirror.
+A concave mirror will be like the rubber sole bent inwards (fig-1b) and the
+convex mirror will be like the rubber sole bent out wards (fig-1c).
+SCERT TELANGANA
+Free distribution by T.S. Government 2019-20 3
+For a concave mirror, like these pins in figure-1b, all normals will
+converge towards a point. This point is called centre of curvature(C) of
+the mirror.
+This gives us a clue about how we can find normal to any point on a
+spherical mirror. All that we have to do is to draw a
+line from the point on the mirror to centre of the
+sphere.
+It is much easier to imagine this in a two
+dimensional figure as shown in figure-2a. The
+concave mirror is actually a part of a big sphere. In
+order to find this centre point (centre of curvature)
+we have to think of the centre of the sphere to which
+the concave mirror belongs. The line drawn from
+C to any point on the mirror gives the normal at
+that point.
+For the ray R, the incident angle is the angle it
+makes with the normal shown as i and the reflected
+angle is shown as r in figure-2b. We know by first
+law of reflection i = r.
+The mid point (Geometrical centre) of the mirror is called pole (P) of
+the mirror. The horizontal line shown in the figures which passes through
+the centre of curvature and pole is called principal axis of the mirror. The
+distance between P and C is radius of curvature (R) of the mirror.
+Try to construct different reflected rays for any array of rays that are
+parallel to the principal axis as shown in figure 2(b). What is your
+conclusion?
+Verifying your drawing with experiment:
+To verify this we must first find out some way of obtaining a beam of
+parallel rays. How do we do that?
+First we need to create a situation in which one gets parallel rays of
+light.
+Recall a little bit of geometry: while learning about circles
+and tangents, you may have learnt that a radius is always
+perpendicular to the tangent to the circle drawn at the point.
+P C
+Normal
+(pole)
+principal axis
+fig-2(a)
+P C
+i
+R
+fig-2(b)
+r
+SCERT TELANGANA
+4 X Class Reflection of light at curved surfaces
+fig-4
+P F C
+In the figure-3 we have stuck two pins on a thermocole block. The
+pins are parallel to each other. As we see in the figure, when a source of
+light is kept very near, we see the shadows diverging
+(from the base of the pins). As we move the source
+away from the pins, the angle of divergence gets
+reduced. If we move the source far away we will
+get parallel shadows. But as we move the candle
+away, the light intensity becomes low. That means
+to get a beam of parallel rays the source should be
+at a long distance and it must be of sufficient intensity.
+Where do we find one such source?
+Yes, we have one easily available source, you probably have guessed
+it: The Sun.
+Let us do an experiment with sun rays and a concave mirror.
+Activity 2
+Hold a concave mirror such that sunlight falls on it. Take a small paper
+and slowly move it in front of the mirror and find out the point where you
+get the smallest and brightest spot, which will be the image of the sun.
+(See to it that your paper is small so that it does not obstruct the incoming
+sun rays.)
+The rays coming from the sun parallel to the
+principal axis of concave mirror converge to a point
+(see figure-4). This point is called Focus or focal
+point (F) of the concave mirror. Measure the
+distance of this spot from the pole of the mirror. This
+distance is the focal length (f) of the mirror. The
+radius of curvature will be twice this distance (R=2f).
+Does this help you to verify the conclusions you arrived at, with your
+drawing?
+• What happens if you hold the paper at a distance shorter than the focal
+length from the mirror and move it away?
+• Does the image of the sun become smaller or bigger?
+You will notice that the image of the sun first keeps on becoming small,
+beyond the focal point it keeps on becoming enlarged.
+Note: while drawing a ray diagram sometimes it is not clear which is
+the reflecting side of the mirror. Hence we follow a convention of showing
+lines on the non-reflecting side(coated side).
+fig-3
+SCERT TELANGANA
+Free distribution by T.S. Government 2019-20 5
+Can you draw the same diagram for a convex
+mirror?
+See figure-5 The parallel rays appear to diverge
+after reflection. If we extend the reflected rays
+backwards they meet at ‘F’ i.e. focus of the convex
+mirror.
+When parallel rays are incident on a concave mirror, on reflection they
+meet at the focus.
+• Do we get an image with a concave mirror at the focus every time? Let
+us find out.
+Aim: Observing the types of images and measuring the object distance
+and image distance from the mirror.
+Material required: A candle, paper, concave mirror (known focal
+length), V-stand, measuring tape or meter scale.
+Procedure: Place the concave mirror on V-stand, arrange a candle and
+meter scale as shown in figure-6.
+Keep the candle at different distances from the mirror (10cm to 80cm)
+along the axis and by moving the paper (screen) find the position where
+you get the sharp image on paper. (Take care that flame is above the axis of
+mirror, paper is below the axis).
+Think and discuss
+• See figure-5. A set of parallel rays are falling on a convex mirror. What
+conclusions can you draw from this?
+• Will you get a point image if you place a paper at the focal point?
+Lab Activity
+fig-6
+fig-5
+C F P
+SCERT TELANGANA
+6 X Class Reflection of light at curved surfaces
+Note down your observations in table-1.
+Table-1
+Group your observations based on the type of image you see (e.g. Image
+is bigger and inverted). It is possible you may not get any image at some
+positions, note down that too!
+Since we know the focal point and centre of curvature, we can reclassify
+our above observations as shown in table-2. What do you infer from this
+table?.
+At this point we suggest that you make one more observation. You
+have been trying to get the image on a paper when the object is at different
+positions. At the same time also look into the mirror and note your
+observations about how the image appears.
+• Is it inverted or erect, enlarged or diminished?
+Table - 2
+What do you infer from the table-2?
+Let us try to draw ray diagrams with concave mirrors and compare
+them with your inferences.
+Ray diagrams for concave mirror
+In activity-5 we saw the ray diagram of sunrays parallel to the concave
+mirror and the image of the sun was very small at the focal point (See
+Distance of candle
+from mirror
+(object distance-u)
+Distance of paper
+from mirror
+(image distance-v)
+Enlarged/
+diminished
+Inverted or
+erect
+1
+2
+3
+4
+Position of the
+candle (object)
+Enlarged/
+diminished
+Inverted or
+erect
+Position of
+the image
+Between mirror & F
+At focal point
+Between F and C
+At centre of curvature
+Beyond C
+Real or
+virtual
+SCERT TELANGANA
+Free distribution by T.S. Government 2019-20 7
+figure-4). Now we shall develop a technique to draw ray diagrams when
+an object is placed anywhere on the axis of the mirror and validate the
+above observations.
+Here we will take at least two rays originating from the same point on
+the object but with different direction, see how they get reflected from the
+mirror and find out the point where they meet to form the image.
+Let us take an example.
+As shown in the figure-7, assume a concave mirror
+and a candle placed at some distance along the axis of the
+mirror.
+The diagram shows two rays coming from the tip of
+the flame (object). The reflected rays are constructed
+based on the laws of reflection.They meet at point A. The
+tip of the flame of the reflected image will be at the point
+of intersection, A.
+• Why only at point A?
+If we hold the screen at any point before or beyond point A (for example
+at point B), we see that the rays will meet the screen at different points.
+Therefore, the image of the tip of the flame will be formed at different
+points due to these rays. If we draw more rays emanating from the same tip
+we will see that at point A they will meet but at point B they won’t. So, the
+image of the tip of the flame will be sharp if we hold the screen at point A
+and will become blurred (due to overlaping of multiple images) when we
+move the paper slightly in any direction (forward or backward). Is this not
+something that you observed during the previous experiment with sun rays?
+However, it is not going to be easy to evaluate the angle of reflection
+for any arbitrary ray, every time we will have to find the normal, measure
+the incident angle and construct a ray with equal angle on the other side.
+This would be a tedious task, can we find any other simpler method?
+Yes, there are a few. Based on our discussion so far, we can identify
+some appropriate rays which we can take as representative rays to find the
+point ‘A’.
+We have seen that all rays that are parallel to the
+axis get reflected such that they pass through the focal
+point of the mirror. So, for drawing any diagram the
+most suitable ray to draw will be the one that comes
+from the object and goes parallel to the axis of the
+mirror. The reflected ray will be the line drawn from
+the point of incidence on the mirror and passes through
+A
+B
+fig-7
+F C
+R1
+fig-8
+SCERT
+P
+TELANGANA
+8 X Class Reflection of light at curved surfaces
+the focal point of the mirror. To make it more convenient we will always
+take rays that come from the tip of the object. See the ray R1
+ in figure-8.
+The converse situation of previous one is also true; that is, a ray that
+passes through the focal point of the mirror will
+travel parallel to the axis after reflection.
+This gives us our second ray. This will be the
+ray coming from the tip of the flame and going
+through the focal point and falling on the mirror.
+After reflection, this ray travels parallel to the axis.
+So we draw the reflected ray as a line parallel to
+the axis coming from the point where the incident
+ray meets the mirror. See R2
+ in figure-9.
+Using the rays R1
+, R2
+ and finding the point where they intersect we
+know the point where the image of the tip is formed.
+There is one more ray which is convenient to draw.
+We have seen earlier that any ray that is normal to the surface, on
+reflection, will travel along the same path but in the opposite direction.
+Which ray can such a one be for a spherical mirror?
+We know that a line drawn from the centre of
+curvature to the mirror is perpendicular to the tangent
+at the point where the line meets the curve. So if we
+draw a ray coming from the tip of the object going
+through the centre of curvature to meet the mirror, it
+will get reflected along the same line. This ray is shown
+as R3
+ in the figure-10. In general, a ray travelling along
+normal retraces its path.
+Along with these three rays ‘the ray which comes from the object and
+reaches the pole of the mirror’ is also useful in drawing ray diagrams. For
+this ray, the principal axis is the normal.
+If we have our object (candle) placed as shown in figure-11, we can
+draw the ray diagram to get the
+point of intersection A, of any
+two rays coming from the top of
+the object and point of
+intersection B, of any two rays
+coming from the bottom of the
+object. We notice that point B is
+fig-9
+F C
+R2
+P
+fig-10
+R3
+P F C
+R1
+R B 2
+P
+fig-11
+F
+A
+C
+R1
+R
+SCERT
+2
+TELANGANA
+Free distribution by T.S. Government 2019-20 9
+exactly at the same distance from mirror as point A. Hence the image is
+vertical and inverted.
+• Where is the base of the candle expected to be in the image when the
+candle is placed on the axis of the mirror?
+Since any ray coming from any point on the axis and travelling along
+the axis will get reflected on the axis itself, we can conclude that the base
+of the image is going to be on the axis. Using the knowledge, that if the
+object is placed vertically on the axis, the image is going to be vertical, all
+that we need to do, is to draw a perpendicular from point A to the axis. The
+intersection point is the point where the base of the image of the candle is
+likely to be formed. See figure-12. Hence, as shown in the diagram the
+image will be inverted and diminished.
+Figure-12 is drawn for the case where the object
+is placed beyond the centre of curvature.
+Does this conclusion match with your
+observations? (Lab Activity)
+Draw similar diagrams for other cases and verify
+that they match with your observations.
+• During the experiment, did you get any positions
+where you could not get an image on the screen?
+Consider the case shown in the figure-13. The
+candle object (O) is placed at a distance less than the
+focal length of the mirror.
+The first ray (R1
+) will start from tip of the object
+and run parallel to axis to get reflected so as to pass
+through the focal point. This one is easy to draw. The
+second ray that we chose for earlier ray diagrams is
+the ray coming from the tip of the object and going through the focal point
+but it is not possible as such a ray will not meet the mirror. So we must use
+the third ray, a ray coming from the tip of the object and going through the
+centre of curvature.
+But that to does not seem to be possible. So we make a small change.
+Instead of drawing a ray from the candle tip to centre of curvature,
+we consider a ray that comes from the tip and goes in such a direction
+that it would go through the centre of curvature if extended backwards.
+This ray is normal to the surface and so will be reflected along the same
+line in opposite direction and will go through centre of curvature.
+fig-12
+R1
+R2
+F C
+P
+A
+fig-13
+R1
+OP F C
+SCERT TELANGANA
+10 X Class Reflection of light at curved surfaces
+We notice that the two reflected rays (figure-13) diverge and will not
+meet. While doing the experiments for a case such as this we were unable
+to find any place where we get a sharp image on the screen. This ray diagram
+tells us that since the reflected rays are diverging we will not get an image
+anywhere. So even if we had moved the screen much away from the mirror,
+we would not have found an image.
+In such situations, however, we do see an image when we look in the
+mirror. Is it possible to explain this image with a ray diagram?
+Remember what we did to find the image in a plane mirror. To decide
+the position of image we extended the reflected rays backwards till they
+meet. We will do the same here. When we look in the mirror we are looking
+at these diverging reflected rays. They appear to be coming from one point.
+We can get this point by extending the rays backwards as shown in figure14. The image does not really exist the way we see in other cases, but it is
+visible to us.
+As seen in the figure-14, the image will be
+erect and enlarged. Does this match with your
+observations?
+This image that we get by extending the rays
+backwards is called a virtual image. We cannot
+get this on a screen like a real image.
+The case in which the object is at the centre
+of curvature is another interesting situation. See
+figure-15.
+From the ray diagram (figure-15) we
+conclude that the image of the object will be
+formed at the same distance as the object and it
+will be inverted and of the same size. What is
+your observation?
+From the ray diagrams and the observations you may have noticed some
+peculiar properties of concave mirrors. They enlarge the image when the
+object is held close to the mirror (less than the focal length). Also, the
+image is erect. This property is used at many places and most commonly
+in shaving mirrors and mirrors used by dentists
