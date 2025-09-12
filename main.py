@@ -1,80 +1,12 @@
-import os
-from dotenv import load_dotenv
+import json
 from langchain_google_genai import ChatGoogleGenerativeAI
 from typing import List
 from pydantic import BaseModel
-import json
-
-load_dotenv()
-
-api_key = os.getenv("GOOGLE_API_KEY")
-client = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", api_key = api_key)
-
-# -------------------------------------------------------------------------------
-json_format = """
-[{
-'question' : <question1>,
-'options' : [<option1>,
-<option2>,
-<option3>,
-<option4>],
-'answer' : <correct option number>,
-'explaination' : <explaination>
-},
-{
-'question' : <question2>,
-'options' : [<option1>,
-<option2>,
-<option3>,
-<option4>],
-'answer' : <correct option number>,
-'explaination' : <explaination>
-}]
-""".strip()
-
-already_generated_questions = []
-with open("chapter1.txt", "r") as f1:
-    chapter1 = f1.read()
-
-with open("chapter2.txt", "r", encoding="utf-8") as f2:
-    chapter2 = f2.read()
-
-
-number_of_questions = 3
-
-# -------------------------------------------------------------------------------
-
-prompt = """
-You are a question paper setting agent. Your main responsibility is to prepare mcq questions to the students based on the context provided from the student's study material.
-You have to follow few rules while generaing the mcq question.
-The rules are:
-RULE 1: The mcqs should follow the JSON format given below. No need to generate any other unnecessary text.
-RULE 2: The mcqs should have 4 options. One option should be the correct answer and the remaining 3 should be deviating/misleading to confuse the student.
-RULE 3: For the correct answer you should give a small explaination with 1-2 sentences to explain why it is the correct option.
-RULE 4: Try to maintain the difficulty level of the questions based on the context provided from the student's study material.
-RULE 5: Do not repeat the questions that are already generated. Already generated questions are given below in a list format for reference.
-RULE 6: Only generate the specified number of new questions. Do not deviate from that number.
-
-JSON format: {json_format}
-
-Already Generated Questions list: {already_generated_questions}
-
-Context: {context}
-
-Number of new questions to generate: {number_of_questions}
-""".strip()
-
-# -------------------------------------------------------------------------------
-
 from langchain_core.prompts import PromptTemplate
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+import db_utils
+from utils import Question
 import random
-
-class Question(BaseModel):
-    question : str
-    options : List[str]
-    answer : str
-    explaination : str
 
 class TestAgent:
     """
@@ -89,13 +21,15 @@ class TestAgent:
     - after all the questions are generated, we will iterate through the mcqs list and store in db
     """
 
-    def __init__(self, client:ChatGoogleGenerativeAI, system_prompt:str = None, json_format:str=None, already_generated_questions:List[str]=[], mcqs:List[Question]=[], questions_per_batch:int=5):
+    def __init__(self, db, cursor, client:ChatGoogleGenerativeAI, system_prompt:str = None, json_format:str=None, already_generated_questions:List[str]=[], mcqs:List[Question]=[], questions_per_batch:int=5):
         self.prompt_template = PromptTemplate(template=system_prompt, input_variables=["json_format", "already_generated_questions", "context", "number_of_questions"])
         self.prompt_template = self.prompt_template.partial(json_format=json_format)
         self.already_generated_questions = already_generated_questions
         self.mcqs = mcqs
         self.client = client
         self.questions_per_batch = questions_per_batch
+        self.db = db
+        self.cursor = cursor
 
     def parse_json(self, result) -> List[Question]:
         result = result.content
@@ -152,33 +86,6 @@ class TestAgent:
             mock_test_sets.append(self.mcqs)
             self.mcqs = []
         return mock_test_sets
-    
 # -------------------------------------------------------------------------------
 
-def generate_questions(subject:str, standard:str, chapter_ids:List[str], number_of_sets:int, number_of_questions:int, test_id:str):
-    """
-    We will extract the student's study material and generate the mock test based on the following args:
-        - subject : For what subject we are generating the mock test. Ex: Hindi, Telugu etc.
-        - standard : What is the student's class. Ex: LKG, 5th class etc.
-        - chapter_ids : Chapter ids are used to fetch the study material information from the db.
-        - number_of_sets : Specifies the number of exam papers we need to generate.
-        - number_of_questions : Specifies the number of questions per paper/set.
-        - test_id : Primary key of the MockTest table. We have to update the row with the given test_id after the test is generated.
-    """
-    def save_to_db():
-        """
-        Saves the mcqs to db
-        """
-        ...
-
-    def save_to_file(mock_test_sets):
-        with open("test.json", "w") as file:
-            file.write(json.dumps(mock_test_sets))
-        print("Saved to json!")
-    
-    chapters_text = [chapter1, chapter2] # get the text from the database for the required chapters using subject, standard, chapter_ids
-    agent = TestAgent(client=client, system_prompt=prompt, json_format=json_format, questions_per_batch=5)
-    mock_test_sets = agent(chapters_text=chapters_text, total_number_of_questions=number_of_questions, number_of_sets=number_of_sets, max_consecutive_chunks=10)
-    save_to_file(mock_test_sets=mock_test_sets)
-    print("Mock Test is ready!!!")
     
