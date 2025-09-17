@@ -26,7 +26,7 @@ cursor = db.cursor()
 # Q1 =  "select * from ratelimit"
 Q1 =  "select * from mocktest"
 # Q1 =  "show columns from mocktest"
-# Q1 = "describe ratelimit"
+# Q1 = "describe mocktest"
 # Q1= "DROP TABLE ratelimit"
 cursor.execute(Q1)
 # db.commit()

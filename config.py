@@ -1,6 +1,12 @@
 queue_limit = 2
+
 max_requests_per_day = 10
+
 max_questions_per_req = 5
+
+max_rpm = 10
+
+max_rpm_buffer = 2
 
 json_format = """
 [{

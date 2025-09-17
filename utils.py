@@ -1,3 +1,5 @@
+import unicodedata
+import hashlib
 import os
 from enum import Enum
 from typing import List, Optional
@@ -27,14 +29,17 @@ priorities = {
 class Question(BaseModel):
     question : str
     options : List[str]
-    answer : str
+    answer : int
     explaination : str
+
+class Sets(BaseModel):
+    sets : Optional[List[List[Question]]]
 
 class MockTest(BaseModel):
     subject : str
     standard : str
     chapter_ids : List[str]
-    questions : Optional[List[Question]]
+    questions : Optional[List[List[Question]]]
     number_of_questions : int
     test_id : int
     number_of_sets : int
@@ -48,3 +53,22 @@ def get_client(client_name:str):
         api_key = os.getenv("OPENAI_API_KEY")
         client = ChatOpenAI(model="", api_key=api_key)
     return client
+
+class Duplicate_checker():
+    def __init__(self):
+        self.seen = set()
+    
+    def normalize(self, question:str) -> str:
+        q = unicodedata.normalize("NFKC")
+        q = q.casefold()
+        q = "".join(question.lower().split())
+        return q
+    
+    def is_not_duplicate(self, question:str) -> bool:
+        norm_question = self.normalize(question)
+        hashed_question = hashlib.md5(norm_question.encode('utf-8')).hexdigest()
+        if hashed_question in self.seen:
+            return False
+        else:
+            self.seen.add(hashed_question)
+            return True
