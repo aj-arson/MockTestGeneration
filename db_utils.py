@@ -4,7 +4,7 @@ import logging
 from typing import Tuple
 from mysql.connector import pooling
 from dotenv import load_dotenv
-from config import queue_limit
+from config import queue_limit, max_pool_size
 import traceback
 from utils import MockTest, Question, Status
 
@@ -24,9 +24,11 @@ def connect_to_db():
         "host":host_name,
         "user":user_name,
         "passwd":password,
-        "database":database
+        "database":database,
+        "charset":"utf8mb4",
+        "use_unicode":True
         }
-        connection_pool = pooling.MySQLConnectionPool(pool_size=5, pool_name="my_sql_pool", **db_config)
+        connection_pool = pooling.MySQLConnectionPool(pool_size=max_pool_size, pool_name="my_sql_pool", **db_config)
         print("DB is connected....")
         return connection_pool.get_connection()
     except Exception:
@@ -34,8 +36,8 @@ def connect_to_db():
 
 def get_generation_status(cursor, test_id):
     try:
-        q = f"select generation_status from mocktest where test_id = '{test_id}'"
-        cursor.execute(q)
+        q = "select generation_status from mocktest where test_id = %s"
+        cursor.execute(q, (test_id,))
         gen_status = cursor.fetchone()
         if gen_status:
             return gen_status[0]
@@ -57,8 +59,8 @@ def log_status(generation_status, test_id):
 def set_generation_status(db, cursor, test_id, generation_status):
     """To update the generation_status for the given test_id"""
     try:
-        q = f"update mocktest set generation_status = '{generation_status}' where test_id = '{test_id}'"
-        cursor.execute(q)
+        q = "update mocktest set generation_status = %s where test_id = %s"
+        cursor.execute(q, (generation_status, test_id))
         db.commit()
         log_status(generation_status, test_id)
     except Exception:
@@ -67,11 +69,13 @@ def set_generation_status(db, cursor, test_id, generation_status):
 def save_generated_questions_to_db(db, cursor, test_id, questions):
     """To update the generation_status for the given test_id"""
     try:
-        questions_json_string = [[question.model_dump() for question in sets] for sets in questions]
-        sets_json_string = json.dumps(questions_json_string)
-        print(f"{sets_json_string = }")
-        q = f"update mocktest set questions = '{sets_json_string}' where test_id = '{test_id}'"
-        cursor.execute(q)
+        if questions:
+            questions_json_string = [[question.model_dump() for question in sets] for sets in questions]
+            sets_json_string = json.dumps(questions_json_string)
+        else:
+            sets_json_string = None 
+        q = "update mocktest set questions = %s where test_id = %s"
+        cursor.execute(q,(sets_json_string, test_id))
         db.commit()
     except Exception:
         print(f"Exception in save_generated_questions_to_db(db_utils.py): {traceback.print_exc()}")
@@ -80,8 +84,9 @@ def get_records_with_generation_status(cursor, generation_status:Tuple[str]):
     """To fetch records based on the given status"""
     try:
         mock_tests = []
-        q1 = f"select * from mocktest where generation_status in {generation_status} order by generation_status limit {queue_limit}"
-        cursor.execute(q1)
+        q1 = "select * from mocktest where generation_status in {generation_status} order by generation_status limit %s"
+        q1 = q1.format(generation_status = generation_status)
+        cursor.execute(q1, (queue_limit, ))
         records =  cursor.fetchall()
         q2 = "show columns from mocktest"
         cursor.execute(q2)
@@ -93,7 +98,6 @@ def get_records_with_generation_status(cursor, generation_status:Tuple[str]):
                     mock_test[column_names[i]] = json.loads(record[i])
                 else:
                     mock_test[column_names[i]] = record[i]
-            print(mock_test)
             mock_tests.append(MockTest(**mock_test))
         return mock_tests
     except Exception:
@@ -103,14 +107,22 @@ def get_max_requests_per_day():
      """Should return max rate limit per day"""
      ...
 
-def get_chapters(cursor, subject, standard, chapter_ids):
+def get_chapters(cursor, subject:str, standard:str, chapter_ids:Tuple[str]):
     """Should return list of chapters text"""
-    ...
+    try:
+        q = "select chapter_text from syllabus where subject = %s and standard = %s and chapter_id in {chapter_ids}"
+        q = q.format(chapter_ids=chapter_ids if len(chapter_ids)>1 else f"({chapter_ids[0]})")
+        cursor.execute(q, (subject, standard))
+        chapters = cursor.fetchall()
+        chapters  = list(map(lambda x: x[0], chapters))
+        return chapters
+    except Exception:
+        print(f"Exception in get_usage(db_utils.py): {traceback.print_exc()}")
     
 def get_usage(cursor, system_id=1):
     try:
-        q = f"select requests_used from ratelimit where system_id = '{system_id}'"
-        cursor.execute(q)
+        q = "select requests_used from ratelimit where system_id = %s"
+        cursor.execute(q, (system_id,))
         usage = cursor.fetchone()
         return int(usage[0])
     except Exception:
@@ -118,8 +130,8 @@ def get_usage(cursor, system_id=1):
 
 def set_usage(db, cursor, new_usage, system_id=1):
     try:
-        q = f"update ratelimit set requests_used = {new_usage} where system_id = {system_id}"
-        cursor.execute(q)
+        q = "update ratelimit set requests_used = %s where system_id = %s"
+        cursor.execute(q, (new_usage, system_id))
         db.commit()
         print(f"Updated Rate limit usage to {new_usage}")
     except Exception:
@@ -127,17 +139,20 @@ def set_usage(db, cursor, new_usage, system_id=1):
 
 def get_question_sets(cursor, test_id):
     try:
-        q = f"select questions from mocktest where test_id = '{test_id}'"
-        cursor.execute(q)
+        q = "select questions from mocktest where test_id = %s"
+        cursor.execute(q, (test_id,))
         questions = cursor.fetchone()
-        return questions
+        if questions:
+            return questions[0]
+        else:
+            return None
     except Exception:
         print(f"Exception in get_questions(db_utils.py): {traceback.print_exc()}")
 
 def insert_record(db, cursor, number_of_sets, question_sets, generation_status='CREATED', number_of_questions=0, subject='', standard='', chapter_ids=[]):
     try:
         if generation_status == Status.PENDING.value:
-            print([print(isinstance(question, Question), question) for sets in question_sets for question in sets])
+            # print([print(isinstance(question, Question), question) for sets in question_sets for question in sets])
             questions_json_string = [question.model_dump() for sets in question_sets for question in sets]
             sets_json_string = json.dumps([questions_json_string])
         else:
@@ -157,9 +172,7 @@ def insert_record(db, cursor, number_of_sets, question_sets, generation_status='
 def clear_table(db, cursor):
     try:
         q = "truncate table mocktest"
-        print("this happened")
         cursor.execute(q)
-        print("cursor executed")
         db.commit()
     except Exception:
         print(f"Exception in clear_table(db_utils.py): {traceback.print_exc()}")

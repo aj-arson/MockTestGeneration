@@ -1,3 +1,4 @@
+import json
 import unicodedata
 import hashlib
 import os
@@ -7,6 +8,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 from pydantic import BaseModel
+from datetime import datetime, timedelta
 
 load_dotenv()
 
@@ -38,7 +40,7 @@ class Sets(BaseModel):
 class MockTest(BaseModel):
     subject : str
     standard : str
-    chapter_ids : List[str]
+    chapter_ids : List[str|int]
     questions : Optional[List[List[Question]]]
     number_of_questions : int
     test_id : int
@@ -59,7 +61,7 @@ class Duplicate_checker():
         self.seen = set()
     
     def normalize(self, question:str) -> str:
-        q = unicodedata.normalize("NFKC")
+        q = unicodedata.normalize("NFKC", question)
         q = q.casefold()
         q = "".join(question.lower().split())
         return q
@@ -72,3 +74,20 @@ class Duplicate_checker():
         else:
             self.seen.add(hashed_question)
             return True
+
+def question_sets_db_to_json(json_string):
+    loaded_json = json.loads(json_string)
+    generated_sets_json = [[Question(**question) for question in mock_test_set] for mock_test_set in loaded_json ]
+    return generated_sets_json
+
+def get_sleep_time_until_midnight():
+    now = datetime.now()
+    print(datetime.min.time())
+    midnight = datetime.combine(now.date() + timedelta(days=1), datetime.min.time())
+    seconds_until_midnight = (midnight - now).total_seconds()
+    buffer = 35*60
+    return seconds_until_midnight + buffer
+
+
+def clean_text(t):
+    return ''.join(ch for ch in unicodedata.normalize('NFC', t))

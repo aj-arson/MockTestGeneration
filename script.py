@@ -1,5 +1,0 @@
-import json
-p = ['{"question": "question_0", "options": ["At the focal point", "At the center of curvature", "At infinity", "Between the focal point and the center of curvature"], "answer": 3, "explaination": "When an object is placed at the focal point of a concave mirror, the reflected rays become parallel to the principal axis and meet at infinity, thus forming the image at infinity."}', '{"question": "question_1", "options": ["At the focal point", "At the center of curvature", "At infinity", "Between the focal point and the center of curvature"], "answer": 3, "explaination": "When an object is placed at the focal point of a concave mirror, the reflected rays become parallel to the principal axis and meet at infinity, thus forming the image at infinity."}']
-
-x = json.loads(p[0])
-print(x)

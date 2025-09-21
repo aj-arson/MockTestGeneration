@@ -3,37 +3,32 @@ import random
 from utils import Status
 
 domain = "http://127.0.0.1:8000"
+possible_subjects = ["physics", "social"]
+possible_status = ["CREATED", "FAILED"]
 
-# possible_status = [Status.PENDING, Status.CREATED]
-possible_status = [Status.CREATED]
+chapters = {"social":[5,6], "physics":[1,2], "telugu":[10]}
 
 def construct_new_body(test_id):
-    choice = random.choice((0, len(possible_status)-1))
-    print(f"Sending Req with status : {possible_status[choice]}")
-    questions = [
-            [
-    {
-      "answer": 3,
-      "options": [
-        "At the focal point",
-        "At the center of curvature",
-        "At infinity",
-        "Between the focal point and the center  of curvature"
-      ],
-      "question": "question_0 -> 0.9941264512100203",
-      "explaination": "When an object is placed at the focal point of a concave mirror, the reflected rays become parallel to the principal axis and meet at infinity, thus forming the image at infinity."
-    }
-  ]
-  ]
+    choice = random.choice(possible_subjects)
+    # choice = "telugu"
+    status_choice = random.choice(possible_status)
+    num_sets = random.choice((1, 4))
+    num_questions = random.choice((1,5))
+    print(f"Sending Req with Subject : {choice}")
+    print(f"Sending Req with Status : {status_choice}")
+    print(f"Sending Req with Num_stets : {num_sets}")
+    print(f"Sending Req with Num_questions : {num_questions}")
+
+   
     test_details = {
         "test_id":test_id,
-        "subject":"",
-        "standard":"",
-        "chapter_ids":[""],
-        "questions":questions if possible_status[choice].value == "PENDING" else None,
-        "number_of_questions":2,
-        "number_of_sets":20,
-        "generation_status": possible_status[choice].value
+        "subject":choice,
+        "standard":"10",
+        "chapter_ids":chapters[choice],
+        "questions": None,
+        "number_of_questions":num_questions,
+        "number_of_sets":num_sets,
+        "generation_status": status_choice
     }
     return test_details
 
@@ -43,6 +38,7 @@ def post_multiple_requests(num_reqs = 2):
         response = requests.post(url=domain+"/mocktest", json=req_body)
         print(response)
         print(f"Response: {response.json()['message']}")
+        print("="*10)
 
 def delete():
     response = requests.delete(domain+"/")
