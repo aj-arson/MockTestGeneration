@@ -36,7 +36,7 @@ def connect_to_db():
 
 def get_generation_status(cursor, test_id):
     try:
-        q = "select generation_status from mocktest where test_id = %s"
+        q = "select generation_status from MockTests where test_id = %s"
         cursor.execute(q, (test_id,))
         gen_status = cursor.fetchone()
         if gen_status:
@@ -59,7 +59,7 @@ def log_status(generation_status, test_id):
 def set_generation_status(db, cursor, test_id, generation_status):
     """To update the generation_status for the given test_id"""
     try:
-        q = "update mocktest set generation_status = %s where test_id = %s"
+        q = "update MockTests set generation_status = %s where test_id = %s"
         cursor.execute(q, (generation_status, test_id))
         db.commit()
         log_status(generation_status, test_id)
@@ -74,7 +74,7 @@ def save_generated_questions_to_db(db, cursor, test_id, questions):
             sets_json_string = json.dumps(questions_json_string)
         else:
             sets_json_string = None 
-        q = "update mocktest set questions = %s where test_id = %s"
+        q = "update MockTests set questions = %s where test_id = %s"
         cursor.execute(q,(sets_json_string, test_id))
         db.commit()
     except Exception:
@@ -84,17 +84,17 @@ def get_records_with_generation_status(cursor, generation_status:Tuple[str]):
     """To fetch records based on the given status"""
     try:
         mock_tests = []
-        q1 = "select * from mocktest where generation_status in {generation_status} order by generation_status limit %s"
+        q1 = "select * from MockTests where generation_status in {generation_status} order by generation_status limit %s"
         q1 = q1.format(generation_status = generation_status)
         cursor.execute(q1, (queue_limit, ))
         records =  cursor.fetchall()
-        q2 = "show columns from mocktest"
+        q2 = "show columns from MockTests"
         cursor.execute(q2)
         column_names = [col[0] for col in cursor.fetchall()]
         for record in records:
             mock_test = dict()
             for i in range(len(record)):
-                if column_names[i] in ('questions', 'chapter_ids'):
+                if column_names[i] in ('questions', 'chapter_context'):
                     mock_test[column_names[i]] = json.loads(record[i])
                 else:
                     mock_test[column_names[i]] = record[i]
@@ -107,17 +107,17 @@ def get_max_requests_per_day():
      """Should return max rate limit per day"""
      ...
 
-def get_chapters(cursor, subject:str, standard:str, chapter_ids:Tuple[str]):
-    """Should return list of chapters text"""
-    try:
-        q = "select chapter_text from syllabus where subject = %s and standard = %s and chapter_id in {chapter_ids}"
-        q = q.format(chapter_ids=chapter_ids if len(chapter_ids)>1 else f"({chapter_ids[0]})")
-        cursor.execute(q, (subject, standard))
-        chapters = cursor.fetchall()
-        chapters  = list(map(lambda x: x[0], chapters))
-        return chapters
-    except Exception:
-        print(f"Exception in get_usage(db_utils.py): {traceback.print_exc()}")
+# def get_chapters(cursor, subject:str, standard:str, chapter_ids:Tuple[str]):
+#     """Should return list of chapters text"""
+#     try:
+#         q = "select chapter_text from syllabus where subject = %s and standard = %s and chapter_id in {chapter_ids}"
+#         q = q.format(chapter_ids=chapter_ids if len(chapter_ids)>1 else f"({chapter_ids[0]})")
+#         cursor.execute(q, (subject, standard))
+#         chapters = cursor.fetchall()
+#         chapters  = list(map(lambda x: x[0], chapters))
+#         return chapters
+#     except Exception:
+#         print(f"Exception in get_usage(db_utils.py): {traceback.print_exc()}")
     
 def get_usage(cursor, system_id=1):
     try:
@@ -139,7 +139,7 @@ def set_usage(db, cursor, new_usage, system_id=1):
 
 def get_question_sets(cursor, test_id):
     try:
-        q = "select questions from mocktest where test_id = %s"
+        q = "select questions from MockTests where test_id = %s"
         cursor.execute(q, (test_id,))
         questions = cursor.fetchone()
         if questions:
@@ -149,7 +149,7 @@ def get_question_sets(cursor, test_id):
     except Exception:
         print(f"Exception in get_questions(db_utils.py): {traceback.print_exc()}")
 
-def insert_record(db, cursor, number_of_sets, question_sets, generation_status='CREATED', number_of_questions=0, subject='', standard='', chapter_ids=[]):
+def insert_record(db, cursor, number_of_sets, question_sets, generation_status='CREATED', number_of_questions=0, subject='', standard='', chapter_context=''):
     try:
         if generation_status == Status.PENDING.value:
             # print([print(isinstance(question, Question), question) for sets in question_sets for question in sets])
@@ -159,9 +159,9 @@ def insert_record(db, cursor, number_of_sets, question_sets, generation_status='
             sets_json_string = json.dumps(question_sets)
 
 
-        chapter_ids_json_string = json.dumps(chapter_ids)
-        Q1 = "INSERT INTO MockTest (number_of_sets, questions, generation_status, number_of_questions, subject, standard, chapter_ids) VALUES (%s, %s, %s, %s, %s, %s, %s)"
-        cursor.execute(Q1, (number_of_sets, sets_json_string, generation_status, number_of_questions, subject, standard, chapter_ids_json_string))
+        # chapter_ids_json_string = json.dumps(chapter_ids)
+        Q1 = "INSERT INTO MockTests (number_of_sets, questions, generation_status, number_of_questions, subject, standard, chapter_context) VALUES (%s, %s, %s, %s, %s, %s, %s)"
+        cursor.execute(Q1, (number_of_sets, sets_json_string, generation_status, number_of_questions, subject, standard, chapter_context))
         db.commit()
         logger.info("New record is created...")
         print("Inserted into Table")
@@ -171,7 +171,7 @@ def insert_record(db, cursor, number_of_sets, question_sets, generation_status='
 
 def clear_table(db, cursor):
     try:
-        q = "truncate table mocktest"
+        q = "truncate table MockTests"
         cursor.execute(q)
         db.commit()
     except Exception:

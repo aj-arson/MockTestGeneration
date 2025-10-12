@@ -40,7 +40,7 @@ class Sets(BaseModel):
 class MockTest(BaseModel):
     subject : str
     standard : str
-    chapter_ids : List[str|int]
+    chapter_context : str
     questions : Optional[List[List[Question]]]
     number_of_questions : int
     test_id : int

@@ -6,7 +6,29 @@ domain = "http://127.0.0.1:8000"
 possible_subjects = ["physics", "social"]
 possible_status = ["CREATED", "FAILED"]
 
-chapters = {"social":[5,6], "physics":[1,2], "telugu":[10]}
+chapters = {
+    "social": [
+        "The French Revolution",
+        "Industrial Revolution",
+        "Indian Freedom Struggle",
+        "World War II",
+        "United Nations"
+    ],
+    "physics": [
+        "Motion and Laws of Motion",
+        "Work, Energy and Power",
+        "Gravitation",
+        "Light – Reflection and Refraction",
+        "Electricity and Magnetism"
+    ],
+    "telugu": [
+        "వ్యాకరణం (Grammar)",
+        "కథలు (Short Stories)",
+        "పద్యాలు (Poems)",
+        "ప్రసంగాలు (Speeches)",
+        "నవలలు (Novels)"
+    ]
+}
 
 def construct_new_body(test_id):
     choice = random.choice(possible_subjects)
@@ -24,7 +46,7 @@ def construct_new_body(test_id):
         "test_id":test_id,
         "subject":choice,
         "standard":"10",
-        "chapter_ids":chapters[choice],
+        "chapter_context":chapters[choice],
         "questions": None,
         "number_of_questions":num_questions,
         "number_of_sets":num_sets,

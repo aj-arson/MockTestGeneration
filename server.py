@@ -10,27 +10,30 @@ from fastapi import FastAPI, HTTPException
 from db_utils import connect_to_db, get_chapters, get_question_sets, get_usage, insert_record, save_generated_questions_to_db, set_generation_status, clear_table, get_records_with_generation_status, set_usage
 from config import prompt, json_format, queue_limit, max_requests_per_day, max_questions_per_req, max_consecutive_chunks
 from utils import MockTest, Question, Status, get_client, get_sleep_time_until_midnight, priorities, question_sets_db_to_json
+import uvicorn
 
 already_generated_questions = []
 generation_queue = PriorityQueue(maxsize=queue_limit)
 client = get_client(client_name='google')
 counter = itertools.count()
+if __name__ == "__main__":
+    uvicorn.run("server:app", host="127.0.0.1", port=8000, reload=True)
 
 languages = set(["hindi", "telugu"])
 
-def generate_questions(db, cursor, subject:str, standard:str, chapter_ids:List[str|int], number_of_questions:int, generation_language:str):
+def generate_questions(db, cursor, subject:str, standard:str, chapter_context, number_of_questions:int, generation_language:str):
     """
     We will extract the student's study material and generate the mock test based on the following args:
         - subject : For what subject we are generating the mock test. Ex: Hindi, Telugu etc.
         - standard : What is the student's class. Ex: LKG, 5th class etc.
-        - chapter_ids : Chapter ids are used to fetch the study material information from the db.
+        - chapter_context : Chapter Context is the Syllabus from which the questions need to be generated.
         - number_of_sets : Specifies the number of exam papers we need to generate.
         - number_of_questions : Specifies the number of questions per paper/set.
-        - test_id : Primary key of the MockTest table. We have to update the row with the given test_id after the test is generated.
+        - test_id : Primary key of the MockTests table. We have to update the row with the given test_id after the test is generated.
     """
-    chapters_text = get_chapters(cursor=cursor, subject=subject, standard=standard, chapter_ids=tuple(chapter_ids)) # get the text from the database for the required chapters using subject, standard, chapter_ids
+    # chapters_text = get_chapters(cursor=cursor, subject=subject, standard=standard, chapter_context=chapter_context) # get the text from the database for the required chapters using subject, standard, chapter_ids
     test_creator = TestAgent(db, cursor, client=client, system_prompt=prompt, json_format=json_format, questions_per_batch=max_questions_per_req, generation_language=generation_language)
-    mock_test_set = test_creator(chapters_text=chapters_text, total_number_of_questions=number_of_questions, max_consecutive_chunks=max_consecutive_chunks)
+    mock_test_set = test_creator(chapters_text=chapter_context, total_number_of_questions=number_of_questions, max_consecutive_chunks=max_consecutive_chunks)
     return mock_test_set
 # -------------------------------------------------------------------------------
 class BackGroundWorker(threading.Thread):
@@ -74,7 +77,7 @@ class BackGroundWorker(threading.Thread):
             subject = req.subject
             generation_language = subject.upper() if subject.lower() in languages else 'ENGLISH'
             standard = req.standard
-            chapter_ids = req.chapter_ids
+            chapter_context = req.chapter_context
             number_of_questions = req.number_of_questions
             number_of_sets = req.number_of_sets
             generated_sets_string_from_db = get_question_sets(cursor=cursor, test_id=test_id)
@@ -83,7 +86,7 @@ class BackGroundWorker(threading.Thread):
             save_to_db = False
             for i in range(len(generated_sets)):
                 if num_questions_to_generate_per_set[i] > 0:
-                    generated_mock_tests = generate_questions(db, cursor, subject, standard, chapter_ids , num_questions_to_generate_per_set[i], generation_language)
+                    generated_mock_tests = generate_questions(db, cursor, subject, standard, chapter_context , num_questions_to_generate_per_set[i], generation_language)
                     if generated_sets[i]:
                         generated_sets[i].extend([Question(**question) for question in generated_mock_tests])
                     else:
@@ -118,8 +121,8 @@ class BackGroundWorker(threading.Thread):
                         print(f"Started Processing for {test_details.test_id}")
                         self.process(test_details)
                     else:
-                        time.sleep(5)
-                        print("Waited 5 secs before rechecking...")
+                        time.sleep(1800)
+                        print("Waited 30 minutes before rechecking...")
                         mock_tests = get_records_with_generation_status(cursor=cursor, generation_status=(Status.PENDING.value, Status.QUEUED.value))
                         if mock_tests:
                             if len(mock_tests) > 0:
@@ -162,7 +165,7 @@ async def queue_mock_test(req:MockTest):
         test_id = req.test_id
         subject = req.subject
         standard = req.standard
-        chapter_ids = req.chapter_ids
+        chapter_context = req.chapter_context
         number_of_questions = req.number_of_questions
         number_of_sets = req.number_of_sets
         current_status = req.generation_status.value
@@ -172,7 +175,7 @@ async def queue_mock_test(req:MockTest):
             if current_status == Status.CREATED.value or current_status == Status.FAILED.value:
                 """Need to generate questions from scratch"""
                 question_sets = [[] for _ in range(number_of_sets)]
-                insert_record(db, cursor, number_of_sets=number_of_sets, generation_status='CREATED', question_sets=question_sets, number_of_questions=number_of_questions, subject=subject, standard=standard, chapter_ids=chapter_ids)
+                insert_record(db, cursor, number_of_sets=number_of_sets, generation_status='CREATED', question_sets=question_sets, number_of_questions=number_of_questions, subject=subject, standard=standard, chapter_context=chapter_context)
                 set_generation_status(db, cursor, test_id, Status.QUEUED.value)
                 return {"message":f"Test Generation is Queued for Test ID: {req.test_id}."}
             
