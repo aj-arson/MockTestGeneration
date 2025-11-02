@@ -2,15 +2,18 @@ import json
 import time
 import traceback
 from langchain_google_genai import ChatGoogleGenerativeAI
-from typing import List
+from typing import List, Union
 from langchain_core.prompts import PromptTemplate
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from db_utils import get_usage, set_usage
-from config import max_requests_per_day, max_rpm, max_rpm_buffer, max_chunk_size_for_splitting
+from config import max_requests_per_day, max_rpm, max_rpm_buffer, max_chunk_size_for_splitting, num_options_per_question
 from utils import Duplicate_checker, Question, clean_text
+from colorama import Fore, init
 import random
 
 checker = Duplicate_checker()
+
+init(autoreset=True)
 
 class TestAgent:
     def __init__(self, db, cursor, client:ChatGoogleGenerativeAI, system_prompt:str=None, json_format:str=None, questions_per_batch:int=5, generation_language="ENGLISH"):
@@ -32,12 +35,22 @@ class TestAgent:
         print(result)
         parsed_result = json.loads(result)
         return parsed_result
+    
+    def is_valid_generation(self, parsed_result):
+        if parsed_result['question'] != "" and len(parsed_result['options']) == num_options_per_question and parsed_result['explaination'] != "" and parsed_result['answer'] != "":
+            print(Fore.GREEN+"Validation Check Passed!!!")
+            return True
+        print(Fore.RED+"Validation Check Failed!!!")
+        return False
         
     def update_questions_data(self, parsed_result: List[Question], k_recent:int=10):
         for i in range(len(parsed_result)):
-            if checker.is_not_duplicate(parsed_result[i]['question']):
-                self.already_generated_questions.append(parsed_result[i]['question'])
-                self.mcqs.append(parsed_result[i])
+            if self.is_valid_generation(parsed_result[i]):
+                if checker.is_not_duplicate(parsed_result[i]['question']):
+                    self.already_generated_questions.append(parsed_result[i]['question'])
+                    self.mcqs.append(parsed_result[i])
+            else:
+                print(Fore.RED+f"Invalid generation detected : {Fore.CYAN}{parsed_result[i]}")
         self.already_generated_questions = self.already_generated_questions[-k_recent:]
 
     def text_to_chunks(self, context:str) -> List[str]:
@@ -62,17 +75,19 @@ class TestAgent:
             print(f"Exception in execute(main.py): {traceback.print_exc()}")
         return result
 
-    def __call__(self, chapters_text:List[str], total_number_of_questions:int, max_consecutive_chunks:int=5):         
-            contexts = []
-            for chapter in chapters_text:
-                contexts.append(self.text_to_chunks(chapter))
+    def __call__(self, chapters_text:Union[List[str], str], total_number_of_questions:int, max_consecutive_chunks:int=5):         
+            # contexts = []
+            # for chapter in chapters_text:
+            #     contexts.append(self.text_to_chunks(chapter))
             count = 0
+            # print(len(contexts), contexts)
             while count < total_number_of_questions:
                 current_usage = get_usage(cursor=self.cursor)
                 remaining_usage = max_requests_per_day - current_usage
                 if remaining_usage > 0:
-                    chapter_choice = random.choice(range(len(chapters_text)))
-                    context_choice = contexts[chapter_choice]
+                    # chapter_choice = random.choice(range(len(chapters_text)))
+                    # context_choice = contexts[chapter_choice]
+                    context_choice = self.text_to_chunks(chapters_text)
                     context_start_index = random.choice(range(len(context_choice)-max_consecutive_chunks))
                     context = " ".join(context_choice[context_start_index : context_start_index+max_consecutive_chunks])
                     context = clean_text(context)

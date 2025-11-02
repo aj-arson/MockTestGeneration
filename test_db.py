@@ -26,6 +26,7 @@ cursor = db.cursor()
 # Q1 = "CREATE TABLE ratelimit (system_id int PRIMARY KEY NOT NULL AUTO_INCREMENT, max_requests_per_day int unsigned, remaining_requests_for_today int unsigned)"
 # Q1 = "insert into ratelimit (max_requests_per_day, remaining_requests_for_today) values (%s, %s)"
 # Q1 = "alter table ratelimit rename column remaining_requests_for_today to requests_used"
+# Q1 = "alter table mocktest rename mocktests"
 # Q1 = "alter table MockTests add column (subject varchar(30) NOT NULL), add column (standard varchar(20) NOT NULL), add column (chapter_ids JSON NOT NULL) "
 # Q1 = "CREATE TABLE syllabus (chapter_id int unsigned PRIMARY KEY NOT NULL AUTO_INCREMENT, subject varchar(30), standard varchar(20), chapter_text TEXT)"
 # Q1 = "insert into syllabus (subject, standard, chapter_text) values (%s, %s, %s)"
@@ -34,13 +35,16 @@ cursor = db.cursor()
 # db.commit()
 # Q1 =  "select * from ratelimit"
 # Q1 =  "select chapter_id, subject from syllabus"
-# Q1 =  "show columns from MockTests"
+# Q1 =  "select * from MockTests"
 # Q1 =  "select * from MockTests where test_id=8"
-# Q1 = "describe syllabus"
+# Q1 = "describe mocktests"
+# Q1 = "alter table mocktests rename column chapter_ids to chapter_context"
+# Q1 = "alter table mocktests modify column chapter_context LONGTEXT"
 # Q1= "DROP TABLE ratelimit"
 # cursor.execute(Q1, ("telugu", "10", chapter2))
 # q = "truncate table MockTests"
 Q1 = "select generation_status from MockTests"
+# Q1 = "show tables"
 # cursor.execute(q)
 # db.commit()
 cursor.execute(Q1)

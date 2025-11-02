@@ -41,12 +41,14 @@ def construct_new_body(test_id):
     print(f"Sending Req with Num_stets : {num_sets}")
     print(f"Sending Req with Num_questions : {num_questions}")
 
-   
+    with open(r"sample_text_books\chapter1.txt", encoding='utf-8') as f:
+        chapter_context = f.read()
+
     test_details = {
         "test_id":test_id,
         "subject":choice,
         "standard":"10",
-        "chapter_context":chapters[choice],
+        "chapter_context": chapter_context,
         "questions": None,
         "number_of_questions":num_questions,
         "number_of_sets":num_sets,

@@ -6,7 +6,7 @@ from mysql.connector import pooling
 from dotenv import load_dotenv
 from config import queue_limit, max_pool_size
 import traceback
-from utils import MockTest, Question, Status
+from utils import MockTest, Status
 
 load_dotenv()
 
@@ -94,7 +94,7 @@ def get_records_with_generation_status(cursor, generation_status:Tuple[str]):
         for record in records:
             mock_test = dict()
             for i in range(len(record)):
-                if column_names[i] in ('questions', 'chapter_context'):
+                if column_names[i] in ('questions'):
                     mock_test[column_names[i]] = json.loads(record[i])
                 else:
                     mock_test[column_names[i]] = record[i]

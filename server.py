@@ -4,10 +4,9 @@ import traceback
 from contextlib import asynccontextmanager
 import threading
 import time
-from typing import List
 from main import TestAgent
 from fastapi import FastAPI, HTTPException
-from db_utils import connect_to_db, get_chapters, get_question_sets, get_usage, insert_record, save_generated_questions_to_db, set_generation_status, clear_table, get_records_with_generation_status, set_usage
+from db_utils import connect_to_db, get_question_sets, get_usage, insert_record, save_generated_questions_to_db, set_generation_status, clear_table, get_records_with_generation_status, set_usage
 from config import prompt, json_format, queue_limit, max_requests_per_day, max_questions_per_req, max_consecutive_chunks
 from utils import MockTest, Question, Status, get_client, get_sleep_time_until_midnight, priorities, question_sets_db_to_json
 import uvicorn
@@ -16,9 +15,6 @@ already_generated_questions = []
 generation_queue = PriorityQueue(maxsize=queue_limit)
 client = get_client(client_name='google')
 counter = itertools.count()
-if __name__ == "__main__":
-    uvicorn.run("server:app", host="127.0.0.1", port=8000, reload=True)
-
 languages = set(["hindi", "telugu"])
 
 def generate_questions(db, cursor, subject:str, standard:str, chapter_context, number_of_questions:int, generation_language:str):
@@ -121,8 +117,8 @@ class BackGroundWorker(threading.Thread):
                         print(f"Started Processing for {test_details.test_id}")
                         self.process(test_details)
                     else:
-                        time.sleep(1800)
-                        print("Waited 30 minutes before rechecking...")
+                        time.sleep(10)
+                        print("Waited 10 secs before rechecking...")
                         mock_tests = get_records_with_generation_status(cursor=cursor, generation_status=(Status.PENDING.value, Status.QUEUED.value))
                         if mock_tests:
                             if len(mock_tests) > 0:
@@ -212,8 +208,12 @@ def clear_table_records():
         cursor = db.cursor()
         clear_table(db, cursor)
     except Exception:
-        print(f"Exception in clear_table_records(server.py): {traceback.print_exc()}")
+        # print(f"Exception in clear_table_records(server.py): {traceback.print_exc()}")
+        print("Db delete excepetion.")
     finally:
         cursor.close()
         db.close()
     return {"message": "MockTest Table got cleared"}
+
+if __name__ == "__main__":
+    uvicorn.run("server:app", host="127.0.0.1", port=8000, reload=True)
