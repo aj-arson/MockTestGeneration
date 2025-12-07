@@ -38,12 +38,12 @@ class Sets(BaseModel):
     sets : Optional[List[List[Question]]]
 
 class MockTest(BaseModel):
-    subject : str
-    standard : str
+    Subject : str
+    Class : str
     chapter_context : str
-    questions : Optional[List[List[Question]]]
+    questions : Optional[List[List[Question]]] = None
     number_of_questions : int
-    test_id : int
+    TestID : int
     number_of_sets : int
     generation_status : Status
 

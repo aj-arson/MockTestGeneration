@@ -30,7 +30,7 @@ chapters = {
     ]
 }
 
-def construct_new_body(test_id):
+def construct_new_body(TestID):
     choice = random.choice(possible_subjects)
     # choice = "telugu"
     status_choice = random.choice(possible_status)
@@ -45,9 +45,9 @@ def construct_new_body(test_id):
         chapter_context = f.read()
 
     test_details = {
-        "test_id":test_id,
-        "subject":choice,
-        "standard":"10",
+        "TestID":TestID,
+        "Subject":choice,
+        "Class":"10",
         "chapter_context": chapter_context,
         "questions": None,
         "number_of_questions":num_questions,
