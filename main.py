@@ -23,7 +23,7 @@ class TestAgent:
         self.client = client
         self.questions_per_batch = questions_per_batch
         self.already_generated_questions = []
-        template = PromptTemplate(template=system_prompt, input_variables=["json_format", "already_generated_questions", "context", "number_of_questions"])
+        template = PromptTemplate(template=system_prompt, input_variables=["json_format", "already_generated_questions", "context", "Number_of_questions"])
         self.prompt_template = template.partial(json_format=json_format, generation_language=generation_language)
 
     def parse_json(self, result) -> List[Question]:
@@ -58,16 +58,16 @@ class TestAgent:
         splits = splitter.split_text(context)
         return splits
     
-    def execute(self, context:str, total_number_of_questions:int) -> str:
+    def execute(self, context:str, total_Number_of_questions:int) -> str:
         """
         Takes context and total number of questions as args and executes batch generation to ensure the better use of model's context length.
         """
-        if (total_number_of_questions - len(self.mcqs) >= self.questions_per_batch) and (total_number_of_questions != len(self.mcqs)):
-            number_of_questions_per_iter = self.questions_per_batch
+        if (total_Number_of_questions - len(self.mcqs) >= self.questions_per_batch) and (total_Number_of_questions != len(self.mcqs)):
+            Number_of_questions_per_iter = self.questions_per_batch
         else:
-            number_of_questions_per_iter = total_number_of_questions - len(self.mcqs)
+            Number_of_questions_per_iter = total_Number_of_questions - len(self.mcqs)
 
-        prompt = self.prompt_template.format(already_generated_questions=self.already_generated_questions, context=context, number_of_questions=number_of_questions_per_iter)
+        prompt = self.prompt_template.format(already_generated_questions=self.already_generated_questions, context=context, Number_of_questions=Number_of_questions_per_iter)
         try:
             result = self.client.invoke(prompt)
             time.sleep((60//max_rpm)+max_rpm_buffer)
@@ -75,24 +75,29 @@ class TestAgent:
             print(f"Exception in execute(main.py): {traceback.print_exc()}")
         return result
 
-    def __call__(self, chapters_text:Union[List[str], str], total_number_of_questions:int, max_consecutive_chunks:int=5):         
+    def __call__(self, chapters_text:Union[List[str], str], total_Number_of_questions:int, max_consecutive_chunks:int=5):         
             # contexts = []
             # for chapter in chapters_text:
             #     contexts.append(self.text_to_chunks(chapter))
             count = 0
             # print(len(contexts), contexts)
-            while count < total_number_of_questions:
+            while count < total_Number_of_questions:
                 current_usage = get_usage(cursor=self.cursor)
                 remaining_usage = max_requests_per_day - current_usage
                 if remaining_usage > 0:
                     # chapter_choice = random.choice(range(len(chapters_text)))
                     # context_choice = contexts[chapter_choice]
                     context_choice = self.text_to_chunks(chapters_text)
-                    context_start_index = random.choice(range(len(context_choice)-max_consecutive_chunks))
-                    context = " ".join(context_choice[context_start_index : context_start_index+max_consecutive_chunks])
+                    # Handle case where text is too short to split into max_consecutive_chunks
+                    if len(context_choice) <= max_consecutive_chunks:
+                        context_start_index = 0
+                        context = " ".join(context_choice)
+                    else:
+                        context_start_index = random.choice(range(len(context_choice)-max_consecutive_chunks))
+                        context = " ".join(context_choice[context_start_index : context_start_index+max_consecutive_chunks])
                     context = clean_text(context)
                     # print("context: ",context)
-                    result = self.execute(context, total_number_of_questions)
+                    result = self.execute(context, total_Number_of_questions)
                     set_usage(self.db, self.cursor, new_usage=current_usage+1)
                     parsed_result = self.parse_json(result)
                     self.update_questions_data(parsed_result)

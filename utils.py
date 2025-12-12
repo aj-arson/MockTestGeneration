@@ -40,12 +40,15 @@ class Sets(BaseModel):
 class MockTest(BaseModel):
     Subject : str
     Class : str
-    chapter_context : str
+    Chapter_context : str
     questions : Optional[List[List[Question]]] = None
-    number_of_questions : int
+    Number_of_questions : int
     TestID : int
-    number_of_sets : int
-    generation_status : Status
+    Number_of_sets : int
+    Generation_status : Status
+
+    class Config:
+        extra = "ignore"  # Ignore extra fields not defined in the model
 
 def get_client(client_name:str):
     if client_name == 'google':
@@ -76,6 +79,8 @@ class Duplicate_checker():
             return True
 
 def question_sets_db_to_json(json_string):
+    if json_string is None:
+        return []
     loaded_json = json.loads(json_string)
     generated_sets_json = [[Question(**question) for question in mock_test_set] for mock_test_set in loaded_json ]
     return generated_sets_json

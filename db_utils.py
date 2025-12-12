@@ -36,7 +36,7 @@ def connect_to_db():
 
 def get_generation_status(cursor, TestID):
     try:
-        q = "select generation_status from MockTests where TestID = %s"
+        q = "select Generation_status from MockTests where TestID = %s"
         cursor.execute(q, (TestID,))
         gen_status = cursor.fetchone()
         if gen_status:
@@ -46,28 +46,28 @@ def get_generation_status(cursor, TestID):
     except Exception:
         print(f"Exception in get_generation_status(db_utils.py): {traceback.print_exc()}")
 
-def log_status(generation_status, TestID):
-    if generation_status == Status.QUEUED.value:
+def log_status(Generation_status, TestID):
+    if Generation_status == Status.QUEUED.value:
             logger.info(f"Added {TestID} to generation queue")
-    elif generation_status == Status.COMPLETED.value:
+    elif Generation_status == Status.COMPLETED.value:
             logger.info(f"Completed generation for test with Test ID: {TestID}")
-    elif generation_status == Status.FAILED.value:
+    elif Generation_status == Status.FAILED.value:
             logger.error(f"Failed the generation for test with Test ID: {TestID}")
-    elif generation_status == Status.PENDING.value:
+    elif Generation_status == Status.PENDING.value:
             logger.info(f"Generation is pending for test with Test ID: {TestID}")
 
-def set_generation_status(db, cursor, TestID, generation_status):
-    """To update the generation_status for the given TestID"""
+def set_generation_status(db, cursor, TestID, Generation_status):
+    """To update the Generation_status for the given TestID"""
     try:
-        q = "update MockTests set generation_status = %s where TestID = %s"
-        cursor.execute(q, (generation_status, TestID))
+        q = "update MockTests set Generation_status = %s where TestID = %s"
+        cursor.execute(q, (Generation_status, TestID))
         db.commit()
-        log_status(generation_status, TestID)
+        log_status(Generation_status, TestID)
     except Exception:
         print(f"Exception in set_generation_status(db_utils.py): {traceback.print_exc()}")
 
 def save_generated_questions_to_db(db, cursor, TestID, questions):
-    """To update the generation_status for the given TestID"""
+    """To update the Generation_status for the given TestID"""
     try:
         if questions:
             questions_json_string = [[question.model_dump() for question in sets] for sets in questions]
@@ -80,17 +80,21 @@ def save_generated_questions_to_db(db, cursor, TestID, questions):
     except Exception:
         print(f"Exception in save_generated_questions_to_db(db_utils.py): {traceback.print_exc()}")
 
-def get_records_with_generation_status(cursor, generation_status:Tuple[str]):
+def get_records_with_generation_status(cursor, Generation_status:Tuple[str]):
     """To fetch records based on the given status"""
     try:
         mock_tests = []
-        q1 = "select * from MockTests where generation_status in {generation_status} order by generation_status limit %s"
-        q1 = q1.format(generation_status = generation_status)
+        # Only select columns that exist in MockTest model
+        q1 = """select TestID, Subject, Class, Chapter_context, questions,
+                Number_of_questions, Number_of_sets, Generation_status
+                from MockTests where Generation_status in {Generation_status}
+                order by Generation_status limit %s"""
+        q1 = q1.format(Generation_status = Generation_status)
         cursor.execute(q1, (queue_limit, ))
         records =  cursor.fetchall()
-        q2 = "show columns from MockTests"
-        cursor.execute(q2)
-        column_names = [col[0] for col in cursor.fetchall()]
+        # Define the column names to match the selected columns
+        column_names = ['TestID', 'Subject', 'Class', 'Chapter_context', 'questions',
+                       'Number_of_questions', 'Number_of_sets', 'Generation_status']
         # print("======== DEBUG DB FETCH ========")
 
         # print("\nQuery Used (q1):")
@@ -113,11 +117,11 @@ def get_records_with_generation_status(cursor, generation_status:Tuple[str]):
         #     'Subject': 'Subject',
         #     'Questions': 'questions',
         #     'Class': 'Class',
-        #     'chapter_context': 'chapter_context',
-        #     'number_of_questions': 'number_of_questions',
+        #     'Chapter_context': 'Chapter_context',
+        #     'Number_of_questions': 'Number_of_questions',
         #     'TestID': 'TestID',
-        #     'number_of_sets': 'number_of_sets',
-        #     'generation_status': 'generation_status'
+        #     'Number_of_sets': 'Number_of_sets',
+        #     'Generation_status': 'Generation_status'
         # }
 
         for record in records:
@@ -133,16 +137,23 @@ def get_records_with_generation_status(cursor, generation_status:Tuple[str]):
                 #             mock_test[model_field] = json.loads(record[i])
                 #         else:
                 #             mock_test[model_field] = None
-                #     elif model_field == 'generation_status':
+                #     elif model_field == 'Generation_status':
                 #         # Convert string to Status enum
                 #         mock_test[model_field] = Status(record[i])
                 #     else:
                 #         mock_test[model_field] = record[i]
-                print
-                if column_names[i] in ('questions'):
-                    mock_test[column_names[i]] = json.loads(record[i])
+                column_name = column_names[i]
+                if column_name == 'questions':
+                    # Handle NULL and empty string values for questions column
+                    if record[i] is not None and record[i] != "":
+                        mock_test[column_name] = json.loads(record[i])
+                    else:
+                        mock_test[column_name] = None
+                elif column_name == 'Generation_status':
+                    # Convert string to Status enum
+                    mock_test[column_name] = Status(record[i])
                 else:
-                    mock_test[column_names[i]] = record[i]
+                    mock_test[column_name] = record[i]
             print("123", mock_test)
             mock_tests.append(MockTest(**mock_test))
         return mock_tests
@@ -187,8 +198,7 @@ def get_question_sets(cursor, TestID):
     try:
         q = "select questions from MockTests where TestID = %s"
         print("select questions from MockTests where TestID", q)
-        cursor.execute(q, (TestID))
-        print("select questions from MockTests where TestID", cursor.execute(q, (TestID)))
+        cursor.execute(q, (TestID,))
         questions = cursor.fetchone()
         print("select questions from MockTests where TestID", questions)
         if questions:
@@ -198,9 +208,9 @@ def get_question_sets(cursor, TestID):
     except Exception:
         print(f"Exception in get_questions(db_utils.py): {traceback.print_exc()}")
 
-def insert_record(db, cursor, number_of_sets, question_sets, generation_status='CREATED', number_of_questions=0, Subject='', Class='', chapter_context=''):
+def insert_record(db, cursor, Number_of_sets, question_sets, Generation_status='CREATED', Number_of_questions=0, Subject='', Class='', Chapter_context=''):
     try:
-        if generation_status == Status.PENDING.value:
+        if Generation_status == Status.PENDING.value:
             # print([print(isinstance(question, Question), question) for sets in question_sets for question in sets])
             questions_json_string = [question.model_dump() for sets in question_sets for question in sets]
             sets_json_string = json.dumps([questions_json_string])
@@ -209,8 +219,8 @@ def insert_record(db, cursor, number_of_sets, question_sets, generation_status='
 
 
         # chapter_ids_json_string = json.dumps(chapter_ids)
-        Q1 = "INSERT INTO MockTests (number_of_sets, questions, generation_status, number_of_questions, Subject, Class, chapter_context) VALUES (%s, %s, %s, %s, %s, %s, %s)"
-        cursor.execute(Q1, (number_of_sets, sets_json_string, generation_status, number_of_questions, Subject, Class, chapter_context))
+        Q1 = "INSERT INTO MockTests (Number_of_sets, questions, Generation_status, Number_of_questions, Subject, Class, Chapter_context) VALUES (%s, %s, %s, %s, %s, %s, %s)"
+        cursor.execute(Q1, (Number_of_sets, sets_json_string, Generation_status, Number_of_questions, Subject, Class, Chapter_context))
         db.commit()
         logger.info("New record is created...")
         print("Inserted into Table")

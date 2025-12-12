@@ -49,7 +49,7 @@ Already Generated Questions list: {already_generated_questions}
 
 Context: {context}
 
-Number of new questions to generate: {number_of_questions}
+Number of new questions to generate: {Number_of_questions}
 """.strip()
 
 
