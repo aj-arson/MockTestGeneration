@@ -1,4 +1,5 @@
 queue_limit = 5 # defines the number of requests that can be loaded into worker's queue
+num_options_per_question = 4 # used for validating the generated content
 max_requests_per_day = 950 # to limit the number of requests per day
 max_questions_per_req = 5 # max number of questions per generation
 max_rpm = 10 # max number of requests per min
@@ -48,5 +49,8 @@ Already Generated Questions list: {already_generated_questions}
 
 Context: {context}
 
-Number of new questions to generate: {number_of_questions}
+Number of new questions to generate: {Number_of_questions}
 """.strip()
+
+
+# https://schoolapi.vsngroups.com/ai

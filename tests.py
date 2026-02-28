@@ -6,9 +6,31 @@ domain = "http://127.0.0.1:8000"
 possible_subjects = ["physics", "social"]
 possible_status = ["CREATED", "FAILED"]
 
-chapters = {"social":[5,6], "physics":[1,2], "telugu":[10]}
+chapters = {
+    "social": [
+        "The French Revolution",
+        "Industrial Revolution",
+        "Indian Freedom Struggle",
+        "World War II",
+        "United Nations"
+    ],
+    "physics": [
+        "Motion and Laws of Motion",
+        "Work, Energy and Power",
+        "Gravitation",
+        "Light – Reflection and Refraction",
+        "Electricity and Magnetism"
+    ],
+    "telugu": [
+        "వ్యాకరణం (Grammar)",
+        "కథలు (Short Stories)",
+        "పద్యాలు (Poems)",
+        "ప్రసంగాలు (Speeches)",
+        "నవలలు (Novels)"
+    ]
+}
 
-def construct_new_body(test_id):
+def construct_new_body(TestID):
     choice = random.choice(possible_subjects)
     # choice = "telugu"
     status_choice = random.choice(possible_status)
@@ -19,16 +41,18 @@ def construct_new_body(test_id):
     print(f"Sending Req with Num_stets : {num_sets}")
     print(f"Sending Req with Num_questions : {num_questions}")
 
-   
+    with open(r"sample_text_books\chapter1.txt", encoding='utf-8') as f:
+        Chapter_context = f.read()
+
     test_details = {
-        "test_id":test_id,
-        "subject":choice,
-        "standard":"10",
-        "chapter_ids":chapters[choice],
+        "TestID":TestID,
+        "Subject":choice,
+        "Class":"10",
+        "Chapter_context": Chapter_context,
         "questions": None,
-        "number_of_questions":num_questions,
-        "number_of_sets":num_sets,
-        "generation_status": status_choice
+        "Number_of_questions":num_questions,
+        "Number_of_sets":num_sets,
+        "Generation_status": status_choice
     }
     return test_details
 
