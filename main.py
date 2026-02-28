@@ -1,10 +1,11 @@
 import json
+import re
 import time
 import traceback
 from langchain_google_genai import ChatGoogleGenerativeAI
 from typing import List, Union
 from langchain_core.prompts import PromptTemplate
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from db_utils import get_usage, set_usage
 from config import max_requests_per_day, max_rpm, max_rpm_buffer, max_chunk_size_for_splitting, num_options_per_question
 from utils import Duplicate_checker, Question, clean_text
@@ -16,15 +17,15 @@ checker = Duplicate_checker()
 init(autoreset=True)
 
 class TestAgent:
-    def __init__(self, db, cursor, client:ChatGoogleGenerativeAI, system_prompt:str=None, json_format:str=None, questions_per_batch:int=5, generation_language="ENGLISH"):
+    def __init__(self, db, cursor, client:ChatGoogleGenerativeAI, system_prompt:str=None, json_format:str=None, questions_per_batch:int=5, generation_language="ENGLISH", format_examples:str=""):
         self.db = db
         self.cursor = cursor
         self.mcqs = []
         self.client = client
         self.questions_per_batch = questions_per_batch
         self.already_generated_questions = []
-        template = PromptTemplate(template=system_prompt, input_variables=["json_format", "already_generated_questions", "context", "Number_of_questions"])
-        self.prompt_template = template.partial(json_format=json_format, generation_language=generation_language)
+        template = PromptTemplate(template=system_prompt, input_variables=["json_format", "already_generated_questions", "context", "Number_of_questions", "format_examples"])
+        self.prompt_template = template.partial(json_format=json_format, generation_language=generation_language, format_examples=format_examples)
 
     def parse_json(self, result) -> List[Question]:
         result = result.content
@@ -32,6 +33,9 @@ class TestAgent:
             result = result[len("```json"):]
         if "```" in result:
             result = result[:-len("```")]
+        # Fix invalid JSON escape sequences (e.g. \alpha, \unit from math/chemistry content)
+        # Keep valid JSON escapes: \", \\, \/, \b, \f, \n, \r, \t, and \uXXXX (4 hex digits only)
+        result = re.sub(r'\\(?!["\\/bfnrt]|u[0-9a-fA-F]{4})', r'\\\\', result)
         print(result)
         parsed_result = json.loads(result)
         return parsed_result
@@ -101,7 +105,7 @@ class TestAgent:
                     set_usage(self.db, self.cursor, new_usage=current_usage+1)
                     parsed_result = self.parse_json(result)
                     self.update_questions_data(parsed_result)
-                    count += len(self.mcqs)
+                    count = len(self.mcqs)
                     print("Already generated questions: ", self.already_generated_questions)
                 else:
                     self.already_generated_questions.clear()

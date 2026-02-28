@@ -1,4 +1,5 @@
 import json
+import re
 import unicodedata
 import hashlib
 import os
@@ -96,3 +97,46 @@ def get_sleep_time_until_midnight():
 
 def clean_text(t):
     return ''.join(ch for ch in unicodedata.normalize('NFC', t))
+
+class EAMCET160Test(BaseModel):
+    """Request body for the new EAMCET 160-question endpoints.
+    Field names match the C# payload exactly (capitalized)."""
+    TestID: int
+    Stream: str  # 'Engineering' or 'Agriculture_and_Pharmacy'
+    Section_contexts: str  # JSON dict string {"Mathematics": "...", ...} or plain chapter text
+
+    class Config:
+        extra = "ignore"
+
+
+def extract_subject_syllabus(full_syllabus: str, subject_name: str) -> str:
+    """Extract a single subject's section from a combined syllabus file.
+    Syllabus sections are delimited by 'SUBJECT: <NAME>' headers.
+    Falls back to the full syllabus text if the subject header is not found."""
+    pattern = rf'(SUBJECT:\s*{re.escape(subject_name.upper())}\s*\n.*?)(?=SUBJECT:\s|\Z)'
+    match = re.search(pattern, full_syllabus, re.DOTALL | re.IGNORECASE)
+    # print(re.escape(subject_name.upper()), pattern, full_syllabus)
+    # print("its a match", match)
+    if match:
+        # print("its a matchoooooooooo", match)
+        return match.group(1).strip()
+    return full_syllabus
+
+
+def load_sample_questions(file_path: str, sample_chars: int = 3000) -> str:
+    """Load a sample of previous year questions from a file for LLM format/difficulty reference.
+    Returns an empty string on failure so the prompt is unaffected for non-EAMCET tests."""
+    try:
+        try:
+            with open(file_path, 'r', encoding='utf-16') as f:
+                content = f.read()
+        except (UnicodeDecodeError, UnicodeError):
+            with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                content = f.read()
+        sample = content[:sample_chars].strip()
+        if sample:
+            return f"Sample Exam Questions (difficulty and style reference only — do NOT copy):\n{sample}\n"
+        return ""
+    except Exception as e:
+        print(f"Error loading sample questions from {file_path}: {e}")
+        return ""

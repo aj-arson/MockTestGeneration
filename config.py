@@ -6,7 +6,7 @@ max_rpm = 10 # max number of requests per min
 max_rpm_buffer = 2 # just a buffer for max_rpm, just for safe side
 max_chunk_size_for_splitting = 1000 # chunking size for chapters
 max_consecutive_chunks = 10 #  number of consecutive chunks to make a context
-max_pool_size = 5 # max pool size for db
+max_pool_size = 20 # max pool size for db (increased to support 2 background workers + API requests)
 json_format = """
 [{
 'question' : <question1>,
@@ -40,11 +40,14 @@ RULE 5: Try to maintain the difficulty level of the questions based on the conte
 RULE 6: Do not repeat the questions that are already generated. Already generated questions are given below in a list format for reference.
 RULE 7: Only generate the specified number of new questions. Do not deviate from that number.
 RULE 8: Never use the already generated questions as the context to generate new questions. Strictly use them as guide to generate unique questions.
+RULE 9: If sample exam questions are provided below, use them ONLY as a reference to match the difficulty level, complexity, and question style. Do NOT copy or rephrase those sample questions.
+RULE 10: Always wrap any mathematical expression, formula, symbol, or equation inside dollar signs using LaTeX notation. For inline math use $...$ (e.g., $a \times b$, $\theta$, $\vec{a}$, $x^2 + y^2 = r^2$). Never write raw LaTeX commands outside of dollar signs.
 
 JSON format: {json_format}
 
 Generation Language: {generation_language}
 
+{format_examples}
 Already Generated Questions list: {already_generated_questions}
 
 Context: {context}
@@ -52,5 +55,18 @@ Context: {context}
 Number of new questions to generate: {Number_of_questions}
 """.strip()
 
+# ==================== EAMCET 160-question config ====================
+eamcet_questions_per_batch = 40  # LLM generates 40 questions per call for EAMCET-160
 
-# https://schoolapi.vsngroups.com/ai
+ENGINEERING_SECTIONS = [
+    {"name": "Mathematics", "start": 0,   "end": 79},
+    {"name": "Physics",     "start": 80,  "end": 119},
+    {"name": "Chemistry",   "start": 120, "end": 159},
+]
+
+AGRICULTURE_SECTIONS = [
+    {"name": "Botany",   "start": 0,   "end": 39},
+    {"name": "Zoology", "start": 40,  "end": 79},
+    {"name": "Physics",    "start": 80,  "end": 119},
+    {"name": "Chemistry",   "start": 120, "end": 159},
+]

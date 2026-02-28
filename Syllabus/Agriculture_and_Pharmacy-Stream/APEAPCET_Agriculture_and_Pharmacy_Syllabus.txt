@@ -1,0 +1,729 @@
+SUBJECT: BOTANY
+UNIT-I: DIVERSITY IN THE LIVING WORLD:
+The living world: taxonomical aids.
+What is living?, Diversity in the living world; Taxonomic categories and
+Biological Classification: Five kingdom classification - Monera, Protista, Fungi, Plantae and
+Animalia, Three domains of life (Six kingdom classification), Viruses, Viroids, Prions & Lichens.
+Science of plants– Botany: Origin, Development, Scope of Botany and Branches of Botany.
+Plant Kingdom: Salient features, C lassification and alternation of g e n e r a t i o n s o f the plants of
+the following groups - Algae, Bryophytes, Pteridophytes, Gymnosperms, Angiosperms.
+UNIT-II: STRUCTURAL ORGANISATION IN PLANTS- MORPHOLOGY:
+Morphology of flowering Plants: Vegetative: Parts of a typical Angiospermic plant; Vegetative
+morphology and modifications - Root, Stem and Leaf- types; Venation, Phyllotaxy. Reproductive:
+Inflorescence - Racemose, Cymose and special types (in brief). Flower: Parts of a flower and their
+detailed description; Aestivation, Placentation, Fruits: Types – True, False and Parthenocarpic fruits,
+Seeds (in brief); List of some important edible fruits.
+UNIT-III: REPRODUCTION IN PLANTS:
+Modes of Reproduction: Asexual reproduction, Binary fission, Sporulation, budding, fragmentation,
+vegetative propagation in plants, Sexual reproduction in brief, Overview of angiosperm life cycle.
+Sexual Reproduction in Flowering Plants: Stamen, microsporangium, pollen grain; Pistil,
+megasporangium (ovule) and embryo sac; Development of male and female gametophytes; Pollination
+- Types, agents, Out breeding devices and Pollen - Pistil interaction; Double Fertilization; Post
+fertilization events: Development of endosperm and embryo; development of seed, Structure of
+Dicotyledonous and Monocotyledonous seeds, Significance of fruit and seed. Special modes - Apomixis,
+parthenocarpy, polyembryony.
+UNIT-IV: PLANT SYSTEMATICS:
+Taxonomy of angiosperms: Introduction, Types of Systems of classification (In brief). Semi- Technical
+description of a typical flowering plant; Description of Families: Fabaceae, Solanaceae and Liliaceae.UNIT-V: CELL STRUCTURE AND FUNCTION:
+Cell- The Unit of Life: Cell- Cell theory and cell as the basic unit of life- overview of the cell;
+Prokaryotic Cells and Eukaryotic cells - Ultra Structure of Plant cell (structure in detail and functions in
+brief), Cell membrane, Cell wall, Cell organelles: Endoplasmic reticulum, Mitochondria, Plastids,
+Ribosomes, Golgi bodies, Vacuoles, Lysosomes, Microbodies, Centrosome and Centriole, Cilia,
+Flagella, Cytoskeleton and Nucleus. Chromosomes: Number, structural organization, Nucleosome.
+Biomolecules: How to analyse chemical composition; primary and secondary metabolites,
+Biomacromolecules, Proteins, Polysaccharides, Nucleic acids, Structure of Proteins, Nature of
+bond linking monomers in a polymer, Dynamic state of body constituents-concept of metabolism,
+Metabolic basis for living, the living state.
+Cell cycle and Cell Division: Cell cycle, Mitosis, Meiosis - significance.
+UNIT-VI: INTERNAL ORGANISATION OF PLANTS:
+Histology and Anatomy of Flowering Plants: Tissues – Types, structure and functions; Meristematic:
+Permanent tissues – Simple and Complex tissues. Tissue systems – Types, structure and function:
+Epidermal, Ground and Vascular tissue systems, Anatomy of Dicotyledonous and Monocotyledonous
+plants - Root, Stem and Leaf, Secondary growth in Dicot stem and Dicot root.
+UNIT-VII: PLANT ECOLOGY:
+Ecological Adaptations, Succession and Ecological Services: Introduction. Plant communities and
+Ecological adaptations: Hydrophytes, Mesophytes and Xerophytes. Plant succession. Ecological
+services- Pollination, Carbon fixation, Oxygen release and how to sustain ecological functions.
+UNIT-VIII: PLANT PHYSIOLOGY:
+Transport in Plants: Means of Transport- Diffusion, Facilitated Diffusion, Passive symports and
+antiports, Active Transport, Comparison of Different Transport Processes, Plant-Water Relations-
+Water Potential, Osmosis, Plasmolysis, Imbibition, Long Distance Transport of Water- Water
+Movement up a Plant, Root Pressure, Transpiration pull, Transpiration- Opening and Closing of
+Stomata, Transpiration and Photosynthesis - a compromise; Uptake and Transport of Mineral
+Nutrients- Uptake of Mineral Ions, Translocation of Mineral Ions, Phloem transport: Flow from
+Source to Sink-The Pressure Flow or Mass Flow Hypothesis.
+Mineral Nutrition: Methods to study the Mineral Requirements of Plants, Essential Mineral Elements
+– Criteria for Essentiality, Macronutrients, Micronutrients, Role of Macro – and Micro – nutrients,
+Deficiency Symptoms of Essential Elements, Toxicity of Micronutrients, Mechanism of Absorption of
+Elements, Translocation of Solutes, Soil as Reservoir of Essential Elements, Metabolism of Nitrogen –
+Nitrogen Cycle, Biological Nitrogen Fixation, Symbiotic nitrogen fixation, Nodule Formation.
+Enzymes: Chemical Reactions, Enzymatic Conversions, Nature of Enzyme Action, Factors Affecting
+Enzyme Activity, Temperature and pH, Concentration of Substrate, Classification and Nomenclature
+of Enzymes, Co-factors.Photosynthesis in Higher Plants: Early Experiments, Site of Photosynthesis, Pigments Involved in
+Photosynthesis, Light Reaction, The Electron Transport-Splitting of Water, Cyclic and Noncyclic Photo-
+phosphorylation, Chemiosmotic Hypothesis, Biosynthetic phase- The Primary Acceptor of CO2, The
+Calvin Cycle, The C4 Pathway, Photorespiration, Factors affecting Photosynthesis.
+Respiration of Plants: Cellular respiration, Glycolysis, Fermentation, Aerobic Respiration -
+Tricarboxylic Acid Cycle, Electron Transport System (ETS) and Oxidative Phosphorylation, The
+Respiratory Balance Sheet, Amphibolic Pathway, Respiratory Quotient.
+Plant Growth and Development: G r o w t h - Plant Growth, Phases of Growth, Growth Rates,
+Conditions for Growth, Differentiation, Dedifferentiation and Redifferentiation, Development, Plant
+Growth Regulators - Physiological Effects of Plant Growth Regulators- Auxins, Gibberellins,
+Cytokinins, Ethylene, Abscisic acid; Seed Dormancy, Photoperiodism , Vernalisation.
+UNIT-IX: MICROBIOLOGY:
+Bacteria: Morphology of Bacteria, Bacterial cell structure - Nutrition, Reproduction-Sexual
+Reproduction, Conjugation, Transformation, Transduction, The importance of Bacteria to Humans.
+Viruses: Discovery, Classification of Viruses, structure of Viruses, Multiplication of Bacteriophages –
+the Lytic cycle, The Lysogenic Cycle, Viral diseases in Plants, Viral diseases in Humans.
+UNIT- X: GENETICS:
+Principles of Inheritance and Variation: Mendel’s Experiments, Inheritance of one gene
+(Monohybrid Cross)-Back cross and Test cross, Law of Dominance, Law of Segregation or Law of
+purity of gametes, Deviations from Mendelian concept of dominance - Incomplete Dominance, Co-
+dominance, Explanation of the concept of dominance, Inheritance of two genes- Law of Independent
+Assortment, Chromosomal Theory of Inheritance, Linkage and Recombination, Mutations, Significance
+of mutations.
+UNIT- XI: MOLECULAR BIOLOGY:
+Molecular Basis of inheritance: The DNA- Structure of Polynucleotide Chain, Packaging of DNA
+Helix. The Search for Genetic Material, Transforming Principle, Biochemical Characterisation of
+Transforming Principle, The Genetic Material is DNA, Properties of Genetic Material (DNA versus
+RNA), RNA World, Replication - The Experimental Proof, The Machinery and the Enzymes,
+Transcription-Transcription Unit, Transcription Unit and the Gene, Types of RNA and the process of
+Transcription, Genetic Code-Mutations and Genetic Code, tRNA- the Adapter Molecule, Translation,
+Regulation of Gene Expression-The Lac operon.
+UNIT-XII: BIOTECHNOLOGY:
+Principles and processes of Biotechnology: Principles of Biotechnology-Construction of the first
+artificial recombinant DNA molecule, Tools of Recombinant DNA Technology-Restriction Enzymes,
+Cloning Vectors, Competent Host (For Transformation with Recombinant DNA), Processes of
+Recombinant DNA Technology- Isolation of the Genetic Material (DNA), Cutting of DNA at
+Specific Locations, Separation and isolation of DNA fragments, Insertion of isolated gene into a
+suitable vector, Amplification of Gene of Interest using PCR, Insertion of Recombinant DNA into theHost, Cell/Organism, Selection of Transformed host cells, Obtaining the Foreign Gene Product,
+Downstream Processing.
+Biotechnology and its applications: Biotechnological Applications in Agriculture-Bt Cotton, Pest
+Resistant Plants, Other applications of Biotechnology - Insulin, Gene therapy, Molecular Diagnosis,
+ELISA, DNA fingerprinting, Transgenic plants, Bio-safety and Ethical issues- Biopiracy.
+UNIT-XIII: PLANTS, MICROBES & HUMAN WELFARE:
+Strategies for enhancement in food production: Plant Breeding- What is Plant Breeding? Wheat and
+Rice, Sugarcane, Millets, Plant Breeding for Disease Resistance, Methods of breeding for disease
+resistance, Mutation, Plant Breeding for Developing Resistance to Insect Pests, Plant Breeding for
+improved Food Quality, Single Cell Protein (SCP), Tissue Culture.
+Microbes in Human Welfare: Microbes in Household Products, Microbes in Industrial Products-
+Fermented Beverages, Antibiotics, Chemicals, Enzymes and other Bioactive Molecules, Microbes in Sewage
+Treatment, Primary treatment, Secondary treatment or Biological treatment, Microbes in Production of Biogas,
+Microbes as Biocontrol Agents, Biological control of pests and diseases, Microbes as Biofertilisers, Challenges
+posed by Microbes.
+
+SUBJECT: ZOOLOGY
+UNIT-1: ZOOLOGY - Diversity of Living World:
+What is life?; Nature, Scope & meaning of zoology; Branches of Zoology; Need for classification-
+Zoos as tools for study of taxonomy; Basic principles of Classification: Biological system of
+classification- (Phylogenetic classification only); Levels or Hierarchy of classification; Nomenclature
+- Bi &Trinominal; Species concept; Kingdom Animalia; Biodiversity- Meaning and distribution,
+(Genetic diversity, Species diversity, Ecosystem diversity alpha,beta and gama), other attributes of
+biodiversity, role of biodiversity, threats to biodiveristy, methods of conservation, IUCN Red data
+books, Conservation of wild life in India -Legislation, Preservation, Organisations, Threatened
+species.
+UNIT-2: STRUCTURAL ORGANISATION IN ANIMALS:
+Levels of organisation, Multicellularity: Diploblastic & Triploblastic conditions; Asymmetry,
+Symmetry: Radial symmetry, and Bilateral symmetry (Brief account giving one example for each
+type from the representative phyla); Acoelomates, Pseudocoelomates and Eucoelomates:
+Schizo&Entero coelomates (Brief account of formation of coelom); Tissues: Epithelial, Connective,
+Muscular and Nervous tissues.
+UNIT-3: ANIMAL DIVERSITY-I: INVERTEBRATE PHYLA:
+General Characters –Classification up to Classes with two or three examples – (Brief account only).
+Porifera; Cnidaria; Ctenophora; Platyhelminthes; Nematoda; Annelida (Include Earthworm as a type
+study adhering to NCERT text book); Arthropoda; Mollusca; Echinodermata; Hemichordata.
+UNIT-4: ANIMAL DIVERSITY-II: PHYLUM: CHORDATA:
+General Characters – Classification up to Classes - (Brief account only) with two or three examples).
+Phylum: Chordata; Sub phylum: Urochordata; Sub phylum: Cephalochordata; Sub phylum :
+Vertebrata; Super class: Agnatha, Class Cyclostomata; Super class: Gnathostomata, Super class
+Pisces, Class: Chondricthyes, Class: Osteichthyes; Tetrapoda, Class: Amphibia (Include Frog as a
+type study adhering to NCERT text book), Class: Reptilia, Class: Aves, Class: Mammalia.
+UNIT-5: LOCOMOTION & REPRODUCTION IN PROTOZOA:
+Locomotion: Definition, types of locomotor structures Pseudopodia (basic idea of Pseudopodia
+without going into different types), Flagella & Cilia (Brief account giving two examples each);
+Flagellar& Ciliary movement- Effective & Recovery strokes in Euglena, Synchronal &Metachronal
+movements in Paramecium; Reproduction: Definition, types. Asexual Reproduction: Transeverse
+binary fission in Paramecium & Longitudinal binary fission in Euglena. Multiple fission, Sexual
+Reproduction.UNIT-6: BIOLOGY IN HUMAN WELFARE:
+Parasitism and parasitic adaptation; Health and disease: introduction (follow NCERT); Life cycle,
+Pathogenecity, Treatment & Prevention (Brief account only) 1. Entamoeba histolytica2. Plasmodium
+vivax 3. Ascaris lumbricoides 4. Wuchereria bancrofti; Brief account of pathogenecity, treatment &
+prevention of Typhoid, Pneumonia, Common cold, & Ring worm; Drugs and Alcohol abuse.
+UNIT-7: Type Study Periplaneta americana (Cockroach): Habitat and Habits, External features,
+Locomotion, Digestive System, Circulatory System, Respiratory System, Excretory System, Nervous
+System - Sense organs Structure of Ommatidium, Reproductive System.
+UNIT-8: ECOLOGY & ENVIRONMENT:
+Organisms and Environment: Ecology, Population, Communities, Habitat, Niche, Biome and
+Ecosphere (definitions only); Ecosystem : Elementary aspects only: Abiotic factors - Light,
+Temperature, Water, Soil and Pressure (Biological effects only), Ecological adaptations Population
+interactions. Ecosystems – Types, Components, Lake Ecosystem, Food Chains, Food Web,
+Productivity and Energy Flow in Ecosystem, Ecological Pyramids – Pyramid of numbers Biomass
+and energy. Nutrient Cycles – Carbon, Nitrogen and Phosphorous Cycles (brief account), Population
+attributes: Growth, Natality and Mortality, Age distribution, Population regulation. Environmental
+Issues: Air Pollution and its control, Noise Pollution, Water Pollution and its control, Soil Pollution,
+Greenhouse effect and Global Warming, Ozone Depletion in the Stratosphere, Degradation by
+improper resource utilization and maintenance. The Chipko movement of Garhwal Himalayas.
+UNIT-9: HUMAN ANATOMY AND PHYSIOLOGY-I:
+Digestion and absorption: Alimentary canal and Digestive glands: Role of digestive enzymes and
+gastrointestinal hormones: Peristalsis, digestion, absorption and assimilation of proteins,
+carbohydrates and fats, egestion, Calorific value of proteins, carbohydrates and fats (for box item –
+not to be evaluated): Nutritional disorders: Protein Energy Malnutrition (PEM), indigestion,
+constipation, vomiting, Jaundice, Diarrhoea, Kwashiorkor.
+Breathing and Respiration: Respiratory organs in animals; Respiratory system in humans;
+Mechanism of breathing and its regulation in humans - Exchange of gases, transport of gases and
+regulation of respiration, Respiratory volumes; Respiratory disorders: Asthma, Emphysema,
+Occupational respiratory disorders - Asbestosis, Silicosis, Siderosis, Black Lung Disease in coal
+miners, .
+UNIT-10: HUMAN ANATOMY AND PHYSIOLOGY-II:
+10-A) Body Fluids and Circulation: Lymphatic system, Clotting of blood; Human circulatory
+system - structure of human heart and blood vessels; Cardiac cycle, Cardiac output, double
+circulation, regulation of cardiac activity; Disorders of circulatory system: Hypertension, coronary
+artery disease, angina pectoris, heart failure.10-B) Excretory products and their elimination: Modes of excretion- Ammonotelism, Ureotelism,
+Uricotelism, Human excretory system - structure of kidney and nephron; Urine formation, mechanism
+of concentration of the filterate osmoregulation; Regulation of kidney function -Renin-Angiotensin -
+Aldosterone system, Atrial Natriuretic Factor, ADH and diabetes insipidus; Role of other organs in
+excretion; Disorders: Uraemia, renal failure, renal calculi, nephritis, dialysis using artificial kidney.
+UNIT-11: HUMAN ANATOMY AND PHYSIOLOGY-III:
+11-A) Muscular and Skeletal system: Skeletal muscle - ultra structure; Contractile proteins &
+muscle contraction, muscle fatigue, coricycle types of muscle fibers. The Skelton : Axial Skelton,
+appendicular skelton, types of joints, structure of synovial joint Skeletal system, and its functions:
+Joints, Disorders of the muscular and skeletal system: myasthenia gravis, tetany, muscular dystrophy,
+arthritis, osteoporosis, gout, Rigor mortis.
+11-B) Neural control and co-ordination: Human Neural System : Central nervous system – Brain,
+Spinal Cord, Peripheral nervous system – Cranial nerves and spinal nerves, somatic neural system,
+autonomic neural system, generation and conduction of nerve impulse; synaptic transmission, Reflex
+action and reflex arc. Sensory reception and processing, the eye and mechanism of vision. The ear and
+mechanism of hearing.
+UNIT-12: HUMAN ANATOMY AND PHYSIOLOGY-IV:
+12-A) Endocrine system and chemical co-ordination: Endocrine glands and hormones; Human
+endocrine system - Hypothalamus, Pituitary, Pineal, Thyroid, Parathyroid, thymus, Adrenal,
+Pancreas, Gonads; Mechanism of hormone action elementary idea only, Role of hormones as
+messengers and regulators; Hypo and Hyper activity and related disorders: Common disorders -
+Dwarfism, acromegaly, cretinism, goiter, exophthalmic goiter, diabetes, Addison’s disease,
+Cushing’s syndrome.
+12-B) Immune system: Basic concepts of Immunology – Lines of Immunity, Cells of Immune
+Systems, Organs of Immune System, Soluble Mediators of Immunity, antigens, types of Immunity -
+Innate Immunity, Acquired Immunity, Active and Passive Immunity, Cell mediated Immunity and
+Humoral Immunity, Vaccination or Immunization, Immunological Disorders, HIV and AIDS.
+UNIT-13: HUMAN REPRODUCTION:
+13-A) Human Reproductive System: Male and female reproductive systems; Microscopic anatomy
+of testis & ovary; Gametogenesis, Spermatogenesis & Oogenesis; Menstrual cycle; Fertilization,
+Embryo development upto blastocyst formation, Implantation gastrulation organogenesis; Pregnancy,
+placenta formation, Parturition, Lactation (elementary idea) .
+13-B) Reproductive Health: Need for reproductive health and prevention of sexually transmitted
+diseases (STD); Birth control - Need and methods, contraception, and medical termination of
+pregnancy (MTP); Amniocentesis; infertility and assisted reproductive technologies - IVF-ET, ZIFT,
+GIFT, AI, ICSI, surrogacy (elementary idea for general awareness.UNIT-14: GENETICS:
+Heredity and variations. Mendel’s laws of inheritance with reference to Drosophila(Drosophila
+melanogaster- Grey, Black body colour; Long, Vestigial wings), Pleiotrophy, Multiple alleles and
+Inheritance of blood groups, Rh-factor, Co-dominance ( Blood groups as example), elementary idea
+of polygenic inheritance, skin colour in humans, Sex- determination- in humans, birds, Fumea, genic
+balance theory of sex determination, Haplodiploidy in honey bees; Sex linked inheritance-
+Haemophilia and Colourblindness, Mendelian disorders in humans- Thalassemia, Haemophilia,
+Sickle cell anaemia, cystic fibrosis, Phenylketonuria, Alkaptonuria; Chromosomal disorders- Down’s
+syndrome, Turner’s syndrome, Klinefelter’s syndrome; Genome, Human Genome Project, and DNA
+finger printing.
+UNIT-15: ORGANIC EVOLUTION:
+Origin of Life, Biological evolution and Evidences for biological evolution (Palaeontological,
+comparative anatomical, embryological and molecular evidences): Theories of evolution:
+Lamarckism (in brief), Darwin’s theory of Evolution – Natural Selection with example
+(Kettlewell’s experiments on Biston bitularia), Mutation Theory of Hugo De Vries: Modern synthetic
+theory of Evolution – Hardy – Weinberg Law: Types of Natural Selection: Gene flow and genetic
+drift: Variations (mutations and genetic recombination): Adaptive radiation – viz., Darwin’s finches
+and adaptive radiation in marsupials: Human evolutions: Speciation – Allopatric, sympatric:
+Reproductive isolation.
+UNIT-16: APPLIED BIOLOGY:
+Animal Husbandry: Pisciculture, Poultry management Apiculture (beekeeping) fishery, Dairy
+management: Animal breeding: Bio-Medical Technology, Diagnostic Imaging X-ray, CT scan, MRI,
+ECG, EEG, ELISA, Application of Biotechnology in health; Human insulin, and vaccine production;
+Gene Therapy; Transgenic animals; Vaccines, MABs, Cancer biology, stem cells.
+
+SUBJECT: PHYSICS
+1. PHYSICAL WORLD: What is physics? Scope and excitement of physics. Physics, technology
+and society, Fundamental forces in nature, Nature of physical laws
+2. UNITS AND MEASUREMENTS: The international system of units, Measurement of Length,
+Measurement of Large Distances, Estimation of Very Small Distances, Size of a Molecule, Range of
+Lengths, Measurement of Mass, Range of Masses, Measurement of time, Accuracy, precision of
+instruments and errors in measurement, Systematic errors, random errors, least count error, Absolute
+Error, Relative Error and Percentage Error, Combination of Errors, Significant figures, Rules for
+Arithmetic Operations with Significant Figures, Rounding off the Uncertain Digits, Rules for
+Determining the Uncertainty in the Results of Arithmetic Calculations, Dimensions of Physical
+Quantities, Dimensional Formulae and dimensional equations, Dimensional Analysis and its
+Applications, Checking the Dimensional Consistency of Equations, Deducing Relation among the
+Physical Quantities.
+3. MOTION IN A STRAIGHT LINE: Position, path length and displacement, average velocity and
+average speed, instantaneous velocity and speed, acceleration, kinematic equations for uniformly
+accelerated motion, relative velocity.
+4. MOTION IN A PLANE: Scalars and vectors, position and displacement vectors, equality of
+vectors, multiplication of vectors by real numbers, addition and subtraction of vectors - graphical
+method, resolution of vectors, vector addition - analytical method, motion in a plane, position vector
+and displacement, velocity, acceleration, motion in a plane with constant acceleration, relative
+velocity in two dimensions, projectile motion, equation of path of a projectile, time of maximum
+height, maximum height of a projectile, horizontal range of projectile, uniform circular motion.
+5. LAWS OF MOTION: Aristotle’s fallacy, The Law of inertia, Newton’s first law of motion,
+Newton’s second law of motion- momentum, impulse, Newton’s third law of motion, conservation
+of momentum,Equilibrium of a particle, Common forces in mechanics, friction, types of friction,
+static, kinetic and rolling frictions, Circular motion, Motion of a car on a level road, Motion of a car
+on a banked road, solving problems in mechanics.
+6. WORK, ENERGY AND POWER: The Scalar Product, Notions of work and kinetic energy, The
+work-energy theorem, Work, Kinetic energy, Work done by a variable force, The work-energy
+theorem for a variable force, The concept of Potential Energy, The conservation of Mechanical
+Energy, The Potential Energy of a spring, Various forms of energy, Heat, Chemical Energy, Electrical
+Energy, The Equivalence of Mass and Energy, Nuclear Energy, The Principle of Conservation of
+Energy, Power, Collisions, Elastic and Inelastic Collisions, Collisions in one dimension, Coefficient
+of Restitution and its determination, Collisions in Two Dimensions.
+7. SYSTEM OF PARTICLES AND ROTATIONAL MOTION: Rigid body motion, Centre of
+mass, Centre of Gravity, Motion of centre of mass, Linear momentum of a system of particles, Vector
+product of two vectors, Angular velocity and its relation with linear velocity, Angular acceleration,
+Kinematics of rotational motion about a fixed axis, Moment of force (Torque), Angular momentum
+of particle, Torque and angular momentum for a system of a particles - conservation of angular
+momentum, Equilibrium of a rigid body, Principle of moments, Moment of inertia, Dynamics of
+rotational motion about a fixed axis, Angular momentum in case of rotation about a fixed axis -
+conservation of angular momentum, Rolling motion, Kinetic Energy of Rolling Motion.
+8. OSCILLATIONS: Periodic and oscillatory motions, Period and frequency, Displacement,
+Simple harmonic motion (S.H.M.), Simple harmonic motion and uniform circular motion, Velocity
+and acceleration in simple harmonic motion, Force law for Simple harmonic Motion, Energy in
+simple harmonic motion, some systems executing Simple Harmonic Motion, Oscillations due to a
+spring, The Simple Pendulum, damped simple harmonic motion, Forced oscillations and resonance.9. GRAVITATION: Kepler’s laws Law of Orbits, Law of Areas, Law of Periods, Universal law of
+gravitation, central forces, the gravitational constant, Acceleration due to gravity of the earth,
+Acceleration due to gravity below and above the surface of earth, Gravitational potential energy,
+Escape speed, Earth satellites, Energy of an orbiting satellite, Geostationary and polar satellites,
+Weightlessness.
+10. MECHANICAL PROPERTIES OF SOLIDS: Elastic behavior of solids, Stress and strain,
+Hooke’s law, Stress-strain curve, Elastic moduli, Young’s Modulus, Determination of Young’s
+Modulus of the Material of a Wire, Shear Modulus, Bulk Modulus, Poisson’s ratio, Elastic potential
+energy in a stretched wire, Applications of elastic behavior of materials.
+11. MECHANICAL PROPERTIES OF FLUIDS: Pressure, Pascal’s Law, Variation of Pressure
+with Depth, Atmospheric Pressure and Gauge Pressure, Hydraulic Machines, Archimedes’ Principle,
+Streamline flow, Bernoulli’s principle, Speed of Efflux, Torricelli’s Law, Venturi- meter, Blood Flow
+and Heart Attack, Dynamic Lift, Viscosity, Variation of Viscosity of fluids with temperature, Stokes’
+Law, Reynolds number, Critical Velocity, Surface tension and Surface Energy, Angle of Contact,
+Drops and Bubbles, Capillary Rise, Detergents and Surface Tension.
+12. THERMAL PROPERTIES OF MATTER: Temperature and heat, Measurement of
+temperature, Ideal-gas equation and absolute temperature, Thermal expansion, Specific heat capacity,
+Calorimetry, Change of state, Triple Point, Regelation, Latent Heat, Heat transfer – Conduction,
+convection and radiation, Black body Radiation, Greenhouse Effect, Newton’s law of cooling and its
+experimental verification.
+13. THERMODYNAMICS: Thermal equilibrium, Zeroth law of thermodynamics, Heat, Internal
+Energy and work, First law of thermodynamics, Specific heat capacity, Specific heat capacity of
+water, Thermodynamic state variables and equation of State, Thermodynamic processes, Quasi- static
+process, Isothermal Process, Adiabatic Process, Isochoric Process, Isobaric process, Cyclic process,
+Heat engines , Refrigerators and heat pumps, Second law of thermodynamics, Reversible and
+irreversible processes, Carnot engine, Carnot’s theorem.
+14. KINETIC THEORY: Molecular nature of matter, Behaviour of gases, Boyle’s Law, Charles’
+Law, Kinetic theory of an ideal gas, Pressure of an Ideal Gas, Kinetic interpretation of temperature,
+Law of equipartition of energy, Specific heat capacity, Monatomic Gases, Diatomic Gases,
+Polyatomic Gases, Specific Heat Capacity of Solids, Specific Heat Capacity of Water, Mean free
+path.
+15. WAVES: Transverse and longitudinal waves, wave displacement relation in a progressive wave,
+amplitude and phase, wavelength and angular wave number, period, angular frequency and frequency,
+the speed of a travelling wave, speed of a transverse wave on stretched string, speed of a longitudinal
+wave (speed of sound), the principle of superposition of waves, reflection of waves, standing waves
+and normal modes, beats, Doppler effect – source moving & Observer stationary, observer moving
+and source stationary, both observer and source are moving, applications of Doppler effect.
+16. RAY OPTICS AND OPTICAL INSTRUMENTS: Reflection of Light by Spherical Mirrors,
+Sign convention, Focal length of spherical mirror, Mirror equation, refraction, total internal reflection,
+total internal reflection in nature and its technological applications, refraction at spherical surfaces
+and by lenses, power of a lens, combination of thin lenses in contact, refraction through a prism,
+dispersion by a prism, natural phenomena due to sunlight – Rainbow, Scattering of light, optical
+instruments, the eye, the simple and compound microscopes, refracting telescope and Cassegrain
+reflecting telescope.17. WAVE OPTICS: Huygens principle, refraction and reflection of plane waves using Huygens
+principle: Refraction of a plane wave, Refraction in a rarer medium (at the denser medium boundary),
+reflection of a plane wave by a plane surface, the Doppler effect, coherent and incoherent addition of
+waves, interference of light waves and Young‘s experiment, Diffraction, Single slit, seeing the single
+slit diffraction pattern resolving power of optical instruments, Determination of resolving power of
+eye, the validity of ray optics, Polarization: Polarization by scattering, Polarisation by reflection.
+18. ELECTRIC CHARGES AND FIELDS: Electric charge, conductors and insulators, charging
+by induction, basic properties of electric charges, additivity of charges, conservation of charge,
+quantization of charge, Coulomb’s law, forces between multiple charges, electric field, electric field
+due to a system of charges, physical significance of electric field, electric field lines, electric flux,
+electric dipole, the field of an electric dipole for points on the axial line and on the equatorial plane,
+physical significance of dipoles, dipole in a uniform external field, continuous charge distribution,
+Gauss’s law, Applications of Gauss’s Law: Field due to an infinitely long straight uniformly charged
+wire, field due to uniformly charged infinite plane sheet , field due to uniformly charged thin spherical
+shell.
+19. ELECTROSTATIC POTENTIAL AND CAPACITANCE: Electrostatic potential, potential
+due to a point charge, potential due to an electric dipole, potential due to a system of charges,
+equipotential surfaces, relation between field and potential, potential energy of a system of charges,
+potential energy in an external field, potential energy of a single charge, potential energy of a system
+of two charges in an external field, potential energy of a dipole in an external field, electrostatics of
+conductors, dielectrics and polarisation, electric displacement, capacitors and capacitance, the parallel
+plate capacitor, effect of dielectric on capacitance, combination of capacitors, capacitors in series,
+capacitors in parallel, energy stored in a capacitor, Van de Graaff generator.
+20. CURRENT ELECTRICITY: Electric current, electric current in conductors, Ohm’s law, drift
+of electrons and the origin of resistivity, mobility, limitations of Ohm’s law, resistivity of various
+materials, colour code of resistors, Temperature dependence of resistivity, electrical energy, power.
+Combination of Resistors, Series and Parallel, Cells, EMF, internal resistance, cells in series and in
+parallel, Kirchhoff’s rules, Wheatstone Bridge, Meter Bridge, Potentiometer.
+21. MOVING CHARGES AND MAGNETISM: Magnetic force, sources and fields, magnetic
+field, Lorentz force, magnetic force on a current carrying conductor, motion in a magnetic field,
+helical motion of charged particles, motion in combined electric and magnetic fields, , velocity
+selector, cyclotron, magnetic field due to a current element, Biot – Savart’s law, Magnetic field on
+the axis of a circular current loop, Ampere’s circuital law, the solenoid and the toroid, force between
+two parallel current carrying conductors, the ampere (UNIT), torque on current loop, magnetic dipole,
+torque on a rectangular current loop in a uniform magnetic field, circular current loop as a magnetic
+dipole, the magnetic dipole moment of a revolving electron, the Moving Coil Galvanometer;
+conversion into ammeter and voltmeter.
+22. MAGNETISM AND MATTER: The bar magnet, the magnetic field lines, bar magnet as an
+equivalent solenoid, The dipole in a uniform magnetic field, the electrostatic analog, Magnetism and
+Gauss’s Law, The Earth’s magnetism, magnetic declination and dip, magnetization and
+magnetic intensity,magnetic properties of materials – Diamagnetism, Paramagnetism and
+Ferromagnetism, permanent magnets and electromagnets.
+23. ELECTROMAGNETIC INDUCTION: The experiments of Faraday and Henry, magnetic
+flux, Faraday’s Law of induction, Lenz’s law and conservation of energy, motional electromotive
+force, energy consideration - a quantitative study, Eddy currents, inductance, mutual inductance, self-
+inductance, AC generator.24. ALTERNATING CURRENT: AC voltage applied to a resistor, representation of AC current
+and voltage by rotating vectors - Phasors, AC voltage applied to an inductor, AC voltage applied to a
+capacitor, AC voltage applied to a series LCR circuit, Phasor – diagram solution, analytical solution,
+resonance, sharpness of resonance,Power in AC circuit: The power factor, Wattless current LC
+oscillations, transformers.
+25. ELECTROMAGNETIC WAVES: Displacement Current, Maxwell’s equations,
+electromagnetic waves, sources of electromagnetic waves, nature of electromagnetic waves,
+electromagnetic spectrum: radio waves, microwaves, infrared waves, visible rays, ultraviolet rays, X-
+rays, gamma rays.
+26. DUAL NATURE OF RADIATION AND MATTER: Electron emission, Photoelectric Effect,
+Hertz’s observations, Hallwachs and Lenard’s observations, experimental study of photoelectric
+effect, effect of intensity of light on photocurrent, effect of potential on photoelectric current, effect
+of frequency of incident radiation on stopping potential, Photoelectric effect and Wave theory of
+Light, Einstein’s Photoelectric equation, Energy Quantum of Radiation, particle nature of light, the
+photon, wave nature of matter, photocell, Davisson and Germer Experiment
+27. ATOMS: Alpha particle scattering and Rutherford’s nuclear model of atom, alpha particle
+trajectory, electron orbits, atomic spectra, spectral series, Bohr model of the hydrogen atom, energy
+levels, Franck – Hertz experiment, the line spectra of the hydrogen atom, deBroglie’s explanation of
+Bohr’s second postulate of quantization.
+28. NUCLEI: Atomic masses and composition of nucleus, discovery of neutron, size of the nucleus,
+Mass - Energy, Nuclear Binding Energy, The Binding energy per Nucleon and its variation with Mass
+Number, Nuclear Force, Radioactivity - Law of radioactive decay, half-life and mean life of a
+Radioactive material, Alpha decay, Beta decay and Gamma decay, Nuclear Energy, Fission, Nuclear
+reactor, nuclear fusion, energy generation in stars, controlled thermonuclear fusion.
+29. SEMICONDUCTOR ELECTRONICS: MATERIALS, DEVICES AND SIMPLE
+CIRCUITS: Classification of metals, conductors, and semiconductors on the basis of conductivity
+and energy bands, Band theory of solids, Intrinsic semiconductor, Extrinsic semiconductor, p-type
+semiconductor, n-type semiconductor, p-n junction, forward bias, reverse bias, Semiconductor diode,
+Application of junction diode as a rectifier, Zener Diode, Zener Diode as a voltage regulator,
+Optoelectronic junction devices, Photodiode, light emitting diode, solar cell. Junction transistor,
+structure and action, Basic transistor circuit configurations and transistor characteristics, transistor as
+a switch and as an amplifier (CE – Configuration), Feedback amplifier and transistor oscillator,
+Digital Electronics and Logic gates, NOT, OR, AND, NAND and NOR Gates, Integrated circuits.
+30. COMMUNICATION SYSTEMS: Elements of a Communication system, basic terminology
+used in electronic communication systems, bandwidth of signals, bandwidth of transmission medium,
+propagation of electromagnetic waves, ground waves, sky waves, space wave, modulation and its
+necessity, size of the antenna or aerial, effective power radiated by an antenna, mixing up of signals
+from different transmitters, amplitude modulation, production of amplitude modulated wave,
+detection of amplitude modulated wave.
+
+SUBJECT: CHEMISTRY
+Unit-1: ATOMIC STRUCTURE: Sub Atomic particles, Atomic models, Developments to the
+Bohr’s model of atom; Wave nature of electromagnetic radiation; Particle nature of electromagnetic
+radiation, Planck’ s quantum theory; Evidence for the quantized electronic Energy levels : Atomic
+spectra, Bohr’s model for Hydrogen atom; Explanation of line spectrum of hydrogen; Limitations
+of Bohr’s model; Quantum mechanical considerations of sub atomic particles; Dual behaviour of
+matter; Heisenberg’s uncertainty principle; Quantum mechanical model of an atom. Important
+features of Quantum mechanical model of atom; Orbitals and quantum numbers; Shapes of atomic
+orbitals; Energies of orbitals; Filling of orbitals in atoms. Aufbau Principle, Pauli’s exclusion
+Principle and Hund’s rule of maximum multiplicity; Electronic configurations of atoms; Stability
+of half-filled and completely filled orbitals.
+Unit-2: CLASSIFICATION OF ELEMENTS AND PERIODICITY IN PROPERTIES:
+Need to classify elements - Genesis of periodic classification, Modern periodic law and present form
+of the periodic table; Nomenclature of elements with atomic number greater than100;Electronic
+configuration of elements and the periodic table; Electronic configuration and types of elements s,
+p, d and f blocks; Trends in physical properties:(a) Atomic radius, (b) Ionic radius (c) Variation of
+size in inner transition elements, (d) Ionization enthalpy, (e) Electron gain enthalpy, (f) Electro
+negativity; Periodic trends in chemical properties: (a) Periodicity of Valence or Oxidation states, (b)
+Anomalous properties of second period elements –diagonal relationship; Periodic trends and
+chemical reactivity.
+Unit-3: CHEMICAL BONDING AND MOLECULAR STRUCTURE: Kossel - Lewis approach
+to chemical bonding, Octet rule, Lewis representation of simple molecules, formal charges,
+limitations of octet rule; Ionic or electrovalent bond - Factors favourable for the formation of ionic
+compounds- Crystal structure of sodium chloride, Lattice Enthalpy: General properties of ionic
+compounds; Bond Parameters - bond length ,bond angle, and bond enthalpy, bond order, resonance-
+Polarity of bonds dipole moment-Fajan rules; Valence Shell Electron Pair Repulsion (VSEPR) theory;
+Predicting the geometry of simple molecules; Valence bond theory-Orbital overlap concept-
+Directional properties of bonds-overlapping of atomic orbitals- types of overlapping and nature of
+covalent bonds-strength of sigma and pi bonds-Factors favouring the formation of covalent bonds;
+Hybridisation- different types of hybridization involving s, p and d orbitals- shapes of simple covalent
+molecules; Coordinate bond - definition with examples; Molecular orbital theory - Formation of
+molecular orbitals, Linear combination of atomic orbitals(LCAO)-conditions for combination of
+atomic orbitals-, Types of Molecular orbitals, Energy level diagrams for molecular orbitals -
+,
+Electronic Configuration and Molecular Behaviour, Bonding in some homo nuclear diatomic
+molecules- H2, He2, Li2, B2, C2, N2 and O2; Hydrogen bonding-cause of formation of hydrogen bond
+- Types of hydrogen bonds-inter and intra molecular-General properties of hydrogen bonds.
+Unit-4: STATES OF MATTER: GASES AND LIQUIDS: Intermolecular forces; Thermal
+Energy; Intermolecular forces Vs Thermal interactions; The Gaseous State; The Gas Laws; Ideal
+gas equation; Graham’s law of diffusion - Dalton’s Law of partial pressures; Kinetic molecular
+theory of gases; Kinetic gas equation of an ideal gas (No derivation) deduction of gas laws from
+Kinetic gas equation; Distribution of molecular speeds, Kinetic Energy, Behaviour of real gases -
+Deviation from Ideal gas behaviour - Compressibility factor Vs Pressure diagrams of real gases;
+Liquification of gases, Liquid state, Vapour Pressure, Surface tension, Viscosity (No mathematical
+part).Unit-5: STOICHIOMETRY: Significant figures, Laws of Chemical Combinations - Law of
+Conservation of Mass, Law of Definite Proportions, Law of Multiple Proportions, Atomic and
+molecular masses- mole concept and molar mass. Concept of equivalent weight; Percentage
+composition of compounds and calculations of empirical and molecular formulae of compounds;
+Stoichiometry and stoichiometric calculations- limiting reagent; Methods of Expressing
+concentrations of solutions- mass percent, mole fraction, molarity, molality and normality; Redox
+reactions-classical idea of redox reactions, oxidation and reduction reactions- redox reactions in
+terms of electron transfer; Oxidation number concept; Types of Redox reactions- combination,
+decomposition, displacement and disproportionation reactions; Balancing of redox reactions-
+oxidation number method Half reaction (ion-electron)method; Redox reactions in titrimetry.
+Unit-6: THERMODYNAMICS: Thermodynamic Terms; The system and the surroundings; Types
+of systems and surroundings; The state of the system; The Internal Energy as a State Function.
+(a)Work (b) Heat (c) The general case, the first law of Thermodynamics; Applications; Work;
+Enthalpy, H- a useful new state function; Extensive and intensive properties; The relationship
+between Cp and Cv; Measurement of∆U and ∆H: Calorimetry; Enthalpy change, ∆rH of reactions-
+reaction Enthalpy (a) Standard enthalpy of reactions, (b) Enthalpy changes during transformations,
+(c) Standard enthalpy of formation, (d) Thermochemical equations (e) Hess’s law of constant Heat
+summation; Enthalpies for different types of reactions. (a) Standard enthalpy of combustion (∆cH0),
+(b) Enthalpy of atomization (∆aH0), phase transition, sublimation and ionization, (c) Bond Enthalpy
+(∆bondH0), (d) Enthalpy of solution (∆solH0) and dilution-lattice enthalpy; Spontaneity. (a) Is decrease
+in enthalpy a criterion for spontaneity? (b) Entropy and spontaneity, the second law of
+thermodynamics, (c) Gibbs Energy and spontaneity; Absolute entropy and the third law of
+thermodynamics.
+Unit-7: CHEMICAL EQUILIBRIUM AND ACIDS-BASES: Equilibrium in Physical process;
+Equilibrium in chemical process - Dynamic Equilibrium; Law of chemical Equilibrium - Law of
+mass action and Equilibrium constant; Homogeneous Equilibria, Equilibrium constant in gaseous
+systems. Relationship between KP and Kc; Heterogeneous Equilibria; Applications of Equilibrium
+constant; Relationship between Equilibrium constant K, reaction quotient Q and Gibbs energy G;
+Factors affecting Equilibria.-Le-chatlier principle application to industrial synthesis of Ammonia
+and Sulphur trioxide; Ionic Equilibrium in solutions; Acids, bases and salts- Arrhenius, Bronsted-
+Lowry and Lewis concepts of acids and bases; Ionisation of Acids and Bases - Ionisation constant
+of water and its ionic product- PH scale-ionisation constants of weak acids-ionisation of weak bases-
+relation between Ka and Kb-Di and poly basic acids and di and poly acidic Bases-Factors affecting
+acid strength- Common ion effect in the ionization of acids and bases- Hydrolysis of salts and pH of
+their solutions, Buffer solutions - Solubility Equilibria of sparingly soluble salts. Solubility product
+constant Common ion effect on solubility of Ionic salts.
+Unit-8: HYDROGEN AND ITS COMPOUNDS: Position of hydrogen in the periodic table;
+Dihydrogen-Occurrence and Isotopes; Preparation and properties of dihydrogen, uses of H2,
+Hydrides: Ionic, covalent, and non-stoichiometric hydrides; Water: Physical properties; structure of
+water, ice. Chemical properties of water; hard and soft water, Temporary and permanent hardness
+of water; Hydrogen Peroxide: Preparation, properties, structure, storage and uses. Heavy Water;
+Hydrogen as a fuel.
+Unit-9: THE s-BLOCK ELEMENTS (ALKALI AND ALKALINE EARTH METALS):
+Group 1 Elements :Alkali metals; Electronic configurations; Atomic and Ionic radii; Ionization
+enthalpy; Hydration enthalpy; Physical properties; Chemical properties; Uses; General
+characteristics of the compounds of the alkali metals: Oxides; Halides; Salts of oxo Acids;
+Anomalous properties of Lithium: Differences and similarities with other alkali metals, Diagonal
+relationship; similarities between Lithium and Magnesium; Some important compounds of Sodium:
+Sodium Chloride, Sodium carbonate, Sodium Hydroxide, Sodium Bicarbonate, Biological
+importance of Sodium and Potassium.Group 2 Elements: Alkaline earth elements; Electronic configuration; Ionization enthalpy;
+Hydration enthalpy; Physical properties, Chemical properties; Uses; General characteristics of
+compounds of the Alkaline Earth Metals: Oxides, hydroxides, halides, salts of oxy acids
+(Carbonates; Sulphates and Nitrates); Anomalous behavior of Beryllium; its diagonal relationship
+with Aluminum; Some important compounds of calcium: Preparation and uses of Calcium
+Hydroxide, Quick lime, Calcium Carbonate, Plaster of Paris; Cement, Biological importance of
+Calcium and Magnesium.
+Unit-10: p- BLOCK ELEMENTS GROUP 13 (BORON FAMILY): General introduction –
+Electronic configuration, atomic radii, Ionization enthalpy, Electro negativity; Physical & Chemical
+properties Aluminum reactivity towards acids & alkalies, Important trends and anomalous properties
+of boron; Some important compounds of Boron- Borax, orthoboric acid, Diborane, Uses of boron,
+aluminum, and their compounds.
+Unit-11: p-BLOCK ELEMENTS - GROUP 14 (CARBON FAMILY): General introduction –
+Electronic configuration, atomic radii, Ionization enthalpy, Electro negativity; Physical & Chemical
+properties; Important trends and anomalous properties of carbon; Allotropes of carbon; Uses of
+carbon; Some important compounds of Carbon and Silicon: Carbon Monoxide, Carbon dioxide,
+Silica, Silicones, Silicates, Zeolites.
+Unit-12: Environmental Chemistry: Definition of terms: Air, Water, Soil Pollutions,
+Environmental Pollution, Atmospheric Pollution, Acid rain, Particulate pollutants, Stratospheric
+pollution, Water pollution, Soil pollution, Strategies to control Environmental pollution, Green
+Chemistry.
+Unit-13: ORGANIC CHEMISTRY-SOME BASIC PRINCIPLES AND TECHNIQUES AND
+HYDRO CARBONS: General introduction; Tetravalency of Carbon: shapes of organic
+compounds; Structural representations of organic compounds; Classification of organic compounds;
+Nomenclature of organic compounds; Isomerism; Fundamental concepts in organic reaction
+mechanisms; Fission of covalent bond; Nucleophiles and electrophiles; Electron movements in
+organic reactions; Electron displacement effects in covalent bonds: inductive effect, resonance,
+resonance effect, electromeric effect, hyper conjugation; Types of Organic reactions; Methods of
+purification of Organic compounds, Qualitative elemental analysis of Organic compounds,
+Quantitative elemental analysis.
+Hydrocarbons: Classification of Hydrocarbons; Alkanes - Nomenclature, isomerism (structural
+and conformations of ethane only); Preparation of alkanes; Properties - Physical properties and
+chemical Reactivity, Substitution reactions – Halogenation, Combustion, Controlled Oxidation,
+Isomerisation, Aromatization, and reaction with steam, pyrolysis; Alkenes- Nomenclature, structure
+of ethene, Isomerism (structural and geometrical) ; Methods of preparation; Properties-Physical and
+chemical reactions: Addition of dihydrogen, halogen, water, Sulphuric acid, Hydrogen halides
+(Mechanism- ionic and peroxide effect, Markovnikov’s, anti-Markovnikov’s or Kharasch effect).
+Oxidation, Ozonolysis and Polymerization; Alkynes - Nomenclature and isomerism, structure of
+acetylene. Methods of preparation of acetylene; Physical properties, Chemical reactions- acidic
+character of alkyne, addition reactions-of hydrogen, Halogen, Hydrogen halides and water.
+Polymerization; Aromatic Hydrocarbons: Nomenclature and isomerism, Structure of benzene,
+Resonance and aromaticity; Preparation of benzene. Physical properties. Chemical properties:
+Mechanism of electrophilic substitution. Electrophilic substitution reactions- Nitration,
+Sulphonation, Halogenation, Friedel- Craft’s alkylation and acylation; Directive influence of
+functional groups in mono substituted benzene, Carcinogenicity and toxicity.Unit-14: SOLID STATE: General characteristics of solid state; Amorphous and crystalline solids;
+Classification of crystalline solids based on different binding forces (molecular, ionic, metallic and
+covalent solids); Probing the structure of solids: X-ray crystallography; Crystal lattices and unit
+cells. Bravais lattices primitive and centered unit cells; Number of atoms in a unit cell (primitive,
+body centered and face centered cubic unit cell);Close packed structures: Close packing in one
+dimension, in two dimensions and in three dimensions- tetrahedral and octahedral voids- formula of
+a compound and number of voids filled- locating tetrahedral and octahedral voids; Packing
+efficiency in simple cubic, bcc and in hcp, ccp lattice; Calculations involving unit cell dimensions-
+density of the unit cell; Imperfections in solids-types of point defects- stoichiometric and non-
+stoichiometric defects; Electrical properties-conduction of electricity in metals, semiconductors and
+insulators- band theory of metals; Magnetic properties
+Unit-15: SOLUTIONS: Types of solutions; Expressing concentration of solutions-mass
+percentage, volume percentage, mass by volume percentage, parts per million, mole fraction,
+molarity and molality; Solubility: Solubility of a solid in a liquid, solubility of a gas in a liquid,
+Henry’s law; Vapour pressure of liquid solutions: vapour pressure of liquid- liquid solutions.
+Raoult’s law as a special case of Henry’s law -vapour pressure of solutions of solids in liquids; Ideal
+and non-ideal solutions; Colligative properties and determination of molar mass-relative lowering
+of vapour pressure-elevation of boiling point-depression of freezing point-osmosis and osmotic
+pressure-reverse osmosis and water purification; Abnormal molar masses-van’t Hoff factor
+Unit-16: ELECTROCHEMISTRY AND CHEMICAL KINETICS:
+Electrochemistry: Electrochemical cells; Galvanic cells: measurement of electrode potentials;
+Nernst equation- equilibrium constant from Nernst equation- electrochemical cell and Gibbs energy
+of the cell reaction; Conductance of electrolytic solutions-measurement of the conductivity of ionic
+solutions-variation of conductivity and molar conductivity with concentration-strong electrolytes
+and weak electrolytes-applications of Kohlrausch’s law; Electrolytic cells and electrolysis:
+Faraday’s laws of electrolysis-products of electrolysis; Batteries: primary batteries and secondary
+batteries, Fuel cells, Corrosion of metals-Hydrogen economy.
+Chemical Kinetics: Rate of a chemical reaction; Factors influencing rate of a reaction: dependence
+of rate on concentration- rate expression and rate constant-order of a reaction, molecularity of a
+reaction; Integrated rate equations-zero order reactions-first order reactions- half- life of a reaction;
+Pseudo first order reactions; Temperature dependence of the rate of a reaction - effect of catalyst;
+Collision theory of chemical reaction rates
+Unit-17: SURFACE CHEMISTRY: Adsorption: Distinction between adsorption and absorption-
+mechanism of adsorption- types of adsorption- characteristics of physisorption- characteristics of
+chemisorption- adsorption isotherms- adsorption from solution phase- applications of adsorption;
+Catalysis: Catalysts, promoters and poisons-autocatalysis- homogeneous and heterogeneous
+catalysis-adsorption theory of heterogeneous catalysis- important features of solid catalysts:
+(a)activity (b)selectivity- shape-selective catalysis by zeolites- enzyme catalysis-characteristics and
+mechanism- catalysts in industry
+Colloids: Classification of colloids: Classification based on physical state of dispersed phase and
+dispersion medium-classification based on nature of interaction between dispersed phase and
+dispersion medium- classification based on type of particles of the dispersed phase- multimolecular,
+macromolecular and associated colloids-cleansing action of soaps-preparation of colloids-
+purification of colloidal solutions- properties of colloidal solutions: Colligative properties, Tyndal
+effect, colour, Brownian movement-charge on colloidal particles, electrophoresis; coagulation-
+precipitation methods-coagulation of lyophilic sols and protection of colloids- Emulsions; Colloids
+around us-application of colloids.Unit-18: GENERAL PRINCIPLES OF METALLURGY: Occurrence of metals; Concentration
+of ores- levigation, magnetic separation, froth floatation leaching; Extraction of crude metal from
+concentrated ore-conversion to oxide, reduction of oxide to the metal; Thermodynamic principles
+of metallurgy-Ellingham diagram-limitations- applications-extraction of iron, copper and zinc from
+their oxides; Electrochemical principles of metallurgy; Oxidation and reduction; Refining of crude
+metal-distillation, liquation poling, electrolysis, zone refining and vapour phase refining; Uses of
+aluminum, copper, zinc and iron
+Unit-19: p-BLOCK ELEMENTS: Group-15 Elements: Occurrence-electronic configuration,
+atomic and ionic radii, ionization enthalpy, electronegativity, physical and chemical properties;
+Dinitrogen-preparation, properties and uses; Compounds of nitrogen-preparation, properties, and
+uses of ammonia; Oxides of nitrogen; Preparation and properties of nitric acid;
+Phosphorous-allotropic forms; Phosphine- preparation and properties; Phosphorous halides;
+Oxoacids of phosphorous; Phosphorous halides & Oxo acids of phosphorous
+Group-16 Elements: Occurrence-electronic configuration, atomic and ionic radii, ionization
+enthalpy, electron gain enthalpy, electronegativity, physical and chemical properties; Dioxygen-
+preparation, properties and uses; Simple oxides; Ozone-preparation, properties, structure and uses;
+Sulphur-allotropic forms; Sulphur dioxide-preparation, properties and uses; Oxoacids of sulphur;
+Sulphuric acid-industrial process of manufacture, properties and uses.
+Group-17 Elements: Occurrence, electronic configuration, atomic and ionic radii, ionization
+enthalpy, electron gain enthalpy, electronegativity, physical and chemical properties; Chlorine-
+preparation, properties and uses; Hydrogen chloride- preparation, properties and uses; Oxoacids of
+halogens; Interhalogen compounds-preparation, properties and uses.
+Group-18 Elements: Occurrence, electronic configuration, ionization enthalpy, atomic radii,
+electron gain enthalpy, physical and chemical properties(a) Xenon-fluorine compounds- XeF2, XeF4
+and XeF6 -preparation, hydrolysis and formation of fluoro anions-structures of XeF2, XeF4 and XeF6
+(b) Xenon-oxygen compounds XeO3and XeOF4 -their formation and structures-uses of noble gases.
+Unit-20: d AND f BLOCK ELEMENTS & COORDINATION COMPOUNDS: d and f block
+elements: Position in the periodic table; Electronic configuration of the d-block elements; General
+properties of the transition elements (d-block) -physical properties, variation in atomic and ionic sizes
+of transition series, ionization enthalpies, oxidation states, trends in the M²+/M and M³+/M²+ standard
+electrode potentials, trends in stability of higher oxidation states, chemical reactivity and Eθ values,
+magnetic properties, formation of coloured ions, formation of complex compounds, catalytic
+properties, formation of interstitial compounds, alloy formation; Some important compounds of
+transition elements-oxides and oxo-anions of metals-uses of potassium dichromate and potassium
+permanganate-structures of chromate, dichromate, manganate and permanganate ions; Inner transition
+elements(f-block)-lanthanoids-electronic configuration-atomic and ionic sizes-oxidation states-
+general characteristics; The Actinoids- electronic configurations, ionic sizes, oxidation states, general
+characteristics and comparison with lanthanoids; Some applications of d and f block elements.
+Coordination compounds: Werner’s theory of coordination compounds; Definitions of some terms
+used in coordination compounds; Nomenclature of coordination compounds-IUPAC nomenclature;
+Isomerism in coordination compounds-(a)Stereo isomerism- Geometrical and optical isomerism
+(b)Structural isomerism- linkage, coordination, ionization and solvate isomerism
+Bonding in coordination compounds. (a)Valence bond theory - magnetic properties of coordination
+compounds-limitations of valence bond theory (b) Crystal field theory (i) Crystal field splitting in
+octahedral and tetrahedral coordination entities (ii) Colour in coordination compounds- limitations
+of crystal field theory; Bonding in metal carbonyls; Stability of coordination compounds; Importance
+and applications of coordination compounds.Unit-21: POLYMERS: Classification of Polymers -Classification based on source, structure, mode
+of polymerization, molecular forces and growth polymerization; Types of polymerization reactions-
+addition polymerization or chain growth polymerization- Ionic polymerization, free radical
+mechanism-preparation of addition polymers- polythene, Teflon and poly acrylonitrile-
+condensation polymerization or step growth polymerization-polyamides- preparation of Nylon 6,6
+and nylon 6-polyesters- terylene- bakelite, melamine, formaldehyde polymer- copolymerization-
+Rubber- natural rubber-vulcanisation of rubber-Synthetic rubbers- preparation of neoprene and
+buna-N; Molecular mass of polymers-number average and weight average molecular masses- poly
+dispersity index(PDI); Biodegradable polymers- poly β-Hydroxy butyrate-Co β-Hydroxy Velarate
+(PHBV), Nylon 2-nylon 6; Polymers of commercial importance- poly propene, polystyrene, poly
+vinyl chloride(PVC), urea- formaldehyde resin, glyptal, bakelite- their monomers, structures and
+uses
+Unit-22: BIOMOLECULES: Carbohydrates-Classification of carbohydrates-Monosaccharides:
+preparation of glucose from sucrose and starch-Properties and structure of glucose-D,
+L configurations and (+), (-) configurations of glucose-Structure of fructose; Disaccharides: Sucrose-
+preparation, structure; Invert sugar- Structures of maltose and lactose- Polysaccharides: Structures of
+starch, cellulose and glycogen- Importance of carbohydrates; Amino acids: Natural amino acids-
+classification of amino acids-structures and D and L forms-Zwitterions; Proteins-Structures,
+classification, fibrous and globular- primary, secondary, tertiary and quaternary structures of proteins-
+Denaturation of proteins; Enzymes: Enzymes, mechanism of enzyme action; Vitamins: Explanation-
+names- classification of vitamins - sources of vitamins-deficiency diseases of different types of
+vitamins; Nucleic acids: chemical composition of nucleic acids, structures of nucleic acids, DNA
+fingerprinting biological functions of nucleic acids; Hormones: Definition, different types of
+hormones, their production, biological activity, diseases due to their abnormal activities.
+Unit-23: CHEMISTRY IN EVERYDAYLIFE- Drugs and their classification: (a) Classification
+of drugs on the basis of pharmacological effect (b) Classification of drugs on the basis of drug action
+(c) Classification of drugs on the basis of chemical structure (d) Classification of drugs on the basis
+of molecular targets; Drug-Target interaction-Enzymes as drug targets (a) Catalytic action of
+enzymes (b) Drug-enzyme interaction Receptors as drug targets; Therapeutic action of different
+classes of drugs: antacids, antihistamines, neurologically active drugs: tranquilizers, analgesics–
+non- narcotic, narcotic analgesics, antimicrobials-antibiotics, antiseptics and disinfectants-
+antifertility drugs; Chemicals in food- artificial sweetening agents, food preservatives, antioxidants
+in food; Cleansing agents-soaps and synthetic detergents
+Unit-24:HALO ALKANES AND HALO ARENES: Classification and nomenclature; Nature of C-
+X bond; Methods of preparation: Alkylhalides and arylhalides-from alcohols, from hydrocarbons
+(a) by free radical halogenation (b) by electrophilic substitution (c) by replacement of diazonium
+group (Sandmeyer reaction) (d) by the addition of hydrogen halides and halogens to alkenes-by
+halogen exchange reactions (Finkelstein reaction, Swarts reaction); Physical properties-melting and
+boiling points, density and solubility; Chemical reactions: Reactions of haloalkanes (i) Nucleophilic
+substitution reactions (a) SN² mechanism (b) SN¹mechanism (c) stereo chemical aspects of
+nucleophilic substitution reactions-optical activity (ii) Elimination reactions (iii) Reaction with
+metals-Reactions of haloarenes: (i) Nucleophilic substitution (ii) Electrophilic substitution and (iii)
+Reaction with metals; Polyhalogen compounds: Uses and environmental effects of dichloro methane,
+trichloromethane, triiodomethane, tetrachloro methane, freons and DDTUnit-25: ORGANIC COMPOUNDS CONTAINING C, H AND O (ALCOHOLS,
+PHENOLS, ETHERS, ALDEHYDES, KETONES AND CARBOXYLICACIDS):
+Alcohols, Phenols and Ethers: Alcohols, phenols and ethers-classification; Nomenclature:
+(a)Alcohols, (b) phenols and (c) ethers; Structures of hydroxy and ether functional groups;
+Methods of preparation: Alcohols from alkenes and carbonyl compounds, from Grignard
+reagents; Phenols from haloarenes, benzene sulphonic acid, diazonium salts, cumene; Physical
+properties of alcohols and phenols; Chemical reactions of alcohols and phenols (i) Reactions
+involving cleavage of O-H bond in alcohols-Acidity of alcohols and phenols, esterification (ii)
+Reactions involving cleavage of C-O bond-reactions with HX, PX3, dehydration and oxidation
+(iii) Reactions of phenols-electrophilic aromatic substitution, Kolbe’s reaction, Reimer - Tiemann
+reaction, reaction with zinc dust, oxidation; Commercially important alcohols (methanol, ethanol)
+Ethers-Methods of preparation: By dehydration of alcohols, Williamson synthesis-Physical
+properties-Chemical reactions: Cleavage of C-O bond and electrophilic substitution of aromatic
+ethers (anisole).
+Aldehydes and Ketones: Nomenclature and structure of carbonyl group; Preparation of
+aldehydes and ketones-(1) by oxidation of alcohols (2) by dehydrogenation of alcohols (3) from
+hydrocarbons -Preparation of aldehydes (1) from acyl chlorides (2) from nitriles and esters (3)
+from hydrocarbons-Preparation of ketones (1)from acyl chlorides (2) from nitriles (3) from
+benzene or substituted benzenes; Physical properties of aldehydes and ketones; Chemical
+reactions of aldehydes and ketones-nucleophilic addition, reduction, oxidation, reactions due to
+α-Hydrogen and other reactions (Cannizzaro reaction, electrophilic substitution reaction);Uses of
+aldehydes and ketones.
+Carboxylic acids: Nomenclature and structure of carboxyl group; Methods of preparation of
+carboxylic acids (1) from primary alcohols and aldehydes (2) from alkyl benzenes (3) from
+nitriles and amides (4) from Grignard reagents (5) from acyl halides and anhydrides (6) from
+esters; Physical properties; Chemical reactions: (i) Reactions involving cleavage of O-H bond-
+acidity, reactions with metals and alkalies (ii) Reactions involving cleavage of C-OH bond-
+formation of anhydride, reactions with PCl5, PCl3, SOCl2, esterification and reaction with
+ammonia (iii) Reactions involving-COOH group-reduction, decarboxylation (iv) Substitution
+reactions in the hydrocarbon part-halogenation and ring substitution; Uses of carboxylic acids.
+Unit-26: ORGANIC COMPOUNDS CONTAINING NITROGEN:
+Amines: Structure of amines; Classification; Nomenclature; Preparation of amines: reduction of
+nitro compounds, ammonolysis of alkyl halides, reduction of nitriles, reduction of amides,
+Gabriel phthalimide synthesis and Hoffmann bromamide degradation reaction; Physical
+properties; Chemical reactions: basic character of amines, alkylation, acylation, carbyl amine
+reaction, reaction with nitrous acid, reaction with aryl sulphonyl chloride, electrophilic
+substitution of aromatic amines (aniline)-bromination, nitration and sulphonation.
+DIAZONIUM SALTS- Methods of preparation of diazonium salts (by diazotization); Physical
+properties; Chemical reactions: Reactions involving displacement of Nitrogen, reactions
+involving retention of di azo group –coupling reactions; Importance of diazonium salts in
+synthesis of aromatic compounds Cyanides and Isocyanides:Structure and nomenclature of
+cyanides and isocyanides; Preparation, physical properties and chemical reactions of cyanides
+and isocyanide.
