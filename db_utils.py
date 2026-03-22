@@ -1,12 +1,16 @@
 import os
 import json
 import logging
+import threading
 from typing import Tuple
 from mysql.connector import pooling
 from dotenv import load_dotenv
 from config import queue_limit, max_pool_size
 import traceback
 from utils import MockTest, Status
+
+_rate_limit_lock = threading.Lock()
+_pool_lock = threading.Lock()
 
 load_dotenv()
 
@@ -24,20 +28,23 @@ def connect_to_db():
     global _db_pool
     try:
         if _db_pool is None:
-            db_config = {
-                "host": host_name,
-                "user": user_name,
-                "passwd": password,
-                "database": database,
-                "charset": "utf8mb4",
-                "use_unicode": True,
-                "init_command": "SET SESSION wait_timeout=28800, interactive_timeout=28800, net_read_timeout=3600, net_write_timeout=3600"
-            }
-            _db_pool = pooling.MySQLConnectionPool(pool_size=max_pool_size, pool_name="my_sql_pool", **db_config)
-            print("DB connection pool created.")
+            with _pool_lock:
+                if _db_pool is None:  # double-checked locking — only one thread creates the pool
+                    db_config = {
+                        "host": host_name,
+                        "user": user_name,
+                        "passwd": password,
+                        "database": database,
+                        "charset": "utf8mb4",
+                        "use_unicode": True,
+                        "init_command": "SET SESSION wait_timeout=28800, interactive_timeout=28800, net_read_timeout=3600, net_write_timeout=3600"
+                    }
+                    _db_pool = pooling.MySQLConnectionPool(pool_size=max_pool_size, pool_name="my_sql_pool", **db_config)
+                    print("DB connection pool created.")
         return _db_pool.get_connection()
     except Exception:
-        print(f"Exception in connect_to_db(db_utils.py): {traceback.print_exc()}")
+        print(f"Exception in connect_to_db(db_utils.py): {traceback.format_exc()}")
+        raise
 
 def get_generation_status(cursor, TestID):
     try:
@@ -49,7 +56,7 @@ def get_generation_status(cursor, TestID):
         else:
             return None
     except Exception:
-        print(f"Exception in get_generation_status(db_utils.py): {traceback.print_exc()}")
+        print(f"Exception in get_generation_status(db_utils.py): {traceback.format_exc()}")
 
 def log_status(Generation_status, TestID):
     if Generation_status == Status.QUEUED.value:
@@ -69,7 +76,7 @@ def set_generation_status(db, cursor, TestID, Generation_status):
         db.commit()
         log_status(Generation_status, TestID)
     except Exception:
-        print(f"Exception in set_generation_status(db_utils.py): {traceback.print_exc()}")
+        print(f"Exception in set_generation_status(db_utils.py): {traceback.format_exc()}")
 
 def save_generated_questions_to_db(db, cursor, TestID, questions):
     """To update the Generation_status for the given TestID"""
@@ -83,7 +90,7 @@ def save_generated_questions_to_db(db, cursor, TestID, questions):
         cursor.execute(q,(sets_json_string, TestID))
         db.commit()
     except Exception:
-        print(f"Exception in save_generated_questions_to_db(db_utils.py): {traceback.print_exc()}")
+        print(f"Exception in save_generated_questions_to_db(db_utils.py): {traceback.format_exc()}")
 
 def get_records_with_generation_status(cursor, Generation_status:Tuple[str]):
     """To fetch records based on the given status"""
@@ -93,7 +100,7 @@ def get_records_with_generation_status(cursor, Generation_status:Tuple[str]):
         q1 = """select TestID, Subject, Class, Chapter_context, questions,
                 Number_of_questions, Number_of_sets, Generation_status
                 from MockTests where Generation_status in {Generation_status}
-                AND Class != 'EAPCET_160'
+                AND Class != 'EAPCET'
                 order by Generation_status limit %s"""
         q1 = q1.format(Generation_status = Generation_status)
         cursor.execute(q1, (queue_limit, ))
@@ -160,11 +167,11 @@ def get_records_with_generation_status(cursor, Generation_status:Tuple[str]):
                     mock_test[column_name] = Status(record[i])
                 else:
                     mock_test[column_name] = record[i]
-            print("123", mock_test)
             mock_tests.append(MockTest(**mock_test))
         return mock_tests
     except Exception:
-        print(f"Exception in get_records_with_generation_status(db_utils.py): {traceback.print_exc()}")
+        print(f"Exception in get_records_with_generation_status(db_utils.py): {traceback.format_exc()}")
+        raise
     
 def get_max_requests_per_day():
      """Should return max rate limit per day"""
@@ -180,39 +187,33 @@ def get_max_requests_per_day():
 #         chapters  = list(map(lambda x: x[0], chapters))
 #         return chapters
 #     except Exception:
-#         print(f"Exception in get_usage(db_utils.py): {traceback.print_exc()}")
+#         print(f"Exception in get_usage(db_utils.py): {traceback.format_exc()}")
     
 def get_usage(cursor, system_id=1):
-    try:
-        q = "select requests_used from ratelimit where system_id = %s"
-        cursor.execute(q, (system_id,))
-        usage = cursor.fetchone()
-        return int(usage[0])
-    except Exception:
-        print(f"Exception in get_usage(db_utils.py): {traceback.print_exc()}")
+    q = "select requests_used from ratelimit where system_id = %s"
+    cursor.execute(q, (system_id,))
+    usage = cursor.fetchone()
+    if usage is None:
+        raise RuntimeError(f"No ratelimit row found for system_id={system_id}")
+    return int(usage[0])
 
 def set_usage(db, cursor, new_usage, system_id=1):
-    try:
-        q = "update ratelimit set requests_used = %s where system_id = %s"
-        cursor.execute(q, (new_usage, system_id))
-        db.commit()
-        print(f"Updated Rate limit usage to {new_usage}")
-    except Exception:
-        print(f"Exception in set_usage(db_utils.py): {traceback.print_exc()}")
+    q = "update ratelimit set requests_used = %s where system_id = %s"
+    cursor.execute(q, (new_usage, system_id))
+    db.commit()
+    print(f"Updated Rate limit usage to {new_usage}")
 
 def get_question_sets(cursor, TestID):
     try:
         q = "select questions from MockTests where TestID = %s"
-        print("select questions from MockTests where TestID", q)
         cursor.execute(q, (TestID,))
         questions = cursor.fetchone()
-        print("select questions from MockTests where TestID", questions)
         if questions:
             return questions[0]
         else:
             return None
     except Exception:
-        print(f"Exception in get_questions(db_utils.py): {traceback.print_exc()}")
+        print(f"Exception in get_questions(db_utils.py): {traceback.format_exc()}")
 
 def insert_record(db, cursor, Number_of_sets, question_sets, Generation_status='CREATED', Number_of_questions=0, Subject='', Class='', Chapter_context='', TestID=None):
     try:
@@ -233,7 +234,7 @@ def insert_record(db, cursor, Number_of_sets, question_sets, Generation_status='
         logger.info("New record is created...")
         print("Inserted into Table")
     except Exception:
-        print(f"Exception in insert_record(db_utils.py): {traceback.print_exc()}")
+        print(f"Exception in insert_record(db_utils.py): {traceback.format_exc()}")
 
 
 def clear_table(db, cursor):
@@ -242,34 +243,34 @@ def clear_table(db, cursor):
         cursor.execute(q)
         db.commit()
     except Exception:
-        print(f"Exception in clear_table(db_utils.py): {traceback.print_exc()}")
+        print(f"Exception in clear_table(db_utils.py): {traceback.format_exc()}")
 
 
 # ==================== EAMCET 160-question DB helpers ====================
 
 def upsert_eamcet160_record(db, cursor, TestID, stream, section_contexts, Generation_status='QUEUED'):
     """Update the pre-existing MockTests row for an EAMCET-160 test.
-    Sets Class='EAPCET_160' so the EAMCET worker (not the existing worker) picks it up."""
+    Sets Class='EAPCET' so the EAMCET worker (not the existing worker) picks it up."""
     try:
         section_contexts_json = json.dumps(section_contexts)
         q = """UPDATE MockTests
-               SET Subject = %s, Class = 'EAPCET_160', Chapter_context = %s, Generation_status = %s
+               SET Subject = %s, Class = 'EAPCET', Chapter_context = %s, Generation_status = %s
                WHERE TestID = %s"""
         cursor.execute(q, (stream, section_contexts_json, Generation_status, TestID))
         db.commit()
         log_status(Generation_status, TestID)
     except Exception:
-        print(f"Exception in upsert_eamcet160_record(db_utils.py): {traceback.print_exc()}")
+        print(f"Exception in upsert_eamcet160_record(db_utils.py): {traceback.format_exc()}")
 
 
 def get_eamcet160_records_with_status(cursor, Generation_status: tuple):
-    """Fetch only EAPCET_160 rows from MockTests with the given status(es)."""
+    """Fetch only EAPCET rows from MockTests with the given status(es)."""
     try:
         records = []
         q = """select TestID, Subject, Class, Chapter_context, questions,
                 Number_of_questions, Number_of_sets, Generation_status
                 from MockTests where Generation_status in {Generation_status}
-                AND Class = 'EAPCET_160'
+                AND Class = 'EAPCET'
                 order by Generation_status limit %s"""
         q = q.format(Generation_status=Generation_status)
         cursor.execute(q, (queue_limit,))
@@ -288,4 +289,5 @@ def get_eamcet160_records_with_status(cursor, Generation_status: tuple):
             records.append(MockTest(**record))
         return records
     except Exception:
-        print(f"Exception in get_eamcet160_records_with_status(db_utils.py): {traceback.print_exc()}")
+        print(f"Exception in get_eamcet160_records_with_status(db_utils.py): {traceback.format_exc()}")
+        raise

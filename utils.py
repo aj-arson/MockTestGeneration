@@ -67,7 +67,7 @@ class Duplicate_checker():
     def normalize(self, question:str) -> str:
         q = unicodedata.normalize("NFKC", question)
         q = q.casefold()
-        q = "".join(question.lower().split())
+        q = "".join(q.split())
         return q
     
     def is_not_duplicate(self, question:str) -> bool:
@@ -80,7 +80,7 @@ class Duplicate_checker():
             return True
 
 def question_sets_db_to_json(json_string):
-    if json_string is None:
+    if not json_string:
         return []
     loaded_json = json.loads(json_string)
     generated_sets_json = [[Question(**question) for question in mock_test_set] for mock_test_set in loaded_json ]
@@ -88,7 +88,6 @@ def question_sets_db_to_json(json_string):
 
 def get_sleep_time_until_midnight():
     now = datetime.now()
-    print(datetime.min.time())
     midnight = datetime.combine(now.date() + timedelta(days=1), datetime.min.time())
     seconds_until_midnight = (midnight - now).total_seconds()
     buffer = 35*60
@@ -113,7 +112,7 @@ def extract_subject_syllabus(full_syllabus: str, subject_name: str) -> str:
     """Extract a single subject's section from a combined syllabus file.
     Syllabus sections are delimited by 'SUBJECT: <NAME>' headers.
     Falls back to the full syllabus text if the subject header is not found."""
-    pattern = rf'(SUBJECT:\s*{re.escape(subject_name.upper())}\s*\n.*?)(?=SUBJECT:\s|\Z)'
+    pattern = rf'(SUBJECT:\s*{re.escape(subject_name.upper())}[\s\S]*?)(?=SUBJECT:\s|\Z)'
     match = re.search(pattern, full_syllabus, re.DOTALL | re.IGNORECASE)
     # print(re.escape(subject_name.upper()), pattern, full_syllabus)
     # print("its a match", match)
